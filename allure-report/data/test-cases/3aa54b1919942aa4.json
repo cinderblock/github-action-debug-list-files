@@ -1,12 +1,12 @@
 {
-  "uid" : "13c22cec177f7e94",
-  "name" : "findFiles is a function",
-  "fullName" : "utils/findFiles.findFiles is a function",
-  "historyId" : "a975ed7b3c4e8fb7458cef80e53e27f3",
+  "uid" : "3aa54b1919942aa4",
+  "name" : "action.yml exists",
+  "fullName" : "GitHub Actions Format.action.yml exists",
+  "historyId" : "f9eb496e7dd3b7fe3f6aa929edbed5b1",
   "time" : {
-    "start" : 1578303567974,
-    "stop" : 1578303567975,
-    "duration" : 1
+    "start" : 1578304453150,
+    "stop" : 1578304453153,
+    "duration" : 3
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -17,16 +17,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "utils/findFiles"
+    "value" : "GitHub Actions Format"
   }, {
     "name" : "testClass",
-    "value" : "utils/findFiles"
+    "value" : "GitHub Actions Format"
   }, {
     "name" : "testMethod",
-    "value" : "findFiles is a function"
+    "value" : "action.yml exists"
   }, {
     "name" : "package",
-    "value" : "utils/findFiles"
+    "value" : "GitHub Actions Format"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -41,6 +41,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "13c22cec177f7e94.json",
+  "source" : "3aa54b1919942aa4.json",
   "parameterValues" : [ ]
 }
