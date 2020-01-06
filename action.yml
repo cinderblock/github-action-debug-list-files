@@ -8,18 +8,14 @@ inputs:
     required: false
     description: Named file list
     default: ''
-  print-full:
+  search:
     required: false
-    description: Should we print the full list of files currently
-    default: ''
-  hide-diff:
+    description: Glob to search with
+    default: '**/*'
+  filter:
     required: false
-    description: Named file list
-    default: ''
-  exclude-list:
-    required: false
-    description: List of directories to not list contents of
-    default: 'node_modules,.git,__pycache__'
+    description: Glob to filter
+    default: 'node_modules|.git|__pycache__'
 runs:
   using: 'node12'
   main: 'lib/main.js'

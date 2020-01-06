@@ -6,31 +6,32 @@ import { listFiles } from './utils/listFiles';
 import { loadList } from './utils/loadList';
 import { saveList } from './utils/saveList';
 import { printList } from './utils/printList';
+import { filterList } from './utils/filterList';
 
 async function run(): Promise<void> {
   try {
-    const { name, printFull, printDiff, exclude } = readInputs();
+    const { name, search, exclude } = readInputs();
 
     core.debug(`Get File List${name ? ` - list-name: ${name}` : ''}`);
 
-    core.startGroup('Get File List');
-    const list = await listFiles({ exclude });
-    core.endGroup();
+    const list = await listFiles({ search });
 
-    core.startGroup('Load Previous List');
     const lastList = await loadList({ name });
+
+    const filtered = filterList({ list, filter: exclude });
+
+    await saveList({ name, list: filtered });
+
+    core.startGroup('Current File List');
+    await printList({ list });
     core.endGroup();
 
-    core.startGroup('Save List');
-    await saveList({ name, list });
+    core.startGroup('Filtered File List');
+    await printList({ list: filtered });
     core.endGroup();
 
-    core.startGroup('Print List');
-    if (printFull) await printList({ list });
-    core.endGroup();
-
-    core.startGroup('Print Diff');
-    if (printDiff) await printList({ list, diffFrom: lastList });
+    core.startGroup('File List Diff');
+    await printList({ list: filtered, diffFrom: lastList });
     core.endGroup();
 
     core.debug(`Done`);

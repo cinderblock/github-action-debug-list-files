@@ -18,6 +18,7 @@
     "editorconfig",
     "esbenp",
     "gitignore",
+    "globby",
     "Interop",
     "lcov",
     "peaceiris",

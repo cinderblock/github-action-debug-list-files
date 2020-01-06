@@ -1,12 +1,13 @@
 import * as core from '@actions/core';
-import { ExcludeList, FileList } from './Types';
+import { FileList, Filter } from './Types';
 
 type Options = {
   debug?: typeof core.debug;
-  exclude?: ExcludeList;
+  list: FileList;
+  filter: Filter;
 };
 
-export async function listFiles({ debug }: Options): Promise<FileList> {
+export function filterList({ debug }: Options): FileList {
   if (debug === undefined) {
     debug = core.debug;
   }

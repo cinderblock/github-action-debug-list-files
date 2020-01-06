@@ -1,7 +1,7 @@
 import { saveList } from '../src/utils/saveList';
 
-describe('saveList', () => {
-  test('readInputs is a function', () => {
+describe('utils/saveList', () => {
+  test('saveList is a function', () => {
     expect(typeof saveList).toBe('function');
   });
 });

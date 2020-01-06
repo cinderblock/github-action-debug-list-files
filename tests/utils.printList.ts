@@ -1,7 +1,7 @@
 import { printList } from '../src/utils/printList';
 
-describe('printList', () => {
-  test('readInputs is a function', () => {
+describe('utils/printList', () => {
+  test('printList is a function', () => {
     expect(typeof printList).toBe('function');
   });
 });
