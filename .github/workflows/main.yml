@@ -113,12 +113,8 @@ jobs:
       - name: Action - List files after tests
         uses: ./dist
 
-      - name: Tell GitHub to not use Jekyll
-        working-directory: public
-        run: touch .nojekyll
-
       - name: Generate Allure Report
-        run: npm run allure
+        run: npm run finalize-coverage-reports
 
         # DEBUG
       - name: Manual - List files after Allure
@@ -156,7 +152,7 @@ jobs:
 
         # Some reports need manual generation
       - name: Generate Coverage Reports Extras
-        run: npm run generate-coverage
+        run: npm run finalize-coverage-reports
 
       # Publish to gh-pages
       - name: Publish to gh-pages
