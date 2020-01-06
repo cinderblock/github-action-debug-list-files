@@ -1,9 +1,10 @@
 import * as core from '@actions/core';
+import { FileList } from './Types';
 
 type Options = {
   debug?: typeof core.debug;
   name?: string;
-  list: string[];
+  list: FileList;
 };
 
 export async function saveList({ debug }: Options): Promise<void> {

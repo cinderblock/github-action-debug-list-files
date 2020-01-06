@@ -1,11 +1,12 @@
 import * as core from '@actions/core';
+import { FileList } from './Types';
 
 // import chalk from 'chalk';
 
 type Options = {
   debug?: typeof core.debug;
-  list: string[];
-  diffFrom?: string[];
+  list: FileList;
+  diffFrom?: FileList;
 };
 
 export async function printList({ debug }: Options): Promise<void> {

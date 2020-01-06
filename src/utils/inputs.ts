@@ -1,10 +1,11 @@
 import * as core from '@actions/core';
+import { ExcludeList } from './Types';
 
 type Inputs = {
   name: string;
   printFull: boolean;
   printDiff: boolean;
-  exclude: string[];
+  exclude: ExcludeList;
 };
 
 export function readInputs(): Inputs {
