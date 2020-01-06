@@ -648,11 +648,13 @@ function readInputs() {
     core.debug('Reading inputs');
     const name = core.getInput('name');
     const search = core.getInput('search');
-    const exclude = core.getInput('exclude-list').split(',');
+    const filter = core.getInput('filter');
+    const workingDirectory = core.getInput('working-directory');
     const inputs = {
         name,
         search,
-        exclude,
+        filter,
+        workingDirectory,
     };
     return inputs;
 }
@@ -2022,16 +2024,20 @@ const filterList_1 = __webpack_require__(184);
 function run() {
     return __awaiter(this, void 0, void 0, function* () {
         try {
-            const { name, search, exclude } = readInputs_1.readInputs();
+            const { name, search, filter, workingDirectory } = readInputs_1.readInputs();
             core.debug(`Get File List${name ? ` - list-name: ${name}` : ''}`);
-            const list = yield findFiles_1.findFiles({ search });
+            const list = yield findFiles_1.findFiles({
+                search,
+                workingDirectory,
+                ignore: [filter],
+            });
             core.startGroup('Current File List');
             yield printList_1.printList({ list });
             core.endGroup();
             const lastList = yield loadList_1.loadList({ name });
-            const filtered = filterList_1.filterList({ list, filter: exclude });
+            const filtered = filterList_1.filterList({ list, filter });
             yield saveList_1.saveList({ name, list: filtered });
-            if (exclude) {
+            if (filter) {
                 // TODO: Notify if exclude doesn't match anything
                 core.startGroup('Filtered File List');
                 yield printList_1.printList({ list: filtered });
@@ -5237,13 +5243,13 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const core = __importStar(__webpack_require__(470));
 const globby_1 = __importDefault(__webpack_require__(625));
-function findFiles({ debug, search }) {
+function findFiles({ debug, search, workingDirectory, ignore, }) {
     return __awaiter(this, void 0, void 0, function* () {
         if (debug === undefined) {
             debug = core.debug;
         }
         debug(`Listing files in dir`);
-        return globby_1.default(search);
+        return globby_1.default(search, { cwd: workingDirectory, ignore });
     });
 }
 exports.findFiles = findFiles;
