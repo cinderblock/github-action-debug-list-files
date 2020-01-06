@@ -101,7 +101,6 @@ jobs:
         # Run Tests
       - name: Run Tests
         run: npm test -- --color
-        continue-on-error: true
 
         # DEBUG
       - name: Manual - List files after tests
@@ -132,6 +131,33 @@ jobs:
       - name: Action - List files after Allure
         uses: ./dist
 
+  coverage-reports:
+    name: Test Coverage and Generate Reports
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout latest code
+        uses: actions/checkout@v1
+
+      - name: Configure Npm
+        run: |
+          echo "color = always" >> .npmrc
+          echo "loglevel = silent" >> .npmrc
+
+      - name: Install colordiff
+        run: sudo apt-get install -y colordiff
+
+      - name: Install Dependencies and Build
+        run: npm install
+
+        # Run Tests
+      - name: Run Tests and Generate Coverage Reports
+        run: npm test -- --color
+        continue-on-error: true
+
+        # Some reports need manual generation
+      - name: Generate Coverage Reports Extras
+        run: npm run generate-coverage
+
       # Publish to gh-pages
       - name: Publish to gh-pages
         uses: peaceiris/actions-gh-pages@v2
@@ -148,7 +174,14 @@ jobs:
 
   publish:
     if: github.event_name == 'push' && github.ref == 'refs/branch/release'
-    needs: [self-test-and-use, check-format, check-lint, check-spelling]
+    needs:
+      [
+        check-format,
+        check-lint,
+        check-spelling,
+        coverage-reports,
+        self-test-and-use,
+      ]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout latest code
