@@ -1,5 +1,7 @@
 import { existsSync } from 'fs';
-import { join } from 'path';
+import { posix } from 'path';
+
+const { join } = posix;
 
 describe('GitHub Actions Format', () => {
   test('action.yml exists', () => {
