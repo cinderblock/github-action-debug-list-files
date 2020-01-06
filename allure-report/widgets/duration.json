@@ -1,60 +1,80 @@
 [ {
-  "uid" : "ac709a3a7c9391e3",
-  "name" : "readInputs is a function",
-  "time" : {
-    "start" : 1578295671149,
-    "stop" : 1578295671150,
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "35730de497d919ea",
-  "name" : "readInputs is a function",
-  "time" : {
-    "start" : 1578295670908,
-    "stop" : 1578295670909,
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "18b180863489a4ca",
-  "name" : "readInputs is a function",
-  "time" : {
-    "start" : 1578295670658,
-    "stop" : 1578295670659,
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8afb278c7f650d4c",
-  "name" : "readInputs is a function",
-  "time" : {
-    "start" : 1578295670020,
-    "stop" : 1578295670021,
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "93119e8a06dc6b3d",
+  "uid" : "54414da465db96cb",
   "name" : "action.yml exists",
   "time" : {
-    "start" : 1578295669513,
-    "stop" : 1578295669516,
+    "start" : 1578300505138,
+    "stop" : 1578300505141,
     "duration" : 3
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "704a817adba358f9",
+  "uid" : "f57a2ae72209a167",
+  "name" : "loadList is a function",
+  "time" : {
+    "start" : 1578300506837,
+    "stop" : 1578300506837,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "99025edf4bf3a3f6",
+  "name" : "saveList is a function",
+  "time" : {
+    "start" : 1578300507063,
+    "stop" : 1578300507064,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a53f9069f56006c",
+  "name" : "tempDir is a function",
+  "time" : {
+    "start" : 1578300507238,
+    "stop" : 1578300507238,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d23a58e468ff014",
+  "name" : "findFiles is a function",
+  "time" : {
+    "start" : 1578300506322,
+    "stop" : 1578300506323,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e065872b1fca013",
   "name" : "readInputs is a function",
   "time" : {
-    "start" : 1578295670370,
-    "stop" : 1578295670371,
+    "start" : 1578300505910,
+    "stop" : 1578300505911,
     "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "85007954d1b4cdd9",
+  "name" : "printList is a function",
+  "time" : {
+    "start" : 1578300506543,
+    "stop" : 1578300506544,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "314f5df5cc370de2",
+  "name" : "filterList is a function",
+  "time" : {
+    "start" : 1578300505626,
+    "stop" : 1578300505626,
+    "duration" : 0
   },
   "status" : "passed",
   "severity" : "normal"

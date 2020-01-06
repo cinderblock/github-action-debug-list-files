@@ -1,0 +1,46 @@
+{
+  "uid" : "9a53f9069f56006c",
+  "name" : "tempDir is a function",
+  "fullName" : "utils/tempDir.tempDir is a function",
+  "historyId" : "f9d73486d067237b51ed6d79823a0a68",
+  "time" : {
+    "start" : 1578300507238,
+    "stop" : 1578300507238,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "utils/tempDir"
+  }, {
+    "name" : "testClass",
+    "value" : "utils/tempDir"
+  }, {
+    "name" : "testMethod",
+    "value" : "tempDir is a function"
+  }, {
+    "name" : "package",
+    "value" : "utils/tempDir"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9a53f9069f56006c.json",
+  "parameterValues" : [ ]
+}

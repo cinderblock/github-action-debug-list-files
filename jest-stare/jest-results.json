@@ -1,14 +1,14 @@
 {
   "numFailedTestSuites": 0,
   "numFailedTests": 0,
-  "numPassedTestSuites": 6,
-  "numPassedTests": 6,
+  "numPassedTestSuites": 8,
+  "numPassedTests": 8,
   "numPendingTestSuites": 0,
   "numPendingTests": 0,
   "numRuntimeErrorTestSuites": 0,
   "numTodoTests": 0,
-  "numTotalTestSuites": 6,
-  "numTotalTests": 6,
+  "numTotalTestSuites": 8,
+  "numTotalTests": 8,
   "openHandles": [],
   "snapshot": {
     "added": 0,
@@ -26,7 +26,7 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1578295666981,
+  "startTime": 1578300502764,
   "success": false,
   "testResults": [
     {
@@ -36,8 +36,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578295669523,
-        "start": 1578295667040
+        "end": 1578300505147,
+        "start": 1578300502813
       },
       "snapshot": {
         "added": 0,
@@ -73,8 +73,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578295670022,
-        "start": 1578295669551
+        "end": 1578300505628,
+        "start": 1578300505187
       },
       "snapshot": {
         "added": 0,
@@ -85,15 +85,52 @@
         "updated": 0,
         "uncheckedKeys": []
       },
-      "testFilePath": "/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/tests/utils.inputs.ts",
+      "testFilePath": "/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/tests/utils.filterList.ts",
       "testResults": [
         {
           "ancestorTitles": [
-            "utils/inputs"
+            "utils/filterList"
+          ],
+          "duration": 0,
+          "failureMessages": [],
+          "fullName": "utils/filterList filterList is a function",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "filterList is a function"
+        }
+      ],
+      "skipped": false,
+      "leaks": false
+    },
+    {
+      "failureMessage": null,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "perfStats": {
+        "end": 1578300505912,
+        "start": 1578300505648
+      },
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/tests/utils.readInputs.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "utils/readInputs"
           ],
           "duration": 1,
           "failureMessages": [],
-          "fullName": "utils/inputs readInputs is a function",
+          "fullName": "utils/readInputs readInputs is a function",
           "location": null,
           "numPassingAsserts": 0,
           "status": "passed",
@@ -110,8 +147,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578295670373,
-        "start": 1578295670047
+        "end": 1578300506325,
+        "start": 1578300505933
       },
       "snapshot": {
         "added": 0,
@@ -122,19 +159,19 @@
         "updated": 0,
         "uncheckedKeys": []
       },
-      "testFilePath": "/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/tests/utils.listFiles.ts",
+      "testFilePath": "/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/tests/utils.findFiles.ts",
       "testResults": [
         {
           "ancestorTitles": [
-            "listFiles"
+            "utils/findFiles"
           ],
           "duration": 1,
           "failureMessages": [],
-          "fullName": "listFiles readInputs is a function",
+          "fullName": "utils/findFiles findFiles is a function",
           "location": null,
           "numPassingAsserts": 0,
           "status": "passed",
-          "title": "readInputs is a function"
+          "title": "findFiles is a function"
         }
       ],
       "skipped": false,
@@ -147,8 +184,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578295670660,
-        "start": 1578295670396
+        "end": 1578300506545,
+        "start": 1578300506345
       },
       "snapshot": {
         "added": 0,
@@ -163,15 +200,15 @@
       "testResults": [
         {
           "ancestorTitles": [
-            "printList"
+            "utils/printList"
           ],
           "duration": 1,
           "failureMessages": [],
-          "fullName": "printList readInputs is a function",
+          "fullName": "utils/printList printList is a function",
           "location": null,
           "numPassingAsserts": 0,
           "status": "passed",
-          "title": "readInputs is a function"
+          "title": "printList is a function"
         }
       ],
       "skipped": false,
@@ -184,8 +221,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578295670910,
-        "start": 1578295670685
+        "end": 1578300506839,
+        "start": 1578300506567
       },
       "snapshot": {
         "added": 0,
@@ -200,15 +237,15 @@
       "testResults": [
         {
           "ancestorTitles": [
-            "loadList"
+            "utils/loadList"
           ],
-          "duration": 1,
+          "duration": 0,
           "failureMessages": [],
-          "fullName": "loadList readInputs is a function",
+          "fullName": "utils/loadList loadList is a function",
           "location": null,
           "numPassingAsserts": 0,
           "status": "passed",
-          "title": "readInputs is a function"
+          "title": "loadList is a function"
         }
       ],
       "skipped": false,
@@ -221,8 +258,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578295671151,
-        "start": 1578295670935
+        "end": 1578300507065,
+        "start": 1578300506861
       },
       "snapshot": {
         "added": 0,
@@ -237,15 +274,52 @@
       "testResults": [
         {
           "ancestorTitles": [
-            "saveList"
+            "utils/saveList"
           ],
           "duration": 1,
           "failureMessages": [],
-          "fullName": "saveList readInputs is a function",
+          "fullName": "utils/saveList saveList is a function",
           "location": null,
           "numPassingAsserts": 0,
           "status": "passed",
-          "title": "readInputs is a function"
+          "title": "saveList is a function"
+        }
+      ],
+      "skipped": false,
+      "leaks": false
+    },
+    {
+      "failureMessage": null,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "perfStats": {
+        "end": 1578300507240,
+        "start": 1578300507094
+      },
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/tests/utils.tempDir.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "utils/tempDir"
+          ],
+          "duration": 0,
+          "failureMessages": [],
+          "fullName": "utils/tempDir tempDir is a function",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "tempDir is a function"
         }
       ],
       "skipped": false,
@@ -254,8 +328,8 @@
   ],
   "wasInterrupted": false,
   "coverageMap": {
-    "/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/src/utils/inputs.ts": {
-      "path": "/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/src/utils/inputs.ts",
+    "/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/src/utils/filterList.ts": {
+      "path": "/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/src/utils/filterList.ts",
       "statementMap": {
         "0": {
           "start": {
@@ -269,91 +343,215 @@
         },
         "1": {
           "start": {
-            "line": 12,
+            "line": 11,
             "column": 2
           },
           "end": {
+            "line": 13,
+            "column": null
+          }
+        },
+        "2": {
+          "start": {
             "line": 12,
+            "column": 4
+          },
+          "end": {
+            "line": 12,
+            "column": 23
+          }
+        },
+        "3": {
+          "start": {
+            "line": 15,
+            "column": 2
+          },
+          "end": {
+            "line": 15,
+            "column": 32
+          }
+        },
+        "4": {
+          "start": {
+            "line": 17,
+            "column": 2
+          },
+          "end": {
+            "line": 17,
+            "column": 12
+          }
+        },
+        "5": {
+          "start": {
+            "line": 10,
+            "column": 0
+          },
+          "end": {
+            "line": 10,
+            "column": 16
+          }
+        }
+      },
+      "fnMap": {
+        "0": {
+          "name": "filterList",
+          "decl": {
+            "start": {
+              "line": 10,
+              "column": 16
+            },
+            "end": {
+              "line": 10,
+              "column": 26
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 45
+            },
+            "end": {
+              "line": 18,
+              "column": 1
+            }
+          }
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 2
+            },
+            "end": {
+              "line": 13,
+              "column": null
+            }
+          },
+          "type": "if",
+          "locations": [
+            {
+              "start": {
+                "line": 11,
+                "column": 2
+              },
+              "end": {
+                "line": 13,
+                "column": null
+              }
+            },
+            {
+              "start": {
+                "line": 11,
+                "column": 2
+              },
+              "end": {
+                "line": 13,
+                "column": null
+              }
+            }
+          ]
+        }
+      },
+      "s": {
+        "0": 1,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1
+      },
+      "f": {
+        "0": 0
+      },
+      "b": {
+        "0": [
+          0,
+          0
+        ]
+      }
+    },
+    "/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/src/utils/readInputs.ts": {
+      "path": "/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/src/utils/readInputs.ts",
+      "statementMap": {
+        "0": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 1,
+            "column": 38
+          }
+        },
+        "1": {
+          "start": {
+            "line": 11,
+            "column": 2
+          },
+          "end": {
+            "line": 11,
             "column": 31
           }
         },
         "2": {
           "start": {
-            "line": 14,
+            "line": 13,
             "column": 15
           },
           "end": {
-            "line": 14,
+            "line": 13,
             "column": 36
           }
         },
         "3": {
           "start": {
-            "line": 16,
-            "column": 16
+            "line": 14,
+            "column": 17
           },
           "end": {
-            "line": 16,
-            "column": 34
+            "line": 14,
+            "column": 40
           }
         },
         "4": {
           "start": {
-            "line": 18,
-            "column": 20
+            "line": 15,
+            "column": 18
           },
           "end": {
-            "line": 18,
-            "column": 68
+            "line": 15,
+            "column": 58
           }
         },
         "5": {
           "start": {
-            "line": 19,
-            "column": 20
+            "line": 17,
+            "column": 25
           },
           "end": {
-            "line": 19,
-            "column": 66
+            "line": 21,
+            "column": 4
           }
         },
         "6": {
           "start": {
-            "line": 21,
-            "column": 18
+            "line": 23,
+            "column": 2
           },
           "end": {
-            "line": 21,
-            "column": 58
+            "line": 23,
+            "column": 16
           }
         },
         "7": {
           "start": {
-            "line": 23,
-            "column": 25
-          },
-          "end": {
-            "line": 28,
-            "column": 4
-          }
-        },
-        "8": {
-          "start": {
-            "line": 30,
-            "column": 2
-          },
-          "end": {
-            "line": 30,
-            "column": 16
-          }
-        },
-        "9": {
-          "start": {
-            "line": 11,
+            "line": 10,
             "column": 0
           },
           "end": {
-            "line": 11,
+            "line": 10,
             "column": 16
           }
         }
@@ -363,21 +561,21 @@
           "name": "readInputs",
           "decl": {
             "start": {
-              "line": 11,
+              "line": 10,
               "column": 16
             },
             "end": {
-              "line": 11,
+              "line": 10,
               "column": 26
             }
           },
           "loc": {
             "start": {
-              "line": 11,
+              "line": 10,
               "column": 26
             },
             "end": {
-              "line": 31,
+              "line": 24,
               "column": 1
             }
           }
@@ -392,17 +590,15 @@
         "4": 0,
         "5": 0,
         "6": 0,
-        "7": 0,
-        "8": 0,
-        "9": 1
+        "7": 1
       },
       "f": {
         "0": 0
       },
       "b": {}
     },
-    "/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/src/utils/listFiles.ts": {
-      "path": "/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/src/utils/listFiles.ts",
+    "/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/src/utils/findFiles.ts": {
+      "path": "/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/src/utils/findFiles.ts",
       "statementMap": {
         "0": {
           "start": {
@@ -416,75 +612,85 @@
         },
         "1": {
           "start": {
-            "line": 10,
-            "column": 2
+            "line": 3,
+            "column": 0
           },
           "end": {
-            "line": 12,
-            "column": null
+            "line": 3,
+            "column": 28
           }
         },
         "2": {
           "start": {
             "line": 11,
-            "column": 4
+            "column": 2
           },
           "end": {
-            "line": 11,
-            "column": 23
+            "line": 13,
+            "column": null
           }
         },
         "3": {
           "start": {
-            "line": 14,
-            "column": 2
+            "line": 12,
+            "column": 4
           },
           "end": {
-            "line": 14,
-            "column": 32
+            "line": 12,
+            "column": 23
           }
         },
         "4": {
           "start": {
-            "line": 16,
+            "line": 15,
             "column": 2
           },
           "end": {
-            "line": 16,
-            "column": 12
+            "line": 15,
+            "column": 32
           }
         },
         "5": {
           "start": {
-            "line": 9,
+            "line": 17,
+            "column": 2
+          },
+          "end": {
+            "line": 17,
+            "column": 24
+          }
+        },
+        "6": {
+          "start": {
+            "line": 10,
             "column": 0
           },
           "end": {
-            "line": 9,
+            "line": 10,
             "column": 22
           }
         }
       },
       "fnMap": {
         "0": {
-          "name": "listFiles",
+          "name": "findFiles",
           "decl": {
             "start": {
-              "line": 9,
+              "line": 10,
               "column": 22
             },
             "end": {
-              "line": 9,
+              "line": 10,
               "column": 31
             }
           },
           "loc": {
             "start": {
-              "line": 9,
-              "column": 50
+              "line": 10,
+              "column": 58
             },
             "end": {
-              "line": 17,
+              "line": 18,
               "column": null
             }
           }
@@ -494,11 +700,11 @@
         "0": {
           "loc": {
             "start": {
-              "line": 10,
+              "line": 11,
               "column": 2
             },
             "end": {
-              "line": 12,
+              "line": 13,
               "column": null
             }
           },
@@ -506,21 +712,21 @@
           "locations": [
             {
               "start": {
-                "line": 10,
+                "line": 11,
                 "column": 2
               },
               "end": {
-                "line": 12,
+                "line": 13,
                 "column": null
               }
             },
             {
               "start": {
-                "line": 10,
+                "line": 11,
                 "column": 2
               },
               "end": {
-                "line": 12,
+                "line": 13,
                 "column": null
               }
             }
@@ -529,11 +735,12 @@
       },
       "s": {
         "0": 1,
-        "1": 0,
+        "1": 1,
         "2": 0,
         "3": 0,
         "4": 0,
-        "5": 1
+        "5": 0,
+        "6": 1
       },
       "f": {
         "0": 0
@@ -704,51 +911,131 @@
         },
         "1": {
           "start": {
-            "line": 10,
-            "column": 2
+            "line": 3,
+            "column": 0
           },
           "end": {
-            "line": 12,
-            "column": null
+            "line": 3,
+            "column": 36
           }
         },
         "2": {
           "start": {
-            "line": 11,
-            "column": 4
+            "line": 4,
+            "column": 0
           },
           "end": {
-            "line": 11,
-            "column": 23
+            "line": 4,
+            "column": 30
           }
         },
         "3": {
           "start": {
-            "line": 14,
-            "column": 2
+            "line": 5,
+            "column": 0
           },
           "end": {
-            "line": 14,
-            "column": 35
+            "line": 5,
+            "column": 28
           }
         },
         "4": {
           "start": {
-            "line": 16,
-            "column": 2
+            "line": 7,
+            "column": 21
           },
           "end": {
-            "line": 16,
-            "column": 12
+            "line": 7,
+            "column": 29
           }
         },
         "5": {
           "start": {
-            "line": 9,
+            "line": 18,
+            "column": 14
+          },
+          "end": {
+            "line": 18,
+            "column": 33
+          }
+        },
+        "6": {
+          "start": {
+            "line": 20,
+            "column": 14
+          },
+          "end": {
+            "line": 20,
+            "column": 31
+          }
+        },
+        "7": {
+          "start": {
+            "line": 22,
+            "column": 15
+          },
+          "end": {
+            "line": 22,
+            "column": 37
+          }
+        },
+        "8": {
+          "start": {
+            "line": 24,
+            "column": 2
+          },
+          "end": {
+            "line": 24,
+            "column": 32
+          }
+        },
+        "9": {
+          "start": {
+            "line": 26,
+            "column": 2
+          },
+          "end": {
+            "line": 31,
+            "column": 7
+          }
+        },
+        "10": {
+          "start": {
+            "line": 27,
+            "column": 15
+          },
+          "end": {
+            "line": 27,
+            "column": 39
+          }
+        },
+        "11": {
+          "start": {
+            "line": 29,
+            "column": 6
+          },
+          "end": {
+            "line": 29,
+            "column": 36
+          }
+        },
+        "12": {
+          "start": {
+            "line": 30,
+            "column": 6
+          },
+          "end": {
+            "line": 30,
+            "column": 23
+          }
+        },
+        "13": {
+          "start": {
+            "line": 14,
             "column": 0
           },
           "end": {
-            "line": 9,
+            "line": 14,
             "column": 22
           }
         }
@@ -758,22 +1045,68 @@
           "name": "loadList",
           "decl": {
             "start": {
-              "line": 9,
+              "line": 14,
               "column": 22
             },
             "end": {
-              "line": 9,
+              "line": 14,
               "column": 30
             }
           },
           "loc": {
             "start": {
-              "line": 9,
-              "column": 49
+              "line": 17,
+              "column": 10
             },
             "end": {
-              "line": 17,
+              "line": 34,
               "column": null
+            }
+          }
+        },
+        "1": {
+          "name": "(anonymous_10)",
+          "decl": {
+            "start": {
+              "line": 27,
+              "column": 10
+            },
+            "end": {
+              "line": 27,
+              "column": 11
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 27,
+              "column": 15
+            },
+            "end": {
+              "line": 27,
+              "column": 39
+            }
+          }
+        },
+        "2": {
+          "name": "(anonymous_11)",
+          "decl": {
+            "start": {
+              "line": 28,
+              "column": 11
+            },
+            "end": {
+              "line": 28,
+              "column": 14
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 28,
+              "column": 16
+            },
+            "end": {
+              "line": 31,
+              "column": 5
             }
           }
         }
@@ -782,34 +1115,69 @@
         "0": {
           "loc": {
             "start": {
-              "line": 10,
-              "column": 2
+              "line": 18,
+              "column": 14
             },
             "end": {
-              "line": 12,
-              "column": null
+              "line": 18,
+              "column": 19
             }
           },
-          "type": "if",
+          "type": "cond-expr",
           "locations": [
             {
               "start": {
-                "line": 10,
-                "column": 2
+                "line": 18,
+                "column": 14
               },
               "end": {
-                "line": 12,
-                "column": null
+                "line": 18,
+                "column": 19
               }
             },
             {
               "start": {
-                "line": 10,
-                "column": 2
+                "line": 18,
+                "column": 23
               },
               "end": {
-                "line": 12,
-                "column": null
+                "line": 18,
+                "column": 33
+              }
+            }
+          ]
+        },
+        "1": {
+          "loc": {
+            "start": {
+              "line": 18,
+              "column": 14
+            },
+            "end": {
+              "line": 18,
+              "column": 23
+            }
+          },
+          "type": "binary-expr",
+          "locations": [
+            {
+              "start": {
+                "line": 18,
+                "column": 14
+              },
+              "end": {
+                "line": 18,
+                "column": 23
+              }
+            },
+            {
+              "start": {
+                "line": 18,
+                "column": 14
+              },
+              "end": {
+                "line": 18,
+                "column": 23
               }
             }
           ]
@@ -817,24 +1185,38 @@
       },
       "s": {
         "0": 1,
-        "1": 0,
-        "2": 0,
-        "3": 0,
-        "4": 0,
-        "5": 1
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 1
       },
       "f": {
-        "0": 0
+        "0": 0,
+        "1": 0,
+        "2": 0
       },
       "b": {
         "0": [
           0,
           0
+        ],
+        "1": [
+          0,
+          0
         ]
       }
     },
-    "/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/src/utils/saveList.ts": {
-      "path": "/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/src/utils/saveList.ts",
+    "/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/src/utils/tempDir.ts": {
+      "path": "/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/src/utils/tempDir.ts",
       "statementMap": {
         "0": {
           "start": {
@@ -848,6 +1230,26 @@
         },
         "1": {
           "start": {
+            "line": 2,
+            "column": 0
+          },
+          "end": {
+            "line": 2,
+            "column": 28
+          }
+        },
+        "2": {
+          "start": {
+            "line": 3,
+            "column": 0
+          },
+          "end": {
+            "line": 3,
+            "column": 28
+          }
+        },
+        "3": {
+          "start": {
             "line": 11,
             "column": 2
           },
@@ -856,7 +1258,7 @@
             "column": null
           }
         },
-        "2": {
+        "4": {
           "start": {
             "line": 12,
             "column": 4
@@ -866,48 +1268,151 @@
             "column": 23
           }
         },
-        "3": {
+        "5": {
           "start": {
             "line": 15,
-            "column": 2
+            "column": 17
           },
           "end": {
             "line": 15,
-            "column": 38
+            "column": 24
           }
         },
-        "4": {
+        "6": {
+          "start": {
+            "line": 18,
+            "column": 4
+          },
+          "end": {
+            "line": 18,
+            "column": 27
+          }
+        },
+        "7": {
+          "start": {
+            "line": 18,
+            "column": 20
+          },
+          "end": {
+            "line": 18,
+            "column": 27
+          }
+        },
+        "8": {
+          "start": {
+            "line": 19,
+            "column": 4
+          },
+          "end": {
+            "line": 19,
+            "column": 32
+          }
+        },
+        "9": {
+          "start": {
+            "line": 22,
+            "column": 2
+          },
+          "end": {
+            "line": 22,
+            "column": 36
+          }
+        },
+        "10": {
+          "start": {
+            "line": 24,
+            "column": 2
+          },
+          "end": {
+            "line": 24,
+            "column": 15
+          }
+        },
+        "11": {
+          "start": {
+            "line": 26,
+            "column": 14
+          },
+          "end": {
+            "line": 26,
+            "column": 58
+          }
+        },
+        "12": {
+          "start": {
+            "line": 28,
+            "column": 2
+          },
+          "end": {
+            "line": 28,
+            "column": 29
+          }
+        },
+        "13": {
+          "start": {
+            "line": 30,
+            "column": 2
+          },
+          "end": {
+            "line": 30,
+            "column": 13
+          }
+        },
+        "14": {
           "start": {
             "line": 10,
             "column": 0
           },
           "end": {
             "line": 10,
-            "column": 22
+            "column": 16
           }
         }
       },
       "fnMap": {
         "0": {
-          "name": "saveList",
+          "name": "tempDir",
           "decl": {
             "start": {
               "line": 10,
-              "column": 22
+              "column": 16
             },
             "end": {
               "line": 10,
-              "column": 30
+              "column": 23
             }
           },
           "loc": {
             "start": {
               "line": 10,
-              "column": 49
+              "column": 48
             },
             "end": {
-              "line": 16,
-              "column": null
+              "line": 31,
+              "column": 1
+            }
+          }
+        },
+        "1": {
+          "name": "append",
+          "decl": {
+            "start": {
+              "line": 17,
+              "column": 11
+            },
+            "end": {
+              "line": 17,
+              "column": 17
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 47
+            },
+            "end": {
+              "line": 20,
+              "column": 3
             }
           }
         }
@@ -947,20 +1452,376 @@
               }
             }
           ]
+        },
+        "1": {
+          "loc": {
+            "start": {
+              "line": 18,
+              "column": 4
+            },
+            "end": {
+              "line": 18,
+              "column": 27
+            }
+          },
+          "type": "if",
+          "locations": [
+            {
+              "start": {
+                "line": 18,
+                "column": 4
+              },
+              "end": {
+                "line": 18,
+                "column": 27
+              }
+            },
+            {
+              "start": {
+                "line": 18,
+                "column": 4
+              },
+              "end": {
+                "line": 18,
+                "column": 27
+              }
+            }
+          ]
+        }
+      },
+      "s": {
+        "0": 3,
+        "1": 3,
+        "2": 3,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 0,
+        "14": 3
+      },
+      "f": {
+        "0": 0,
+        "1": 0
+      },
+      "b": {
+        "0": [
+          0,
+          0
+        ],
+        "1": [
+          0,
+          0
+        ]
+      }
+    },
+    "/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/src/utils/saveList.ts": {
+      "path": "/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/src/utils/saveList.ts",
+      "statementMap": {
+        "0": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 1,
+            "column": 38
+          }
+        },
+        "1": {
+          "start": {
+            "line": 3,
+            "column": 0
+          },
+          "end": {
+            "line": 3,
+            "column": 36
+          }
+        },
+        "2": {
+          "start": {
+            "line": 4,
+            "column": 0
+          },
+          "end": {
+            "line": 4,
+            "column": 30
+          }
+        },
+        "3": {
+          "start": {
+            "line": 5,
+            "column": 0
+          },
+          "end": {
+            "line": 5,
+            "column": 28
+          }
+        },
+        "4": {
+          "start": {
+            "line": 7,
+            "column": 29
+          },
+          "end": {
+            "line": 7,
+            "column": 37
+          }
+        },
+        "5": {
+          "start": {
+            "line": 16,
+            "column": 14
+          },
+          "end": {
+            "line": 16,
+            "column": 33
+          }
+        },
+        "6": {
+          "start": {
+            "line": 18,
+            "column": 14
+          },
+          "end": {
+            "line": 18,
+            "column": 31
+          }
+        },
+        "7": {
+          "start": {
+            "line": 20,
+            "column": 2
+          },
+          "end": {
+            "line": 20,
+            "column": 35
+          }
+        },
+        "8": {
+          "start": {
+            "line": 22,
+            "column": 21
+          },
+          "end": {
+            "line": 22,
+            "column": 68
+          }
+        },
+        "9": {
+          "start": {
+            "line": 24,
+            "column": 15
+          },
+          "end": {
+            "line": 24,
+            "column": 37
+          }
+        },
+        "10": {
+          "start": {
+            "line": 28,
+            "column": 15
+          },
+          "end": {
+            "line": 28,
+            "column": 43
+          }
+        },
+        "11": {
+          "start": {
+            "line": 30,
+            "column": 2
+          },
+          "end": {
+            "line": 30,
+            "column": 19
+          }
+        },
+        "12": {
+          "start": {
+            "line": 32,
+            "column": 2
+          },
+          "end": {
+            "line": 32,
+            "column": 73
+          }
+        },
+        "13": {
+          "start": {
+            "line": 34,
+            "column": 2
+          },
+          "end": {
+            "line": 34,
+            "column": 31
+          }
+        },
+        "14": {
+          "start": {
+            "line": 15,
+            "column": 0
+          },
+          "end": {
+            "line": 15,
+            "column": 22
+          }
+        }
+      },
+      "fnMap": {
+        "0": {
+          "name": "saveList",
+          "decl": {
+            "start": {
+              "line": 15,
+              "column": 22
+            },
+            "end": {
+              "line": 15,
+              "column": 30
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 61
+            },
+            "end": {
+              "line": 35,
+              "column": null
+            }
+          }
+        },
+        "1": {
+          "name": "(anonymous_10)",
+          "decl": {
+            "start": {
+              "line": 22,
+              "column": 59
+            },
+            "end": {
+              "line": 22,
+              "column": 62
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 22,
+              "column": 64
+            },
+            "end": {
+              "line": 22,
+              "column": 67
+            }
+          }
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 14
+            },
+            "end": {
+              "line": 16,
+              "column": 19
+            }
+          },
+          "type": "cond-expr",
+          "locations": [
+            {
+              "start": {
+                "line": 16,
+                "column": 14
+              },
+              "end": {
+                "line": 16,
+                "column": 19
+              }
+            },
+            {
+              "start": {
+                "line": 16,
+                "column": 23
+              },
+              "end": {
+                "line": 16,
+                "column": 33
+              }
+            }
+          ]
+        },
+        "1": {
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 14
+            },
+            "end": {
+              "line": 16,
+              "column": 23
+            }
+          },
+          "type": "binary-expr",
+          "locations": [
+            {
+              "start": {
+                "line": 16,
+                "column": 14
+              },
+              "end": {
+                "line": 16,
+                "column": 23
+              }
+            },
+            {
+              "start": {
+                "line": 16,
+                "column": 14
+              },
+              "end": {
+                "line": 16,
+                "column": 23
+              }
+            }
+          ]
         }
       },
       "s": {
         "0": 1,
-        "1": 0,
-        "2": 0,
-        "3": 0,
-        "4": 1
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 0,
+        "14": 1
       },
       "f": {
-        "0": 0
+        "0": 0,
+        "1": 0
       },
       "b": {
         "0": [
+          0,
+          0
+        ],
+        "1": [
           0,
           0
         ]
@@ -986,7 +1847,7 @@
           },
           "end": {
             "line": 4,
-            "column": 44
+            "column": 48
           }
         },
         "2": {
@@ -1031,42 +1892,42 @@
         },
         "6": {
           "start": {
-            "line": 11,
-            "column": 2
+            "line": 9,
+            "column": 0
           },
           "end": {
-            "line": 39,
-            "column": null
+            "line": 9,
+            "column": 48
           }
         },
         "7": {
           "start": {
             "line": 12,
-            "column": 52
+            "column": 2
           },
           "end": {
-            "line": 12,
-            "column": 64
+            "line": 40,
+            "column": null
           }
         },
         "8": {
           "start": {
-            "line": 14,
-            "column": 4
+            "line": 13,
+            "column": 38
           },
           "end": {
-            "line": 14,
-            "column": 70
+            "line": 13,
+            "column": 50
           }
         },
         "9": {
           "start": {
-            "line": 16,
+            "line": 15,
             "column": 4
           },
           "end": {
-            "line": 16,
-            "column": 37
+            "line": 15,
+            "column": 70
           }
         },
         "10": {
@@ -1076,186 +1937,156 @@
           },
           "end": {
             "line": 17,
-            "column": 45
+            "column": 44
           }
         },
         "11": {
           "start": {
-            "line": 18,
-            "column": 4
+            "line": 19,
+            "column": 21
           },
           "end": {
-            "line": 18,
-            "column": 20
+            "line": 19,
+            "column": 45
           }
         },
         "12": {
-          "start": {
-            "line": 20,
-            "column": 4
-          },
-          "end": {
-            "line": 20,
-            "column": 42
-          }
-        },
-        "13": {
           "start": {
             "line": 21,
             "column": 21
           },
           "end": {
             "line": 21,
+            "column": 58
+          }
+        },
+        "13": {
+          "start": {
+            "line": 23,
+            "column": 4
+          },
+          "end": {
+            "line": 23,
             "column": 45
           }
         },
         "14": {
           "start": {
-            "line": 22,
+            "line": 25,
             "column": 4
           },
           "end": {
-            "line": 22,
-            "column": 20
+            "line": 25,
+            "column": 41
           }
         },
         "15": {
           "start": {
-            "line": 24,
+            "line": 26,
             "column": 4
           },
           "end": {
-            "line": 24,
-            "column": 33
+            "line": 26,
+            "column": 30
           }
         },
         "16": {
           "start": {
-            "line": 25,
+            "line": 27,
             "column": 4
           },
           "end": {
-            "line": 25,
-            "column": 35
+            "line": 27,
+            "column": 20
           }
         },
         "17": {
           "start": {
-            "line": 26,
+            "line": 29,
             "column": 4
           },
           "end": {
-            "line": 26,
-            "column": 20
+            "line": 29,
+            "column": 42
           }
         },
         "18": {
           "start": {
-            "line": 28,
+            "line": 30,
             "column": 4
           },
           "end": {
-            "line": 28,
-            "column": 34
+            "line": 30,
+            "column": 40
           }
         },
         "19": {
           "start": {
-            "line": 29,
+            "line": 31,
             "column": 4
           },
           "end": {
-            "line": 29,
-            "column": 45
+            "line": 31,
+            "column": 20
           }
         },
         "20": {
           "start": {
-            "line": 29,
-            "column": 19
+            "line": 33,
+            "column": 4
           },
           "end": {
-            "line": 29,
-            "column": 45
+            "line": 33,
+            "column": 38
           }
         },
         "21": {
           "start": {
-            "line": 30,
+            "line": 34,
             "column": 4
           },
           "end": {
-            "line": 30,
-            "column": 20
+            "line": 34,
+            "column": 60
           }
         },
         "22": {
           "start": {
-            "line": 32,
+            "line": 35,
             "column": 4
           },
           "end": {
-            "line": 32,
-            "column": 34
+            "line": 35,
+            "column": 20
           }
         },
         "23": {
           "start": {
-            "line": 33,
+            "line": 37,
             "column": 4
           },
           "end": {
-            "line": 33,
-            "column": 65
+            "line": 37,
+            "column": 23
           }
         },
         "24": {
           "start": {
-            "line": 33,
-            "column": 19
+            "line": 39,
+            "column": 4
           },
           "end": {
-            "line": 33,
-            "column": 65
+            "line": 39,
+            "column": 34
           }
         },
         "25": {
           "start": {
-            "line": 34,
-            "column": 4
-          },
-          "end": {
-            "line": 34,
-            "column": 20
-          }
-        },
-        "26": {
-          "start": {
-            "line": 36,
-            "column": 4
-          },
-          "end": {
-            "line": 36,
-            "column": 23
-          }
-        },
-        "27": {
-          "start": {
-            "line": 38,
-            "column": 4
-          },
-          "end": {
-            "line": 38,
-            "column": 34
-          }
-        },
-        "28": {
-          "start": {
-            "line": 42,
+            "line": 43,
             "column": 0
           },
           "end": {
-            "line": 42,
+            "line": 43,
             "column": 6
           }
         }
@@ -1265,21 +2096,21 @@
           "name": "run",
           "decl": {
             "start": {
-              "line": 10,
+              "line": 11,
               "column": 15
             },
             "end": {
-              "line": 10,
+              "line": 11,
               "column": 18
             }
           },
           "loc": {
             "start": {
-              "line": 10,
+              "line": 11,
               "column": 18
             },
             "end": {
-              "line": 40,
+              "line": 41,
               "column": null
             }
           }
@@ -1289,11 +2120,11 @@
         "0": {
           "loc": {
             "start": {
-              "line": 14,
+              "line": 15,
               "column": 38
             },
             "end": {
-              "line": 14,
+              "line": 15,
               "column": 61
             }
           },
@@ -1301,92 +2132,22 @@
           "locations": [
             {
               "start": {
-                "line": 14,
+                "line": 15,
                 "column": 38
               },
               "end": {
-                "line": 14,
+                "line": 15,
                 "column": 61
               }
             },
             {
               "start": {
-                "line": 14,
+                "line": 15,
                 "column": 64
               },
               "end": {
-                "line": 14,
+                "line": 15,
                 "column": 66
-              }
-            }
-          ]
-        },
-        "1": {
-          "loc": {
-            "start": {
-              "line": 29,
-              "column": 4
-            },
-            "end": {
-              "line": 29,
-              "column": 45
-            }
-          },
-          "type": "if",
-          "locations": [
-            {
-              "start": {
-                "line": 29,
-                "column": 4
-              },
-              "end": {
-                "line": 29,
-                "column": 45
-              }
-            },
-            {
-              "start": {
-                "line": 29,
-                "column": 4
-              },
-              "end": {
-                "line": 29,
-                "column": 45
-              }
-            }
-          ]
-        },
-        "2": {
-          "loc": {
-            "start": {
-              "line": 33,
-              "column": 4
-            },
-            "end": {
-              "line": 33,
-              "column": 65
-            }
-          },
-          "type": "if",
-          "locations": [
-            {
-              "start": {
-                "line": 33,
-                "column": 4
-              },
-              "end": {
-                "line": 33,
-                "column": 65
-              }
-            },
-            {
-              "start": {
-                "line": 33,
-                "column": 4
-              },
-              "end": {
-                "line": 33,
-                "column": 65
               }
             }
           ]
@@ -1418,24 +2179,13 @@
         "22": 0,
         "23": 0,
         "24": 0,
-        "25": 0,
-        "26": 0,
-        "27": 0,
-        "28": 0
+        "25": 0
       },
       "f": {
         "0": 0
       },
       "b": {
         "0": [
-          0,
-          0
-        ],
-        "1": [
-          0,
-          0
-        ],
-        "2": [
           0,
           0
         ]

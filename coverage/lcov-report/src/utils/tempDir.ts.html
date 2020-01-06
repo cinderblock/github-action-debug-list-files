@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Code coverage report for src/utils/saveList.ts</title>
+    <title>Code coverage report for src/utils/tempDir.ts</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../../prettify.css" />
     <link rel="stylesheet" href="../../base.css" />
@@ -16,13 +16,13 @@
 <div class='wrapper'>
   <div class='pad1'>
     <h1>
-      <a href="../../index.html">All files</a> / <a href="index.html">src/utils</a> saveList.ts
+      <a href="../../index.html">All files</a> / <a href="index.html">src/utils</a> tempDir.ts
     </h1>
     <div class='clearfix'>
       <div class='fl pad1y space-right2'>
-        <span class="strong">40% </span>
+        <span class="strong">26.67% </span>
         <span class="quiet">Statements</span>
-        <span class='fraction'>6/15</span>
+        <span class='fraction'>4/15</span>
       </div>
       <div class='fl pad1y space-right2'>
         <span class="strong">0% </span>
@@ -35,9 +35,9 @@
         <span class='fraction'>0/2</span>
       </div>
       <div class='fl pad1y space-right2'>
-        <span class="strong">40% </span>
+        <span class="strong">28.57% </span>
         <span class="quiet">Lines</span>
-        <span class='fraction'>6/15</span>
+        <span class='fraction'>4/14</span>
       </div>
     </div>
     <p class="quiet">
@@ -77,36 +77,28 @@
 <a name='L29'></a><a href='#L29'>29</a>
 <a name='L30'></a><a href='#L30'>30</a>
 <a name='L31'></a><a href='#L31'>31</a>
-<a name='L32'></a><a href='#L32'>32</a>
-<a name='L33'></a><a href='#L33'>33</a>
-<a name='L34'></a><a href='#L34'>34</a>
-<a name='L35'></a><a href='#L35'>35</a>
-<a name='L36'></a><a href='#L36'>36</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
+<a name='L32'></a><a href='#L32'>32</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -117,39 +109,35 @@
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import * as core from '@actions/core';
-import { FileList } from './Types';
-import { tempDir } from './tempDir';
-import { promises } from 'fs';
+import { tmpdir } from 'os';
 import { join } from 'path';
-&nbsp;
-const { writeFile, mkdir } = promises;
 &nbsp;
 type Options = {
   debug?: typeof core.debug;
   name: string;
-  list: FileList;
 };
 &nbsp;
-export async function <span class="fstat-no" title="function not covered" >saveList(</span>{ debug, name, list }: Options): Promise&lt;void&gt; {
-  const dbg = <span class="cstat-no" title="statement not covered" >debug ?? core.debug;</span>
+export function <span class="fstat-no" title="function not covered" >tempDir(</span>{ debug, name }: Options): string {
+<span class="cstat-no" title="statement not covered" >  if (debug === undefined) {</span>
+<span class="cstat-no" title="statement not covered" >    debug = core.debug;</span>
+  }
 &nbsp;
-  const dir = <span class="cstat-no" title="statement not covered" >tempDir({ name });</span>
+  let fileName = <span class="cstat-no" title="statement not covered" >'cache';</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered" >  dbg(`Creating directory ${dir}`);</span>
+  function <span class="fstat-no" title="function not covered" >append(</span>qualifier: string | undefined): void {
+<span class="cstat-no" title="statement not covered" >    if (!qualifier) <span class="cstat-no" title="statement not covered" >return;</span></span>
+<span class="cstat-no" title="statement not covered" >    fileName += `-${qualifier}`;</span>
+  }
 &nbsp;
-  const dirCreated = <span class="cstat-no" title="statement not covered" >mkdir(dir, { recursive: true }).catch(<span class="fstat-no" title="function not covered" >() =</span>&gt; {});</span>
+<span class="cstat-no" title="statement not covered" >  append(process.env.GITHUB_ACTION);</span>
 &nbsp;
-  const file = <span class="cstat-no" title="statement not covered" >join(dir, 'file-list');</span>
+<span class="cstat-no" title="statement not covered" >  append(name);</span>
 &nbsp;
-  // TODO: Handle filenames with newlines
+  const ret = <span class="cstat-no" title="statement not covered" >join(tmpdir(), 'debug-list-files', fileName);</span>
 &nbsp;
-  const data = <span class="cstat-no" title="statement not covered" >Buffer.from(list.join('\n'));</span>
+<span class="cstat-no" title="statement not covered" >  debug(`Temp file: ${ret}`);</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered" >  await dirCreated;</span>
-&nbsp;
-<span class="cstat-no" title="statement not covered" >  dbg(`Directory created. Writing ${data.length} bytes to file ${file}`);</span>
-&nbsp;
-<span class="cstat-no" title="statement not covered" >  return writeFile(file, data);</span>
+<span class="cstat-no" title="statement not covered" >  return ret;</span>
 }
 &nbsp;</pre></td></tr>
 </table></pre>

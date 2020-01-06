@@ -1,0 +1,46 @@
+{
+  "uid" : "f57a2ae72209a167",
+  "name" : "loadList is a function",
+  "fullName" : "utils/loadList.loadList is a function",
+  "historyId" : "86893df9d9f6944de47aa0614fc29b1d",
+  "time" : {
+    "start" : 1578300506837,
+    "stop" : 1578300506837,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "utils/loadList"
+  }, {
+    "name" : "testClass",
+    "value" : "utils/loadList"
+  }, {
+    "name" : "testMethod",
+    "value" : "loadList is a function"
+  }, {
+    "name" : "package",
+    "value" : "utils/loadList"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f57a2ae72209a167.json",
+  "parameterValues" : [ ]
+}
