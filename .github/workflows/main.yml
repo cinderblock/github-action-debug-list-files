@@ -190,8 +190,14 @@ jobs:
       - name: Install Dependencies and Build
         run: npm install
 
+      - name: Git config
+        run: |
+          git config user.email "actions@github.com"
+          git config user.name "GitHub Action Static Build"
+
       - run: git diff
         working-directory: dist
+
       - name: add all changes
         working-directory: dist
         run: git add .
