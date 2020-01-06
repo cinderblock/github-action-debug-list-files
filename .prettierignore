@@ -11,3 +11,4 @@ LICENSE
 .gitattributes
 .editorconfig
 .prettierignore
+.npmrc
