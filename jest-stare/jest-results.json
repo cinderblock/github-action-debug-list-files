@@ -26,7 +26,7 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1578305864515,
+  "startTime": 1578306279751,
   "success": false,
   "testResults": [
     {
@@ -36,8 +36,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578305866960,
-        "start": 1578305864565
+        "end": 1578306282043,
+        "start": 1578306279799
       },
       "snapshot": {
         "added": 0,
@@ -54,7 +54,7 @@
           "ancestorTitles": [
             "GitHub Actions Format"
           ],
-          "duration": 3,
+          "duration": 2,
           "failureMessages": [],
           "fullName": "GitHub Actions Format action.yml exists",
           "location": null,
@@ -73,8 +73,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578305867451,
-        "start": 1578305867002
+        "end": 1578306282549,
+        "start": 1578306282081
       },
       "snapshot": {
         "added": 0,
@@ -110,8 +110,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578305867735,
-        "start": 1578305867473
+        "end": 1578306282833,
+        "start": 1578306282571
       },
       "snapshot": {
         "added": 0,
@@ -147,8 +147,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578305868105,
-        "start": 1578305867756
+        "end": 1578306283295,
+        "start": 1578306282852
       },
       "snapshot": {
         "added": 0,
@@ -184,8 +184,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578305868761,
-        "start": 1578305868128
+        "end": 1578306283530,
+        "start": 1578306283318
       },
       "snapshot": {
         "added": 0,
@@ -221,8 +221,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578305869080,
-        "start": 1578305868784
+        "end": 1578306283832,
+        "start": 1578306283551
       },
       "snapshot": {
         "added": 0,
@@ -258,8 +258,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578305869336,
-        "start": 1578305869104
+        "end": 1578306284067,
+        "start": 1578306283855
       },
       "snapshot": {
         "added": 0,
@@ -276,7 +276,7 @@
           "ancestorTitles": [
             "utils/saveList"
           ],
-          "duration": 1,
+          "duration": 0,
           "failureMessages": [],
           "fullName": "utils/saveList saveList is a function",
           "location": null,
@@ -295,8 +295,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578305869529,
-        "start": 1578305869365
+        "end": 1578306284240,
+        "start": 1578306284094
       },
       "snapshot": {
         "added": 0,
@@ -313,7 +313,7 @@
           "ancestorTitles": [
             "utils/tempDir"
           ],
-          "duration": 7,
+          "duration": 0,
           "failureMessages": [],
           "fullName": "utils/tempDir tempDir is a function",
           "location": null,
