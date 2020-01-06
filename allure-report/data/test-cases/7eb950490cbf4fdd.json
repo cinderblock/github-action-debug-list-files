@@ -1,11 +1,11 @@
 {
-  "uid" : "eab17b024c019d96",
-  "name" : "findFiles is a function",
-  "fullName" : "utils/findFiles.findFiles is a function",
-  "historyId" : "a975ed7b3c4e8fb7458cef80e53e27f3",
+  "uid" : "7eb950490cbf4fdd",
+  "name" : "printList is a function",
+  "fullName" : "utils/printList.printList is a function",
+  "historyId" : "18bad45c56dc5ff74cd5f304162ff5b3",
   "time" : {
-    "start" : 1578300724537,
-    "stop" : 1578300724538,
+    "start" : 1578303568236,
+    "stop" : 1578303568237,
     "duration" : 1
   },
   "description" : "",
@@ -17,16 +17,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "utils/findFiles"
+    "value" : "utils/printList"
   }, {
     "name" : "testClass",
-    "value" : "utils/findFiles"
+    "value" : "utils/printList"
   }, {
     "name" : "testMethod",
-    "value" : "findFiles is a function"
+    "value" : "printList is a function"
   }, {
     "name" : "package",
-    "value" : "utils/findFiles"
+    "value" : "utils/printList"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -41,6 +41,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "eab17b024c019d96.json",
+  "source" : "7eb950490cbf4fdd.json",
   "parameterValues" : [ ]
 }

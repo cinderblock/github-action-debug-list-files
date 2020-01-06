@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: true\n                Received: false",
+      "children" : [ {
+        "name" : "action.yml exists",
+        "uid" : "27fdcf3d89f93f78",
+        "parentUid" : "361512b0f94f8be6b8353d0de5a4a67a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1578303566626,
+          "stop" : 1578303566632,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "361512b0f94f8be6b8353d0de5a4a67a"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
   "name" : "categories"
 }

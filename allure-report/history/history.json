@@ -1,6 +1,26 @@
 {
   "f9eb496e7dd3b7fe3f6aa929edbed5b1" : {
     "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "27fdcf3d89f93f78",
+      "status" : "failed",
+      "statusDetails" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: true\n                Received: false",
+      "time" : {
+        "start" : 1578303566626,
+        "stop" : 1578303566632,
+        "duration" : 6
+      }
+    } ]
+  },
+  "a975ed7b3c4e8fb7458cef80e53e27f3" : {
+    "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
@@ -9,12 +29,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ee56b1fc5f7a7d10",
+      "uid" : "13c22cec177f7e94",
       "status" : "passed",
       "time" : {
-        "start" : 1578300723453,
-        "stop" : 1578300723455,
-        "duration" : 2
+        "start" : 1578303567974,
+        "stop" : 1578303567975,
+        "duration" : 1
       }
     } ]
   },
@@ -28,11 +48,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2232cbd8e0d0e006",
+      "uid" : "e03eb767cf9da51d",
       "status" : "passed",
       "time" : {
-        "start" : 1578300723916,
-        "stop" : 1578300723917,
+        "start" : 1578303567193,
+        "stop" : 1578303567194,
         "duration" : 1
       }
     } ]
@@ -47,30 +67,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "dbf80f6705e58bcc",
+      "uid" : "a183dda8ed8339ef",
       "status" : "passed",
       "time" : {
-        "start" : 1578300724175,
-        "stop" : 1578300724176,
-        "duration" : 1
-      }
-    } ]
-  },
-  "a975ed7b3c4e8fb7458cef80e53e27f3" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "eab17b024c019d96",
-      "status" : "passed",
-      "time" : {
-        "start" : 1578300724537,
-        "stop" : 1578300724538,
+        "start" : 1578303567531,
+        "stop" : 1578303567532,
         "duration" : 1
       }
     } ]
@@ -85,12 +86,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "99919fe453ed5a77",
+      "uid" : "21241b603ead8247",
       "status" : "passed",
       "time" : {
-        "start" : 1578300725048,
-        "stop" : 1578300725049,
-        "duration" : 1
+        "start" : 1578303568612,
+        "stop" : 1578303568614,
+        "duration" : 2
       }
     } ]
   },
@@ -104,11 +105,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5fd9a5a6d5c404b2",
+      "uid" : "7eb950490cbf4fdd",
       "status" : "passed",
       "time" : {
-        "start" : 1578300724753,
-        "stop" : 1578300724754,
+        "start" : 1578303568236,
+        "stop" : 1578303568237,
         "duration" : 1
       }
     } ]
@@ -123,11 +124,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2af91b461a0313e9",
+      "uid" : "f2d34f8203b3abbd",
       "status" : "passed",
       "time" : {
-        "start" : 1578300725273,
-        "stop" : 1578300725274,
+        "start" : 1578303568873,
+        "stop" : 1578303568874,
         "duration" : 1
       }
     } ]
@@ -142,12 +143,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "da4fb63b504cf938",
+      "uid" : "3b80d7529eb1a644",
       "status" : "passed",
       "time" : {
-        "start" : 1578300725443,
-        "stop" : 1578300725443,
-        "duration" : 0
+        "start" : 1578303569072,
+        "stop" : 1578303569073,
+        "duration" : 1
       }
     } ]
   }

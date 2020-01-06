@@ -1,8 +1,8 @@
 {
-  "numFailedTestSuites": 0,
-  "numFailedTests": 0,
-  "numPassedTestSuites": 8,
-  "numPassedTests": 8,
+  "numFailedTestSuites": 1,
+  "numFailedTests": 1,
+  "numPassedTestSuites": 7,
+  "numPassedTests": 7,
   "numPendingTestSuites": 0,
   "numPendingTests": 0,
   "numRuntimeErrorTestSuites": 0,
@@ -26,18 +26,18 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1578300721148,
+  "startTime": 1578303564024,
   "success": false,
   "testResults": [
     {
-      "failureMessage": null,
-      "numFailingTests": 0,
-      "numPassingTests": 1,
+      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mGitHub Actions Format › action.yml exists\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32mtrue\u001b[39m\n    Received: \u001b[31mfalse\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m  6 | \u001b[39mdescribe(\u001b[32m'GitHub Actions Format'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m  7 | \u001b[39m  test(\u001b[32m'action.yml exists'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m  8 | \u001b[39m    expect(existsSync(join(__dirname\u001b[33m,\u001b[39m \u001b[32m'..'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'action.yml'\u001b[39m)))\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    | \u001b[39m                                                            \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m  9 | \u001b[39m  })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 10 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 11 | \u001b[39m  \u001b[90m// TODO: Read action.yml and run main/post on dummy repo/dir\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[2m\u001b[0m\u001b[36mtests/main.ts\u001b[39m\u001b[0m\u001b[2m:8:61)\u001b[2m\u001b[22m\n",
+      "numFailingTests": 1,
+      "numPassingTests": 0,
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578300723461,
-        "start": 1578300721198
+        "end": 1578303566673,
+        "start": 1578303564082
       },
       "snapshot": {
         "added": 0,
@@ -54,12 +54,14 @@
           "ancestorTitles": [
             "GitHub Actions Format"
           ],
-          "duration": 2,
-          "failureMessages": [],
+          "duration": 5,
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at Object.<anonymous> (/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/tests/main.ts:8:61)\n    at Object.asyncJestTest (/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)\n    at /home/runner/work/github-action-debug-list-files/github-action-debug-list-files/node_modules/jest-jasmine2/build/queueRunner.js:43:12\n    at new Promise (<anonymous>)\n    at mapper (/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/node_modules/jest-jasmine2/build/queueRunner.js:26:19)\n    at /home/runner/work/github-action-debug-list-files/github-action-debug-list-files/node_modules/jest-jasmine2/build/queueRunner.js:73:41"
+          ],
           "fullName": "GitHub Actions Format action.yml exists",
           "location": null,
           "numPassingAsserts": 0,
-          "status": "passed",
+          "status": "failed",
           "title": "action.yml exists"
         }
       ],
@@ -73,8 +75,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578300723918,
-        "start": 1578300723497
+        "end": 1578303567195,
+        "start": 1578303566701
       },
       "snapshot": {
         "added": 0,
@@ -110,8 +112,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578300724177,
-        "start": 1578300723939
+        "end": 1578303567534,
+        "start": 1578303567220
       },
       "snapshot": {
         "added": 0,
@@ -147,8 +149,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578300724539,
-        "start": 1578300724197
+        "end": 1578303567976,
+        "start": 1578303567561
       },
       "snapshot": {
         "added": 0,
@@ -184,8 +186,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578300724755,
-        "start": 1578300724560
+        "end": 1578303568238,
+        "start": 1578303568000
       },
       "snapshot": {
         "added": 0,
@@ -221,8 +223,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578300725050,
-        "start": 1578300724777
+        "end": 1578303568615,
+        "start": 1578303568265
       },
       "snapshot": {
         "added": 0,
@@ -239,7 +241,7 @@
           "ancestorTitles": [
             "utils/loadList"
           ],
-          "duration": 1,
+          "duration": 2,
           "failureMessages": [],
           "fullName": "utils/loadList loadList is a function",
           "location": null,
@@ -258,8 +260,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578300725275,
-        "start": 1578300725073
+        "end": 1578303568876,
+        "start": 1578303568642
       },
       "snapshot": {
         "added": 0,
@@ -295,8 +297,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578300725445,
-        "start": 1578300725304
+        "end": 1578303569074,
+        "start": 1578303568907
       },
       "snapshot": {
         "added": 0,
@@ -313,7 +315,7 @@
           "ancestorTitles": [
             "utils/tempDir"
           ],
-          "duration": 0,
+          "duration": 1,
           "failureMessages": [],
           "fullName": "utils/tempDir tempDir is a function",
           "location": null,

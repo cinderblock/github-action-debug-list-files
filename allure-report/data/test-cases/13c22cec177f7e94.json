@@ -1,11 +1,11 @@
 {
-  "uid" : "dbf80f6705e58bcc",
-  "name" : "readInputs is a function",
-  "fullName" : "utils/readInputs.readInputs is a function",
-  "historyId" : "2eddb652dd3e32bd1f498303a4f7bc42",
+  "uid" : "13c22cec177f7e94",
+  "name" : "findFiles is a function",
+  "fullName" : "utils/findFiles.findFiles is a function",
+  "historyId" : "a975ed7b3c4e8fb7458cef80e53e27f3",
   "time" : {
-    "start" : 1578300724175,
-    "stop" : 1578300724176,
+    "start" : 1578303567974,
+    "stop" : 1578303567975,
     "duration" : 1
   },
   "description" : "",
@@ -17,16 +17,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "utils/readInputs"
+    "value" : "utils/findFiles"
   }, {
     "name" : "testClass",
-    "value" : "utils/readInputs"
+    "value" : "utils/findFiles"
   }, {
     "name" : "testMethod",
-    "value" : "readInputs is a function"
+    "value" : "findFiles is a function"
   }, {
     "name" : "package",
-    "value" : "utils/readInputs"
+    "value" : "utils/findFiles"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -41,6 +41,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "dbf80f6705e58bcc.json",
+  "source" : "13c22cec177f7e94.json",
   "parameterValues" : [ ]
 }
