@@ -9,10 +9,12 @@ type Options = {
   diffFrom?: FileList;
 };
 
-export async function printList({ debug }: Options): Promise<void> {
+export async function printList({ debug, list }: Options): Promise<void> {
   if (debug === undefined) {
     debug = core.debug;
   }
 
   debug(`Listing all files in list`);
+
+  console.log(list);
 }
