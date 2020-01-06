@@ -75,18 +75,19 @@ jobs:
       - name: Install Dependencies and Build
         run: npm install
 
-        # DEBUG
-      - name: 'Debug: List files'
+      - name: Manual - List files post install
         run: find * \( -path node_modules -o -path .git \) -print -prune -o -type f -print | tee /tmp/step0.log
-      - name: Use self as action to test
+
+      - name: Action - List files post install
         uses: ./
 
-        # DEBUG
-      - name: 'Debug: List files'
+      - name: Manual - List files, no changes
         run: find * \( -path node_modules -o -path .git \) -print -prune -o -type f -print | tee /tmp/step1.log
-      - name: 'Debug: diff'
+
+      - name: Manual - List files, no changes [diff]
         run: colordiff -u /tmp/step{0,1}.log
-      - name: Use self as action to test
+
+      - name: Action - List files, no changes
         uses: ./
 
         # Run Tests
@@ -94,11 +95,13 @@ jobs:
         run: 'npm test -- --color | :'
 
         # DEBUG
-      - name: 'Debug: List files'
+      - name: Manual - List files after tests
         run: find * \( -path node_modules -o -path .git \) -print -prune -o -type f -print | tee /tmp/step2.log
-      - name: 'Debug: diff'
+
+      - name: Manual - List files after tests [diff]
         run: colordiff -u /tmp/step{1,2}.log
-      - name: Use self as action to test
+
+      - name: Action - List files after tests
         uses: ./
 
       - name: Tell GitHub to not use Jekyll
@@ -109,11 +112,13 @@ jobs:
         run: npm run allure
 
         # DEBUG
-      - name: 'Debug: List files'
+      - name: Manual - List files after Allure
         run: find * \( -path node_modules -o -path .git \) -print -prune -o -type f -print | tee /tmp/step3.log
-      - name: 'Debug: diff'
+
+      - name: Manual - List files after Allure [diff]
         run: colordiff -u /tmp/step{2,3}.log
-      - name: Use self as action to test
+
+      - name: Action - List files after Allure
         uses: ./
 
       # Publish to gh-pages
