@@ -77,10 +77,16 @@ jobs:
 
         # DEBUG
       - name: 'Debug: List files'
-        run: |
-          find * \( -path node_modules -o -path .git \) -print -prune -o -type f -print | tee /tmp/step0.log
+        run: find * \( -path node_modules -o -path .git \) -print -prune -o -type f -print | tee /tmp/step0.log
+      - name: Use self as action to test
+        uses: ./
 
-      - name: Action - local
+        # DEBUG
+      - name: 'Debug: List files'
+        run: find * \( -path node_modules -o -path .git \) -print -prune -o -type f -print | tee /tmp/step1.log
+      - name: 'Debug: diff'
+        run: colordiff -u /tmp/step{0,1}.log
+      - name: Use self as action to test
         uses: ./
 
         # Run Tests
@@ -89,11 +95,10 @@ jobs:
 
         # DEBUG
       - name: 'Debug: List files'
-        run: |
-          find * \( -path node_modules -o -path .git \) -print -prune -o -type f -print | tee /tmp/step1.log
-          colordiff -u /tmp/step{0,1}.log | true
-
-      - name: Action - local
+        run: find * \( -path node_modules -o -path .git \) -print -prune -o -type f -print | tee /tmp/step2.log
+      - name: 'Debug: diff'
+        run: colordiff -u /tmp/step{1,2}.log
+      - name: Use self as action to test
         uses: ./
 
       - name: Tell GitHub to not use Jekyll
@@ -104,12 +109,11 @@ jobs:
         run: npm run allure
 
         # DEBUG
-      - name: 'Debug: List files manually'
-        run: |
-          find * \( -path node_modules -o -path .git \) -print -prune -o -type f -print | tee /tmp/step2.log
-          colordiff -u /tmp/step{1,2}.log | true
-
-      - name: Action - local
+      - name: 'Debug: List files'
+        run: find * \( -path node_modules -o -path .git \) -print -prune -o -type f -print | tee /tmp/step3.log
+      - name: 'Debug: diff'
+        run: colordiff -u /tmp/step{2,3}.log
+      - name: Use self as action to test
         uses: ./
 
       # Publish to gh-pages
