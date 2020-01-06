@@ -8,6 +8,10 @@ inputs:
     required: false
     description: Named file list
     default: ''
+  working-directory:
+    required: false
+    description: Directory to list files of
+    default: '.'
   search:
     required: false
     description: Glob to search with
