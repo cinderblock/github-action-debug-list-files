@@ -190,6 +190,7 @@ jobs:
         env:
           PUBLISH_BRANCH: v1
           PUBLISH_DIR: dist
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           emptyCommits: false
           username: 'GitHub Action Static Build'
