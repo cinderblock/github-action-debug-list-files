@@ -65,7 +65,7 @@ jobs:
       - name: cSpell
         run: npm run spellcheck -- --color
 
-  self-test-and-use: # make sure the action works on a clean machine without building
+  self-test-and-use:
     name: Self Test
     runs-on: ubuntu-latest
     steps:
