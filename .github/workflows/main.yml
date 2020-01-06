@@ -174,14 +174,14 @@ jobs:
     needs: [check-format, check-lint, check-spelling, self-test-and-use]
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout latest code
-        uses: actions/checkout@v1
-
       - name: Checkout latest release
         uses: actions/checkout@v1
         with:
           ref: release
           path: dist
+
+      - name: Checkout latest code
+        uses: actions/checkout@v1
 
       - name: Configure Npm
         run: |
