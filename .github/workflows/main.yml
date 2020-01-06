@@ -197,9 +197,12 @@ jobs:
           #useremail: "actions@github.com"
 
   test-published:
-    name: Publish - GitHub Action v1
+    name: Test - Published
     needs: [publish]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout latest code
+        working-directory: . # Optional
         uses: cinderblock/github-action-debug-list-files@v1
+        with:
+          name: . # Optional different "named" lists
