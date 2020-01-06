@@ -1,12 +1,12 @@
 {
-  "uid" : "9950ec3bc6f99224",
-  "name" : "action.yml exists",
-  "fullName" : "GitHub Actions Format.action.yml exists",
-  "historyId" : "f9eb496e7dd3b7fe3f6aa929edbed5b1",
+  "uid" : "69c0e0b7e3499a2e",
+  "name" : "saveList is a function",
+  "fullName" : "utils/saveList.saveList is a function",
+  "historyId" : "e60e5953eb70124965ac62c7b00ae1db",
   "time" : {
-    "start" : 1578308211734,
-    "stop" : 1578308211738,
-    "duration" : 4
+    "start" : 1578308280061,
+    "stop" : 1578308280061,
+    "duration" : 0
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -17,16 +17,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "GitHub Actions Format"
+    "value" : "utils/saveList"
   }, {
     "name" : "testClass",
-    "value" : "GitHub Actions Format"
+    "value" : "utils/saveList"
   }, {
     "name" : "testMethod",
-    "value" : "action.yml exists"
+    "value" : "saveList is a function"
   }, {
     "name" : "package",
-    "value" : "GitHub Actions Format"
+    "value" : "utils/saveList"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -41,6 +41,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "9950ec3bc6f99224.json",
+  "source" : "69c0e0b7e3499a2e.json",
   "parameterValues" : [ ]
 }

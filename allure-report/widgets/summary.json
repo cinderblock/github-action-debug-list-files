@@ -10,11 +10,11 @@
     "total" : 8
   },
   "time" : {
-    "start" : 1578308211734,
-    "stop" : 1578308214043,
-    "duration" : 2309,
-    "minDuration" : 1,
-    "maxDuration" : 4,
-    "sumDuration" : 12
+    "start" : 1578308277897,
+    "stop" : 1578308280268,
+    "duration" : 2371,
+    "minDuration" : 0,
+    "maxDuration" : 3,
+    "sumDuration" : 9
   }
 }

@@ -1,80 +1,80 @@
 [ {
-  "uid" : "ad6150901975565f",
+  "uid" : "2070432b689aa5a0",
   "name" : "printList is a function",
   "time" : {
-    "start" : 1578308213215,
-    "stop" : 1578308213217,
-    "duration" : 2
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7def1afe0a69c120",
-  "name" : "saveList is a function",
-  "time" : {
-    "start" : 1578308213858,
-    "stop" : 1578308213859,
+    "start" : 1578308279469,
+    "stop" : 1578308279470,
     "duration" : 1
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "ad99bb8caf1c3dd8",
+  "uid" : "820727be4e2c7d87",
   "name" : "filterList is a function",
   "time" : {
-    "start" : 1578308212221,
-    "stop" : 1578308212222,
+    "start" : 1578308278442,
+    "stop" : 1578308278443,
     "duration" : 1
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "51c27b72e522ee3b",
-  "name" : "readInputs is a function",
-  "time" : {
-    "start" : 1578308212516,
-    "stop" : 1578308212517,
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f0c4ea1d8273cd42",
-  "name" : "tempDir is a function",
-  "time" : {
-    "start" : 1578308214042,
-    "stop" : 1578308214043,
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9950ec3bc6f99224",
+  "uid" : "ebc8db7d6f5b3b34",
   "name" : "action.yml exists",
   "time" : {
-    "start" : 1578308211734,
-    "stop" : 1578308211738,
-    "duration" : 4
+    "start" : 1578308277897,
+    "stop" : 1578308277900,
+    "duration" : 3
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e745980a66d847ff",
+  "uid" : "74eeaf62de0cfb0d",
   "name" : "loadList is a function",
   "time" : {
-    "start" : 1578308213581,
-    "stop" : 1578308213582,
+    "start" : 1578308279783,
+    "stop" : 1578308279784,
     "duration" : 1
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d12c6fc5b7911a23",
+  "uid" : "a582ffd52de4b0e4",
+  "name" : "tempDir is a function",
+  "time" : {
+    "start" : 1578308280267,
+    "stop" : 1578308280268,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cbc227f1b18f052f",
   "name" : "findFiles is a function",
   "time" : {
-    "start" : 1578308212962,
-    "stop" : 1578308212963,
+    "start" : 1578308279184,
+    "stop" : 1578308279185,
     "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ec2961beffd1c24",
+  "name" : "readInputs is a function",
+  "time" : {
+    "start" : 1578308278745,
+    "stop" : 1578308278746,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "69c0e0b7e3499a2e",
+  "name" : "saveList is a function",
+  "time" : {
+    "start" : 1578308280061,
+    "stop" : 1578308280061,
+    "duration" : 0
   },
   "status" : "passed",
   "severity" : "normal"

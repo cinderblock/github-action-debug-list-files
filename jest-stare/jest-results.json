@@ -26,7 +26,7 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1578308209093,
+  "startTime": 1578308274886,
   "success": false,
   "testResults": [
     {
@@ -36,8 +36,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578308211743,
-        "start": 1578308209145
+        "end": 1578308277906,
+        "start": 1578308274944
       },
       "snapshot": {
         "added": 0,
@@ -73,8 +73,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578308212223,
-        "start": 1578308211769
+        "end": 1578308278444,
+        "start": 1578308277934
       },
       "snapshot": {
         "added": 0,
@@ -110,8 +110,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578308212518,
-        "start": 1578308212245
+        "end": 1578308278748,
+        "start": 1578308278468
       },
       "snapshot": {
         "added": 0,
@@ -147,8 +147,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578308212965,
-        "start": 1578308212541
+        "end": 1578308279187,
+        "start": 1578308278772
       },
       "snapshot": {
         "added": 0,
@@ -184,8 +184,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578308213225,
-        "start": 1578308212989
+        "end": 1578308279472,
+        "start": 1578308279212
       },
       "snapshot": {
         "added": 0,
@@ -202,7 +202,7 @@
           "ancestorTitles": [
             "utils/printList"
           ],
-          "duration": 2,
+          "duration": 1,
           "failureMessages": [],
           "fullName": "utils/printList printList is a function",
           "location": null,
@@ -221,8 +221,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578308213584,
-        "start": 1578308213248
+        "end": 1578308279785,
+        "start": 1578308279495
       },
       "snapshot": {
         "added": 0,
@@ -258,8 +258,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578308213861,
-        "start": 1578308213611
+        "end": 1578308280063,
+        "start": 1578308279810
       },
       "snapshot": {
         "added": 0,
@@ -276,7 +276,7 @@
           "ancestorTitles": [
             "utils/saveList"
           ],
-          "duration": 1,
+          "duration": 0,
           "failureMessages": [],
           "fullName": "utils/saveList saveList is a function",
           "location": null,
@@ -295,8 +295,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578308214044,
-        "start": 1578308213891
+        "end": 1578308280270,
+        "start": 1578308280089
       },
       "snapshot": {
         "added": 0,
