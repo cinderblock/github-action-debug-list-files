@@ -29,7 +29,7 @@ jobs:
     runs-on: ubuntu-latest # Anything should work
     steps:
       - name: List Working Directory Contents
-        uses: cinderblock/github-action-debug-list-files
+        uses: cinderblock/github-action-debug-list-files@v1
         working-directory: . # Optional
         with:
           name: . # Optional different "named" lists
@@ -39,7 +39,7 @@ jobs:
 
       # Print and log a diff
       - name: List Working Directory Contents
-        uses: cinderblock/github-action-debug-list-files
+        uses: cinderblock/github-action-debug-list-files@v1
         working-directory: . # Should probably match previous run
         with:
           name: . # Set to something different to maintain multiple lists with separate diffs
