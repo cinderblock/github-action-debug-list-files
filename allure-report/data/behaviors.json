@@ -2,25 +2,25 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : "action.yml exists",
-    "uid" : "7a7f93a5c936c1dc",
+    "uid" : "f3b9a0e7b3fca586",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1578293802755,
-      "stop" : 1578293802757,
-      "duration" : 2
+      "start" : 1578294976439,
+      "stop" : 1578294976442,
+      "duration" : 3
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "readInputs is a function",
-    "uid" : "ae2c37a7dea1d978",
+    "uid" : "ea03c12c4fd27e82",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1578293803254,
-      "stop" : 1578293803255,
+      "start" : 1578294976995,
+      "stop" : 1578294976996,
       "duration" : 1
     },
     "flaky" : false,
@@ -28,12 +28,12 @@
     "parameters" : [ ]
   }, {
     "name" : "readInputs is a function",
-    "uid" : "a1c9d53d252e3579",
+    "uid" : "a085a872c168b67e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1578293803531,
-      "stop" : 1578293803532,
+      "start" : 1578294977344,
+      "stop" : 1578294977345,
       "duration" : 1
     },
     "flaky" : false,
@@ -41,12 +41,12 @@
     "parameters" : [ ]
   }, {
     "name" : "readInputs is a function",
-    "uid" : "bd5ff8e802579f44",
+    "uid" : "8bfd0366e3dc60b0",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1578293803804,
-      "stop" : 1578293803805,
+      "start" : 1578294977639,
+      "stop" : 1578294977640,
       "duration" : 1
     },
     "flaky" : false,
@@ -54,12 +54,12 @@
     "parameters" : [ ]
   }, {
     "name" : "readInputs is a function",
-    "uid" : "d49c0c508c31db43",
+    "uid" : "3842538be012705e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1578293804028,
-      "stop" : 1578293804029,
+      "start" : 1578294977879,
+      "stop" : 1578294977880,
       "duration" : 1
     },
     "flaky" : false,
@@ -67,13 +67,13 @@
     "parameters" : [ ]
   }, {
     "name" : "readInputs is a function",
-    "uid" : "d07df1112b4fc43",
+    "uid" : "a5ac460101d973cb",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1578293804255,
-      "stop" : 1578293804255,
-      "duration" : 0
+      "start" : 1578294978116,
+      "stop" : 1578294978117,
+      "duration" : 1
     },
     "flaky" : false,
     "newFailed" : false,
