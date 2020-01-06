@@ -101,6 +101,7 @@ jobs:
 
       - name: Manual - List files after tests [diff]
         run: colordiff -u /tmp/step{1,2}.log
+        continue-on-error: true
 
       - name: Action - List files after tests
         uses: ./
@@ -118,6 +119,7 @@ jobs:
 
       - name: Manual - List files after Allure [diff]
         run: colordiff -u /tmp/step{2,3}.log
+        continue-on-error: true
 
       - name: Action - List files after Allure
         uses: ./
