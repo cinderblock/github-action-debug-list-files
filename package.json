@@ -19,9 +19,9 @@
   "main": "lib/main.js",
   "scripts": {
     "build": "tsc",
-    "lint": "eslint **/*",
-    "format": "prettier **/*",
-    "spellcheck": "cspell **/*",
+    "lint": "eslint \"**/*\"",
+    "format": "prettier \"**/*\"",
+    "spellcheck": "cspell \"**/*\"",
     "format-check": "npm run format -- --check",
     "clean": "rm -rf lib public allure-results",
     "test": "jest",
