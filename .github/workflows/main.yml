@@ -169,7 +169,7 @@ jobs:
           #useremail: "actions@github.com"
 
   publish:
-    name: Publish to GitHub
+    name: Publish - GitHub Action v1
     if: github.event_name == 'push' && github.ref == 'refs/heads/release'
     needs: [check-format, check-lint, check-spelling, self-test-and-use]
     runs-on: ubuntu-latest
