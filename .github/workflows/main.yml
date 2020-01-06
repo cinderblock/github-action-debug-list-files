@@ -170,14 +170,7 @@ jobs:
 
   publish:
     if: github.event_name == 'push' && github.ref == 'refs/branch/release'
-    needs:
-      [
-        check-format,
-        check-lint,
-        check-spelling,
-        coverage-reports,
-        self-test-and-use,
-      ]
+    needs: [check-format, check-lint, check-spelling, self-test-and-use]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout latest code
