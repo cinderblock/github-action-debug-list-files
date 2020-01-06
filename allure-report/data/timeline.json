@@ -1,13 +1,26 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "printList is a function",
-    "uid" : "b6e43ce0c47fbf98",
+    "name" : "tempDir is a function",
+    "uid" : "866b7d3bb05fe331",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1578305474686,
-      "stop" : 1578305474687,
+      "start" : 1578305796160,
+      "stop" : 1578305796166,
+      "duration" : 6
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "saveList is a function",
+    "uid" : "2dc596740d0f31d2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1578305795987,
+      "stop" : 1578305795988,
       "duration" : 1
     },
     "flaky" : false,
@@ -15,77 +28,12 @@
     "parameters" : [ ]
   }, {
     "name" : "readInputs is a function",
-    "uid" : "4027f9687e351032",
+    "uid" : "c759d45973488113",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1578305474036,
-      "stop" : 1578305474037,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "findFiles is a function",
-    "uid" : "4c6dbce065963b73",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1578305474430,
-      "stop" : 1578305474431,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "filterList is a function",
-    "uid" : "4992db7c82334956",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1578305473312,
-      "stop" : 1578305473313,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "loadList is a function",
-    "uid" : "ba84baa489c95b8f",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1578305475008,
-      "stop" : 1578305475009,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "saveList is a function",
-    "uid" : "ec8bb6ee00ef4dc4",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1578305475259,
-      "stop" : 1578305475260,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "tempDir is a function",
-    "uid" : "289bcaea70b2209a",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1578305475447,
-      "stop" : 1578305475448,
+      "start" : 1578305794809,
+      "stop" : 1578305794810,
       "duration" : 1
     },
     "flaky" : false,
@@ -93,13 +41,65 @@
     "parameters" : [ ]
   }, {
     "name" : "action.yml exists",
-    "uid" : "6f987611092c9e14",
+    "uid" : "e1bb4abc689d8fba",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1578305472791,
-      "stop" : 1578305472795,
-      "duration" : 4
+      "start" : 1578305794049,
+      "stop" : 1578305794051,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "filterList is a function",
+    "uid" : "ec1265c5487d7555",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1578305794526,
+      "stop" : 1578305794527,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "findFiles is a function",
+    "uid" : "c2b706c9015fd84e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1578305795205,
+      "stop" : 1578305795205,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "printList is a function",
+    "uid" : "e9a9e6179e6e15d7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1578305795447,
+      "stop" : 1578305795447,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "loadList is a function",
+    "uid" : "77e2cfbe1e9d2ee7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1578305795738,
+      "stop" : 1578305795739,
+      "duration" : 1
     },
     "flaky" : false,
     "newFailed" : false,

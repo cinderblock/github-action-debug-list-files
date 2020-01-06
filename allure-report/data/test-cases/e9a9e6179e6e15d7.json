@@ -1,12 +1,12 @@
 {
-  "uid" : "6f987611092c9e14",
-  "name" : "action.yml exists",
-  "fullName" : "GitHub Actions Format.action.yml exists",
-  "historyId" : "f9eb496e7dd3b7fe3f6aa929edbed5b1",
+  "uid" : "e9a9e6179e6e15d7",
+  "name" : "printList is a function",
+  "fullName" : "utils/printList.printList is a function",
+  "historyId" : "18bad45c56dc5ff74cd5f304162ff5b3",
   "time" : {
-    "start" : 1578305472791,
-    "stop" : 1578305472795,
-    "duration" : 4
+    "start" : 1578305795447,
+    "stop" : 1578305795447,
+    "duration" : 0
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -17,16 +17,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "GitHub Actions Format"
+    "value" : "utils/printList"
   }, {
     "name" : "testClass",
-    "value" : "GitHub Actions Format"
+    "value" : "utils/printList"
   }, {
     "name" : "testMethod",
-    "value" : "action.yml exists"
+    "value" : "printList is a function"
   }, {
     "name" : "package",
-    "value" : "GitHub Actions Format"
+    "value" : "utils/printList"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -41,6 +41,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6f987611092c9e14.json",
+  "source" : "e9a9e6179e6e15d7.json",
   "parameterValues" : [ ]
 }
