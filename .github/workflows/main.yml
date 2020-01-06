@@ -147,15 +147,18 @@ jobs:
           #useremail: "actions@github.com"
 
   publish:
-    if: github.event_name == 'push' && github.ref == 'refs/tags/*'
+    if: github.event_name == 'push' && github.ref == 'refs/branch/release'
     needs: [self-test-and-use, check-format, check-lint, check-spelling]
     runs-on: ubuntu-latest
     steps:
-      - name: Disable WIP Publish Script
-        run: 'false' # WIP
-
       - name: Checkout latest code
         uses: actions/checkout@v1
+
+      - name: Checkout latest release
+        uses: actions/checkout@v1
+        with:
+          ref: release
+          path: dist
 
       - name: Configure Npm
         run: |
@@ -165,18 +168,26 @@ jobs:
       - name: Install Dependencies and Build
         run: npm install
 
-      - name: Remove Development (and Build) Dependencies
-        run: npm prune --production
-
-      - name: Don't ignore node_modules for GitHub publish
-        run: rm .gitignore
-
-      - name: Commit built node_modules so that action is standalone
-        run: git add node_modules
+      - run: git diff
+        working-directory: dist
+      - name: add all changes
+        working-directory: dist
+        run: git add .
 
       - name: Create new commit with Production Dependencies
+        working-directory: dist
         run: 'git commit -m "Production: Include Dependencies"'
 
-      - name: Push latest release to GitHub
-        run: git push origin releases/v1 #TODO: use tag
-      # https://github.com/actions/toolkit/blob/master/docs/action-versioning.md
+      - name: Tag latest release specific version
+        working-directory: dist
+        run: |
+          git tag v$(jq .version ../package.json)
+          git push origin --tags
+
+      - name: Tag latest release
+        working-directory: dist
+        run: |
+          git tag -fa v1 -m "Update v1 tag"
+          git push origin v1 --force
+        # https://github.com/actions/toolkit/blob/master/docs/action-versioning.md
+
