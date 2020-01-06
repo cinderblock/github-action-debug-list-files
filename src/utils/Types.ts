@@ -1,2 +1,2 @@
 export type FileList = string[];
-export type Filter = string[];
+export type Filter = string;

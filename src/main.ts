@@ -10,11 +10,15 @@ import { filterList } from './utils/filterList';
 
 async function run(): Promise<void> {
   try {
-    const { name, search, exclude } = readInputs();
+    const { name, search, filter, workingDirectory } = readInputs();
 
     core.debug(`Get File List${name ? ` - list-name: ${name}` : ''}`);
 
-    const list = await findFiles({ search });
+    const list = await findFiles({
+      search,
+      workingDirectory,
+      ignore: [filter],
+    });
 
     core.startGroup('Current File List');
     await printList({ list });
@@ -22,11 +26,11 @@ async function run(): Promise<void> {
 
     const lastList = await loadList({ name });
 
-    const filtered = filterList({ list, filter: exclude });
+    const filtered = filterList({ list, filter });
 
     await saveList({ name, list: filtered });
 
-    if (exclude) {
+    if (filter) {
       // TODO: Notify if exclude doesn't match anything
       core.startGroup('Filtered File List');
       await printList({ list: filtered });

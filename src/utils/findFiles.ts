@@ -5,14 +5,21 @@ import globby from 'globby';
 type Options = {
   debug?: typeof core.debug;
   search: string;
+  workingDirectory?: string;
+  ignore?: string[];
 };
 
-export async function findFiles({ debug, search }: Options): Promise<FileList> {
+export async function findFiles({
+  debug,
+  search,
+  workingDirectory,
+  ignore,
+}: Options): Promise<FileList> {
   if (debug === undefined) {
     debug = core.debug;
   }
 
   debug(`Listing files in dir`);
 
-  return globby(search);
+  return globby(search, { cwd: workingDirectory, ignore });
 }

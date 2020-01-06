@@ -4,7 +4,8 @@ import { Filter } from './Types';
 type Inputs = {
   name: string;
   search: string;
-  exclude: Filter;
+  filter: Filter;
+  workingDirectory: string;
 };
 
 export function readInputs(): Inputs {
@@ -12,12 +13,14 @@ export function readInputs(): Inputs {
 
   const name = core.getInput('name');
   const search = core.getInput('search');
-  const exclude = core.getInput('exclude-list').split(',');
+  const filter = core.getInput('filter');
+  const workingDirectory = core.getInput('working-directory');
 
   const inputs: Inputs = {
     name,
     search,
-    exclude,
+    filter,
+    workingDirectory,
   };
 
   return inputs;
