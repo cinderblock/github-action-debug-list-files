@@ -212,7 +212,7 @@ jobs:
       - name: Tag latest release specific version
         working-directory: dist
         run: |
-          git tag v$(jq .version ../package.json)
+          git tag -a v$(jq .version ../package.json) -m 'New release'
           git push origin --tags
 
       - name: Tag latest release
