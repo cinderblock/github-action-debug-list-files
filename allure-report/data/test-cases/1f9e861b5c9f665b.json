@@ -1,12 +1,12 @@
 {
-  "uid" : "5be8c98cf098f42e",
+  "uid" : "1f9e861b5c9f665b",
   "name" : "readInputs is a function",
-  "fullName" : "saveList.readInputs is a function",
-  "historyId" : "1a565fca86e904930ac488a65a2d773c",
+  "fullName" : "listFiles.readInputs is a function",
+  "historyId" : "878426e31b9a57cfb8749fd262642719",
   "time" : {
-    "start" : 1578292824338,
-    "stop" : 1578292824338,
-    "duration" : 0
+    "start" : 1578293664681,
+    "stop" : 1578293664682,
+    "duration" : 1
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -17,16 +17,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "saveList"
+    "value" : "listFiles"
   }, {
     "name" : "testClass",
-    "value" : "saveList"
+    "value" : "listFiles"
   }, {
     "name" : "testMethod",
     "value" : "readInputs is a function"
   }, {
     "name" : "package",
-    "value" : "saveList"
+    "value" : "listFiles"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -41,6 +41,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "5be8c98cf098f42e.json",
+  "source" : "1f9e861b5c9f665b.json",
   "parameterValues" : [ ]
 }

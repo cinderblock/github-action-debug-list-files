@@ -26,7 +26,7 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1578292820394,
+  "startTime": 1578293661271,
   "success": false,
   "testResults": [
     {
@@ -36,8 +36,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578292822817,
-        "start": 1578292820446
+        "end": 1578293663835,
+        "start": 1578293661329
       },
       "snapshot": {
         "added": 0,
@@ -54,7 +54,7 @@
           "ancestorTitles": [
             "GitHub Actions Format"
           ],
-          "duration": 3,
+          "duration": 2,
           "failureMessages": [],
           "fullName": "GitHub Actions Format action.yml exists",
           "location": null,
@@ -73,8 +73,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578292823308,
-        "start": 1578292822840
+        "end": 1578293664356,
+        "start": 1578293663863
       },
       "snapshot": {
         "added": 0,
@@ -110,8 +110,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578292823618,
-        "start": 1578292823329
+        "end": 1578293664684,
+        "start": 1578293664379
       },
       "snapshot": {
         "added": 0,
@@ -147,8 +147,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578292823880,
-        "start": 1578292823640
+        "end": 1578293664945,
+        "start": 1578293664706
       },
       "snapshot": {
         "added": 0,
@@ -184,8 +184,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578292824122,
-        "start": 1578292823905
+        "end": 1578293665189,
+        "start": 1578293664970
       },
       "snapshot": {
         "added": 0,
@@ -221,8 +221,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578292824340,
-        "start": 1578292824144
+        "end": 1578293665441,
+        "start": 1578293665210
       },
       "snapshot": {
         "added": 0,
