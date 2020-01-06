@@ -26,7 +26,7 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1578304921543,
+  "startTime": 1578305470195,
   "success": false,
   "testResults": [
     {
@@ -36,8 +36,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578304924156,
-        "start": 1578304921596
+        "end": 1578305472801,
+        "start": 1578305470251
       },
       "snapshot": {
         "added": 0,
@@ -73,8 +73,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578304924654,
-        "start": 1578304924180
+        "end": 1578305473314,
+        "start": 1578305472839
       },
       "snapshot": {
         "added": 0,
@@ -110,8 +110,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578304924946,
-        "start": 1578304924675
+        "end": 1578305474038,
+        "start": 1578305473336
       },
       "snapshot": {
         "added": 0,
@@ -128,7 +128,7 @@
           "ancestorTitles": [
             "utils/readInputs"
           ],
-          "duration": 0,
+          "duration": 1,
           "failureMessages": [],
           "fullName": "utils/readInputs readInputs is a function",
           "location": null,
@@ -147,8 +147,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578304925378,
-        "start": 1578304924967
+        "end": 1578305474432,
+        "start": 1578305474061
       },
       "snapshot": {
         "added": 0,
@@ -165,7 +165,7 @@
           "ancestorTitles": [
             "utils/findFiles"
           ],
-          "duration": 0,
+          "duration": 1,
           "failureMessages": [],
           "fullName": "utils/findFiles findFiles is a function",
           "location": null,
@@ -184,8 +184,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578304925628,
-        "start": 1578304925400
+        "end": 1578305474689,
+        "start": 1578305474455
       },
       "snapshot": {
         "added": 0,
@@ -221,8 +221,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578304925970,
-        "start": 1578304925654
+        "end": 1578305475011,
+        "start": 1578305474711
       },
       "snapshot": {
         "added": 0,
@@ -239,7 +239,7 @@
           "ancestorTitles": [
             "utils/loadList"
           ],
-          "duration": 0,
+          "duration": 1,
           "failureMessages": [],
           "fullName": "utils/loadList loadList is a function",
           "location": null,
@@ -258,8 +258,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578304926236,
-        "start": 1578304925993
+        "end": 1578305475262,
+        "start": 1578305475034
       },
       "snapshot": {
         "added": 0,
@@ -295,8 +295,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578304926431,
-        "start": 1578304926267
+        "end": 1578305475449,
+        "start": 1578305475292
       },
       "snapshot": {
         "added": 0,
