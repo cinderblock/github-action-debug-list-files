@@ -1,80 +1,80 @@
 [ {
-  "uid" : "ec1265c5487d7555",
-  "name" : "filterList is a function",
-  "time" : {
-    "start" : 1578305794526,
-    "stop" : 1578305794527,
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e9a9e6179e6e15d7",
+  "uid" : "e86b5700c9e96760",
   "name" : "printList is a function",
   "time" : {
-    "start" : 1578305795447,
-    "stop" : 1578305795447,
-    "duration" : 0
+    "start" : 1578305868759,
+    "stop" : 1578305868760,
+    "duration" : 1
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "77e2cfbe1e9d2ee7",
+  "uid" : "7051ffecc274727a",
+  "name" : "filterList is a function",
+  "time" : {
+    "start" : 1578305867449,
+    "stop" : 1578305867450,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f881b2c273e1e5",
   "name" : "loadList is a function",
   "time" : {
-    "start" : 1578305795738,
-    "stop" : 1578305795739,
+    "start" : 1578305869077,
+    "stop" : 1578305869078,
     "duration" : 1
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c2b706c9015fd84e",
-  "name" : "findFiles is a function",
-  "time" : {
-    "start" : 1578305795205,
-    "stop" : 1578305795205,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "866b7d3bb05fe331",
+  "uid" : "1c69b5b1dba8a2ad",
   "name" : "tempDir is a function",
   "time" : {
-    "start" : 1578305796160,
-    "stop" : 1578305796166,
-    "duration" : 6
+    "start" : 1578305869521,
+    "stop" : 1578305869528,
+    "duration" : 7
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e1bb4abc689d8fba",
+  "uid" : "7ebacfeb7c6da34d",
+  "name" : "findFiles is a function",
+  "time" : {
+    "start" : 1578305868103,
+    "stop" : 1578305868104,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "89f39113b38c584c",
   "name" : "action.yml exists",
   "time" : {
-    "start" : 1578305794049,
-    "stop" : 1578305794051,
-    "duration" : 2
+    "start" : 1578305866952,
+    "stop" : 1578305866955,
+    "duration" : 3
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c759d45973488113",
-  "name" : "readInputs is a function",
-  "time" : {
-    "start" : 1578305794809,
-    "stop" : 1578305794810,
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2dc596740d0f31d2",
+  "uid" : "99eeca20f3a32806",
   "name" : "saveList is a function",
   "time" : {
-    "start" : 1578305795987,
-    "stop" : 1578305795988,
+    "start" : 1578305869334,
+    "stop" : 1578305869335,
     "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6dd83538d247f779",
+  "name" : "readInputs is a function",
+  "time" : {
+    "start" : 1578305867733,
+    "stop" : 1578305867733,
+    "duration" : 0
   },
   "status" : "passed",
   "severity" : "normal"
