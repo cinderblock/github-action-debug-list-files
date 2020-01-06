@@ -26,7 +26,7 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1578293661271,
+  "startTime": 1578293800436,
   "success": false,
   "testResults": [
     {
@@ -36,8 +36,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578293663835,
-        "start": 1578293661329
+        "end": 1578293802763,
+        "start": 1578293800491
       },
       "snapshot": {
         "added": 0,
@@ -73,8 +73,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578293664356,
-        "start": 1578293663863
+        "end": 1578293803256,
+        "start": 1578293802786
       },
       "snapshot": {
         "added": 0,
@@ -110,8 +110,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578293664684,
-        "start": 1578293664379
+        "end": 1578293803533,
+        "start": 1578293803279
       },
       "snapshot": {
         "added": 0,
@@ -147,8 +147,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578293664945,
-        "start": 1578293664706
+        "end": 1578293803806,
+        "start": 1578293803558
       },
       "snapshot": {
         "added": 0,
@@ -184,8 +184,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578293665189,
-        "start": 1578293664970
+        "end": 1578293804030,
+        "start": 1578293803829
       },
       "snapshot": {
         "added": 0,
@@ -221,8 +221,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578293665441,
-        "start": 1578293665210
+        "end": 1578293804257,
+        "start": 1578293804053
       },
       "snapshot": {
         "added": 0,

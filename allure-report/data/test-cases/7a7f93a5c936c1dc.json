@@ -1,12 +1,12 @@
 {
-  "uid" : "a3d6244481ef59ee",
-  "name" : "readInputs is a function",
-  "fullName" : "saveList.readInputs is a function",
-  "historyId" : "1a565fca86e904930ac488a65a2d773c",
+  "uid" : "7a7f93a5c936c1dc",
+  "name" : "action.yml exists",
+  "fullName" : "GitHub Actions Format.action.yml exists",
+  "historyId" : "f9eb496e7dd3b7fe3f6aa929edbed5b1",
   "time" : {
-    "start" : 1578293665439,
-    "stop" : 1578293665439,
-    "duration" : 0
+    "start" : 1578293802755,
+    "stop" : 1578293802757,
+    "duration" : 2
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -17,16 +17,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "saveList"
+    "value" : "GitHub Actions Format"
   }, {
     "name" : "testClass",
-    "value" : "saveList"
+    "value" : "GitHub Actions Format"
   }, {
     "name" : "testMethod",
-    "value" : "readInputs is a function"
+    "value" : "action.yml exists"
   }, {
     "name" : "package",
-    "value" : "saveList"
+    "value" : "GitHub Actions Format"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -41,6 +41,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a3d6244481ef59ee.json",
+  "source" : "7a7f93a5c936c1dc.json",
   "parameterValues" : [ ]
 }

@@ -1,59 +1,59 @@
 [ {
-  "uid" : "d9e128ec1c9e9292",
+  "uid" : "bd5ff8e802579f44",
   "name" : "readInputs is a function",
   "time" : {
-    "start" : 1578293664354,
-    "stop" : 1578293664354,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1f9e861b5c9f665b",
-  "name" : "readInputs is a function",
-  "time" : {
-    "start" : 1578293664681,
-    "stop" : 1578293664682,
+    "start" : 1578293803804,
+    "stop" : 1578293803805,
     "duration" : 1
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "a3d6244481ef59ee",
+  "uid" : "d07df1112b4fc43",
   "name" : "readInputs is a function",
   "time" : {
-    "start" : 1578293665439,
-    "stop" : 1578293665439,
+    "start" : 1578293804255,
+    "stop" : 1578293804255,
     "duration" : 0
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "a96488e054403e34",
+  "uid" : "a1c9d53d252e3579",
+  "name" : "readInputs is a function",
+  "time" : {
+    "start" : 1578293803531,
+    "stop" : 1578293803532,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d49c0c508c31db43",
+  "name" : "readInputs is a function",
+  "time" : {
+    "start" : 1578293804028,
+    "stop" : 1578293804029,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a7f93a5c936c1dc",
   "name" : "action.yml exists",
   "time" : {
-    "start" : 1578293663825,
-    "stop" : 1578293663828,
-    "duration" : 3
+    "start" : 1578293802755,
+    "stop" : 1578293802757,
+    "duration" : 2
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e8003bc902017cbb",
+  "uid" : "ae2c37a7dea1d978",
   "name" : "readInputs is a function",
   "time" : {
-    "start" : 1578293665186,
-    "stop" : 1578293665187,
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7f87fb52fb5ea841",
-  "name" : "readInputs is a function",
-  "time" : {
-    "start" : 1578293664942,
-    "stop" : 1578293664943,
+    "start" : 1578293803254,
+    "stop" : 1578293803255,
     "duration" : 1
   },
   "status" : "passed",
