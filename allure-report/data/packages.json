@@ -4,13 +4,13 @@
     "name" : "GitHub Actions Format",
     "children" : [ {
       "name" : "action.yml exists",
-      "uid" : "b391e43199d82add",
+      "uid" : "dac612178b9b54dc",
       "parentUid" : "98b2218e057fa8b017253be8ef69fda3",
       "status" : "passed",
       "time" : {
-        "start" : 1578306282036,
-        "stop" : 1578306282038,
-        "duration" : 2
+        "start" : 1578306540665,
+        "stop" : 1578306540668,
+        "duration" : 3
       },
       "flaky" : false,
       "newFailed" : false,
@@ -21,12 +21,12 @@
     "name" : "utils/filterList",
     "children" : [ {
       "name" : "filterList is a function",
-      "uid" : "957487ef2f309abd",
+      "uid" : "3adf1084e47592e3",
       "parentUid" : "3e0c81b9dde887d863465d67a0458802",
       "status" : "passed",
       "time" : {
-        "start" : 1578306282547,
-        "stop" : 1578306282548,
+        "start" : 1578306541120,
+        "stop" : 1578306541121,
         "duration" : 1
       },
       "flaky" : false,
@@ -38,13 +38,13 @@
     "name" : "utils/readInputs",
     "children" : [ {
       "name" : "readInputs is a function",
-      "uid" : "540af49ead51c223",
+      "uid" : "bdfc9bbf46f226f2",
       "parentUid" : "964808988d55a468f43cd6276d57dd26",
       "status" : "passed",
       "time" : {
-        "start" : 1578306282831,
-        "stop" : 1578306282831,
-        "duration" : 0
+        "start" : 1578306541374,
+        "stop" : 1578306541375,
+        "duration" : 1
       },
       "flaky" : false,
       "newFailed" : false,
@@ -55,13 +55,13 @@
     "name" : "utils/findFiles",
     "children" : [ {
       "name" : "findFiles is a function",
-      "uid" : "d50255bd3f6b600f",
+      "uid" : "b4356361f6c25a8c",
       "parentUid" : "68133f147f82cc925d3068b6cc2e151e",
       "status" : "passed",
       "time" : {
-        "start" : 1578306283293,
-        "stop" : 1578306283294,
-        "duration" : 1
+        "start" : 1578306541734,
+        "stop" : 1578306541734,
+        "duration" : 0
       },
       "flaky" : false,
       "newFailed" : false,
@@ -72,13 +72,13 @@
     "name" : "utils/printList",
     "children" : [ {
       "name" : "printList is a function",
-      "uid" : "da87db780243fdb7",
+      "uid" : "fbcfa5c68ea4ac9",
       "parentUid" : "9a973a24cc09c3ce676b7b5028311ad7",
       "status" : "passed",
       "time" : {
-        "start" : 1578306283527,
-        "stop" : 1578306283528,
-        "duration" : 1
+        "start" : 1578306541963,
+        "stop" : 1578306541963,
+        "duration" : 0
       },
       "flaky" : false,
       "newFailed" : false,
@@ -89,12 +89,12 @@
     "name" : "utils/loadList",
     "children" : [ {
       "name" : "loadList is a function",
-      "uid" : "5a73b25c4930de87",
+      "uid" : "1d6fc10a3bd73515",
       "parentUid" : "d730a9a763fa8c204b7095a03c5ad0bc",
       "status" : "passed",
       "time" : {
-        "start" : 1578306283830,
-        "stop" : 1578306283831,
+        "start" : 1578306542259,
+        "stop" : 1578306542260,
         "duration" : 1
       },
       "flaky" : false,
@@ -106,12 +106,12 @@
     "name" : "utils/saveList",
     "children" : [ {
       "name" : "saveList is a function",
-      "uid" : "860e5d3aac724a3d",
+      "uid" : "a6467b2549f96c2c",
       "parentUid" : "5919df83549513a0ef76244fefa42d0c",
       "status" : "passed",
       "time" : {
-        "start" : 1578306284063,
-        "stop" : 1578306284063,
+        "start" : 1578306542499,
+        "stop" : 1578306542499,
         "duration" : 0
       },
       "flaky" : false,
@@ -123,13 +123,13 @@
     "name" : "utils/tempDir",
     "children" : [ {
       "name" : "tempDir is a function",
-      "uid" : "6664ee11e5441a17",
+      "uid" : "a5a2f9583503dbb9",
       "parentUid" : "15ce005614b5f12aca4ffc3ca6325f00",
       "status" : "passed",
       "time" : {
-        "start" : 1578306284238,
-        "stop" : 1578306284238,
-        "duration" : 0
+        "start" : 1578306542654,
+        "stop" : 1578306542655,
+        "duration" : 1
       },
       "flaky" : false,
       "newFailed" : false,

@@ -1,65 +1,26 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "findFiles is a function",
-    "uid" : "d50255bd3f6b600f",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1578306283293,
-      "stop" : 1578306283294,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "loadList is a function",
-    "uid" : "5a73b25c4930de87",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1578306283830,
-      "stop" : 1578306283831,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
     "name" : "action.yml exists",
-    "uid" : "b391e43199d82add",
+    "uid" : "dac612178b9b54dc",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1578306282036,
-      "stop" : 1578306282038,
-      "duration" : 2
+      "start" : 1578306540665,
+      "stop" : 1578306540668,
+      "duration" : 3
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "tempDir is a function",
-    "uid" : "6664ee11e5441a17",
+    "name" : "findFiles is a function",
+    "uid" : "b4356361f6c25a8c",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1578306284238,
-      "stop" : 1578306284238,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "saveList is a function",
-    "uid" : "860e5d3aac724a3d",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1578306284063,
-      "stop" : 1578306284063,
+      "start" : 1578306541734,
+      "stop" : 1578306541734,
       "duration" : 0
     },
     "flaky" : false,
@@ -67,38 +28,77 @@
     "parameters" : [ ]
   }, {
     "name" : "readInputs is a function",
-    "uid" : "540af49ead51c223",
+    "uid" : "bdfc9bbf46f226f2",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1578306282831,
-      "stop" : 1578306282831,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "printList is a function",
-    "uid" : "da87db780243fdb7",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1578306283527,
-      "stop" : 1578306283528,
+      "start" : 1578306541374,
+      "stop" : 1578306541375,
       "duration" : 1
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "filterList is a function",
-    "uid" : "957487ef2f309abd",
+    "name" : "loadList is a function",
+    "uid" : "1d6fc10a3bd73515",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1578306282547,
-      "stop" : 1578306282548,
+      "start" : 1578306542259,
+      "stop" : 1578306542260,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "printList is a function",
+    "uid" : "fbcfa5c68ea4ac9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1578306541963,
+      "stop" : 1578306541963,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "saveList is a function",
+    "uid" : "a6467b2549f96c2c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1578306542499,
+      "stop" : 1578306542499,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "filterList is a function",
+    "uid" : "3adf1084e47592e3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1578306541120,
+      "stop" : 1578306541121,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "tempDir is a function",
+    "uid" : "a5a2f9583503dbb9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1578306542654,
+      "stop" : 1578306542655,
       "duration" : 1
     },
     "flaky" : false,

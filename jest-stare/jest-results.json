@@ -26,7 +26,7 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1578306279751,
+  "startTime": 1578306538379,
   "success": false,
   "testResults": [
     {
@@ -36,8 +36,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578306282043,
-        "start": 1578306279799
+        "end": 1578306540673,
+        "start": 1578306538426
       },
       "snapshot": {
         "added": 0,
@@ -54,7 +54,7 @@
           "ancestorTitles": [
             "GitHub Actions Format"
           ],
-          "duration": 2,
+          "duration": 3,
           "failureMessages": [],
           "fullName": "GitHub Actions Format action.yml exists",
           "location": null,
@@ -73,8 +73,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578306282549,
-        "start": 1578306282081
+        "end": 1578306541123,
+        "start": 1578306540707
       },
       "snapshot": {
         "added": 0,
@@ -110,8 +110,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578306282833,
-        "start": 1578306282571
+        "end": 1578306541376,
+        "start": 1578306541143
       },
       "snapshot": {
         "added": 0,
@@ -128,7 +128,7 @@
           "ancestorTitles": [
             "utils/readInputs"
           ],
-          "duration": 0,
+          "duration": 1,
           "failureMessages": [],
           "fullName": "utils/readInputs readInputs is a function",
           "location": null,
@@ -147,8 +147,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578306283295,
-        "start": 1578306282852
+        "end": 1578306541736,
+        "start": 1578306541396
       },
       "snapshot": {
         "added": 0,
@@ -165,7 +165,7 @@
           "ancestorTitles": [
             "utils/findFiles"
           ],
-          "duration": 1,
+          "duration": 0,
           "failureMessages": [],
           "fullName": "utils/findFiles findFiles is a function",
           "location": null,
@@ -184,8 +184,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578306283530,
-        "start": 1578306283318
+        "end": 1578306541965,
+        "start": 1578306541757
       },
       "snapshot": {
         "added": 0,
@@ -202,7 +202,7 @@
           "ancestorTitles": [
             "utils/printList"
           ],
-          "duration": 1,
+          "duration": 0,
           "failureMessages": [],
           "fullName": "utils/printList printList is a function",
           "location": null,
@@ -221,8 +221,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578306283832,
-        "start": 1578306283551
+        "end": 1578306542261,
+        "start": 1578306541985
       },
       "snapshot": {
         "added": 0,
@@ -258,8 +258,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578306284067,
-        "start": 1578306283855
+        "end": 1578306542500,
+        "start": 1578306542283
       },
       "snapshot": {
         "added": 0,
@@ -295,8 +295,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578306284240,
-        "start": 1578306284094
+        "end": 1578306542656,
+        "start": 1578306542521
       },
       "snapshot": {
         "added": 0,
@@ -313,7 +313,7 @@
           "ancestorTitles": [
             "utils/tempDir"
           ],
-          "duration": 0,
+          "duration": 1,
           "failureMessages": [],
           "fullName": "utils/tempDir tempDir is a function",
           "location": null,
