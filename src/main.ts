@@ -1,8 +1,8 @@
 // Other packages https://github.com/actions/toolkit/blob/master/README.md#packages
 import * as core from '@actions/core';
 
-import { readInputs } from './utils/inputs';
-import { listFiles } from './utils/listFiles';
+import { readInputs } from './utils/readInputs';
+import { findFiles } from './utils/findFiles';
 import { loadList } from './utils/loadList';
 import { saveList } from './utils/saveList';
 import { printList } from './utils/printList';
@@ -14,7 +14,7 @@ async function run(): Promise<void> {
 
     core.debug(`Get File List${name ? ` - list-name: ${name}` : ''}`);
 
-    const list = await listFiles({ search });
+    const list = await findFiles({ search });
 
     const lastList = await loadList({ name });
 

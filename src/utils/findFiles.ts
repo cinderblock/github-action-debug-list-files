@@ -7,7 +7,7 @@ type Options = {
   search: string;
 };
 
-export async function listFiles({ debug, search }: Options): Promise<FileList> {
+export async function findFiles({ debug, search }: Options): Promise<FileList> {
   if (debug === undefined) {
     debug = core.debug;
   }
