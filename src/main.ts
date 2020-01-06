@@ -26,13 +26,18 @@ async function run(): Promise<void> {
     await printList({ list });
     core.endGroup();
 
-    core.startGroup('Filtered File List');
-    await printList({ list: filtered });
-    core.endGroup();
+    if (exclude) {
+      // TODO: Notify if exclude doesn't match anything
+      core.startGroup('Filtered File List');
+      await printList({ list: filtered });
+      core.endGroup();
+    }
 
-    core.startGroup('File List Diff');
-    await printList({ list: filtered, diffFrom: lastList });
-    core.endGroup();
+    if (lastList) {
+      core.startGroup('File List Diff');
+      await printList({ list: filtered, diffFrom: lastList });
+      core.endGroup();
+    }
 
     core.debug(`Done`);
   } catch (error) {
