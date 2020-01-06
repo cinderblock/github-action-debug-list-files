@@ -7,12 +7,12 @@ type Options = {
   filter: Filter;
 };
 
-export function filterList({ debug }: Options): FileList {
+export function filterList({ debug, list }: Options): FileList {
   if (debug === undefined) {
     debug = core.debug;
   }
 
   debug(`Listing files in dir`);
 
-  return [];
+  return list;
 }
