@@ -191,6 +191,8 @@ jobs:
       - name: Install Dependencies and Build
         run: npm install
 
+      - run: ls -lA . dist
+
       - name: Git config
         run: |
           git config user.email "actions@github.com"
