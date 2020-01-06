@@ -196,6 +196,9 @@ jobs:
         working-directory: dist
         run: git add .
 
+      - run: git diff
+        working-directory: dist
+
       - name: Create new commit with Production Dependencies
         working-directory: dist
         run: 'git commit -m "Production: Include Dependencies"'
