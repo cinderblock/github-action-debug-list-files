@@ -202,7 +202,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout latest code
-        working-directory: . # Optional
         uses: cinderblock/github-action-debug-list-files@v1
         with:
-          name: . # Optional different "named" lists
+          working-directory: .
+          name: 'test2'
