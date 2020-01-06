@@ -1,12 +1,12 @@
 {
-  "uid" : "ad021f3bb8677329",
+  "uid" : "9950ec3bc6f99224",
   "name" : "action.yml exists",
   "fullName" : "GitHub Actions Format.action.yml exists",
   "historyId" : "f9eb496e7dd3b7fe3f6aa929edbed5b1",
   "time" : {
-    "start" : 1578307283885,
-    "stop" : 1578307283901,
-    "duration" : 16
+    "start" : 1578308211734,
+    "stop" : 1578308211738,
+    "duration" : 4
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -41,6 +41,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ad021f3bb8677329.json",
+  "source" : "9950ec3bc6f99224.json",
   "parameterValues" : [ ]
 }

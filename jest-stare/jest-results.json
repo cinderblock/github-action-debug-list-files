@@ -26,7 +26,7 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1578307281525,
+  "startTime": 1578308209093,
   "success": false,
   "testResults": [
     {
@@ -36,8 +36,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578307283906,
-        "start": 1578307281583
+        "end": 1578308211743,
+        "start": 1578308209145
       },
       "snapshot": {
         "added": 0,
@@ -54,7 +54,7 @@
           "ancestorTitles": [
             "GitHub Actions Format"
           ],
-          "duration": 15,
+          "duration": 3,
           "failureMessages": [],
           "fullName": "GitHub Actions Format action.yml exists",
           "location": null,
@@ -73,8 +73,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578307284359,
-        "start": 1578307283928
+        "end": 1578308212223,
+        "start": 1578308211769
       },
       "snapshot": {
         "added": 0,
@@ -110,8 +110,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578307284636,
-        "start": 1578307284380
+        "end": 1578308212518,
+        "start": 1578308212245
       },
       "snapshot": {
         "added": 0,
@@ -128,7 +128,7 @@
           "ancestorTitles": [
             "utils/readInputs"
           ],
-          "duration": 0,
+          "duration": 1,
           "failureMessages": [],
           "fullName": "utils/readInputs readInputs is a function",
           "location": null,
@@ -147,8 +147,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578307285014,
-        "start": 1578307284659
+        "end": 1578308212965,
+        "start": 1578308212541
       },
       "snapshot": {
         "added": 0,
@@ -184,8 +184,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578307285239,
-        "start": 1578307285038
+        "end": 1578308213225,
+        "start": 1578308212989
       },
       "snapshot": {
         "added": 0,
@@ -202,7 +202,7 @@
           "ancestorTitles": [
             "utils/printList"
           ],
-          "duration": 1,
+          "duration": 2,
           "failureMessages": [],
           "fullName": "utils/printList printList is a function",
           "location": null,
@@ -221,8 +221,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578307285523,
-        "start": 1578307285264
+        "end": 1578308213584,
+        "start": 1578308213248
       },
       "snapshot": {
         "added": 0,
@@ -239,7 +239,7 @@
           "ancestorTitles": [
             "utils/loadList"
           ],
-          "duration": 0,
+          "duration": 1,
           "failureMessages": [],
           "fullName": "utils/loadList loadList is a function",
           "location": null,
@@ -258,8 +258,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578307285751,
-        "start": 1578307285546
+        "end": 1578308213861,
+        "start": 1578308213611
       },
       "snapshot": {
         "added": 0,
@@ -276,7 +276,7 @@
           "ancestorTitles": [
             "utils/saveList"
           ],
-          "duration": 0,
+          "duration": 1,
           "failureMessages": [],
           "fullName": "utils/saveList saveList is a function",
           "location": null,
@@ -295,8 +295,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578307285918,
-        "start": 1578307285777
+        "end": 1578308214044,
+        "start": 1578308213891
       },
       "snapshot": {
         "added": 0,
@@ -487,71 +487,81 @@
         },
         "1": {
           "start": {
-            "line": 11,
+            "line": 12,
             "column": 2
           },
           "end": {
-            "line": 11,
+            "line": 12,
             "column": 31
           }
         },
         "2": {
           "start": {
-            "line": 13,
+            "line": 14,
             "column": 15
           },
           "end": {
-            "line": 13,
+            "line": 14,
             "column": 36
           }
         },
         "3": {
           "start": {
-            "line": 14,
+            "line": 15,
             "column": 17
           },
           "end": {
-            "line": 14,
+            "line": 15,
             "column": 40
           }
         },
         "4": {
           "start": {
-            "line": 15,
-            "column": 18
+            "line": 16,
+            "column": 17
           },
           "end": {
-            "line": 15,
-            "column": 58
+            "line": 16,
+            "column": 40
           }
         },
         "5": {
           "start": {
             "line": 17,
-            "column": 25
+            "column": 27
           },
           "end": {
-            "line": 21,
-            "column": 4
+            "line": 17,
+            "column": 61
           }
         },
         "6": {
           "start": {
-            "line": 23,
-            "column": 2
+            "line": 19,
+            "column": 25
           },
           "end": {
-            "line": 23,
-            "column": 16
+            "line": 24,
+            "column": 4
           }
         },
         "7": {
           "start": {
-            "line": 10,
+            "line": 26,
+            "column": 2
+          },
+          "end": {
+            "line": 26,
+            "column": 16
+          }
+        },
+        "8": {
+          "start": {
+            "line": 11,
             "column": 0
           },
           "end": {
-            "line": 10,
+            "line": 11,
             "column": 16
           }
         }
@@ -561,21 +571,21 @@
           "name": "readInputs",
           "decl": {
             "start": {
-              "line": 10,
+              "line": 11,
               "column": 16
             },
             "end": {
-              "line": 10,
+              "line": 11,
               "column": 26
             }
           },
           "loc": {
             "start": {
-              "line": 10,
+              "line": 11,
               "column": 26
             },
             "end": {
-              "line": 24,
+              "line": 27,
               "column": 1
             }
           }
@@ -590,7 +600,8 @@
         "4": 0,
         "5": 0,
         "6": 0,
-        "7": 1
+        "7": 0,
+        "8": 1
       },
       "f": {
         "0": 0
@@ -622,51 +633,51 @@
         },
         "2": {
           "start": {
-            "line": 11,
+            "line": 18,
             "column": 2
           },
           "end": {
-            "line": 13,
+            "line": 20,
             "column": null
           }
         },
         "3": {
           "start": {
-            "line": 12,
+            "line": 19,
             "column": 4
           },
           "end": {
-            "line": 12,
+            "line": 19,
             "column": 23
           }
         },
         "4": {
           "start": {
-            "line": 15,
+            "line": 22,
             "column": 2
           },
           "end": {
-            "line": 15,
+            "line": 22,
             "column": 32
           }
         },
         "5": {
           "start": {
-            "line": 17,
+            "line": 24,
             "column": 2
           },
           "end": {
-            "line": 17,
-            "column": 24
+            "line": 24,
+            "column": 59
           }
         },
         "6": {
           "start": {
-            "line": 10,
+            "line": 12,
             "column": 0
           },
           "end": {
-            "line": 10,
+            "line": 12,
             "column": 22
           }
         }
@@ -676,21 +687,21 @@
           "name": "findFiles",
           "decl": {
             "start": {
-              "line": 10,
+              "line": 12,
               "column": 22
             },
             "end": {
-              "line": 10,
+              "line": 12,
               "column": 31
             }
           },
           "loc": {
             "start": {
-              "line": 10,
-              "column": 58
+              "line": 17,
+              "column": 10
             },
             "end": {
-              "line": 18,
+              "line": 25,
               "column": null
             }
           }
@@ -700,11 +711,11 @@
         "0": {
           "loc": {
             "start": {
-              "line": 11,
+              "line": 18,
               "column": 2
             },
             "end": {
-              "line": 13,
+              "line": 20,
               "column": null
             }
           },
@@ -712,21 +723,21 @@
           "locations": [
             {
               "start": {
-                "line": 11,
+                "line": 18,
                 "column": 2
               },
               "end": {
-                "line": 13,
+                "line": 20,
                 "column": null
               }
             },
             {
               "start": {
-                "line": 11,
+                "line": 18,
                 "column": 2
               },
               "end": {
-                "line": 13,
+                "line": 20,
                 "column": null
               }
             }
@@ -1906,18 +1917,18 @@
             "column": 2
           },
           "end": {
-            "line": 45,
+            "line": 49,
             "column": null
           }
         },
         "8": {
           "start": {
             "line": 13,
-            "column": 38
+            "column": 55
           },
           "end": {
             "line": 13,
-            "column": 50
+            "column": 67
           }
         },
         "9": {
@@ -1936,177 +1947,177 @@
             "column": 17
           },
           "end": {
-            "line": 17,
-            "column": 44
+            "line": 21,
+            "column": 6
           }
         },
         "11": {
           "start": {
-            "line": 19,
+            "line": 23,
             "column": 4
           },
           "end": {
-            "line": 19,
+            "line": 23,
             "column": 41
           }
         },
         "12": {
           "start": {
-            "line": 20,
+            "line": 24,
             "column": 4
           },
           "end": {
-            "line": 20,
+            "line": 24,
             "column": 30
           }
         },
         "13": {
           "start": {
-            "line": 21,
+            "line": 25,
             "column": 4
           },
           "end": {
-            "line": 21,
+            "line": 25,
             "column": 20
           }
         },
         "14": {
           "start": {
-            "line": 23,
+            "line": 27,
             "column": 21
           },
           "end": {
-            "line": 23,
+            "line": 27,
             "column": 45
           }
         },
         "15": {
           "start": {
-            "line": 25,
+            "line": 29,
             "column": 21
           },
           "end": {
-            "line": 25,
-            "column": 58
+            "line": 29,
+            "column": 49
           }
         },
         "16": {
           "start": {
-            "line": 27,
+            "line": 31,
             "column": 4
           },
           "end": {
-            "line": 27,
+            "line": 31,
             "column": 45
           }
         },
         "17": {
           "start": {
-            "line": 29,
+            "line": 33,
             "column": 4
           },
           "end": {
-            "line": 34,
+            "line": 38,
             "column": null
           }
         },
         "18": {
           "start": {
-            "line": 31,
+            "line": 35,
             "column": 6
           },
           "end": {
-            "line": 31,
+            "line": 35,
             "column": 44
           }
         },
         "19": {
           "start": {
-            "line": 32,
+            "line": 36,
             "column": 6
           },
           "end": {
-            "line": 32,
+            "line": 36,
             "column": 42
           }
         },
         "20": {
           "start": {
-            "line": 33,
+            "line": 37,
             "column": 6
           },
           "end": {
-            "line": 33,
+            "line": 37,
             "column": 22
           }
         },
         "21": {
           "start": {
-            "line": 36,
+            "line": 40,
             "column": 4
           },
           "end": {
-            "line": 40,
+            "line": 44,
             "column": null
           }
         },
         "22": {
           "start": {
-            "line": 37,
+            "line": 41,
             "column": 6
           },
           "end": {
-            "line": 37,
+            "line": 41,
             "column": 40
           }
         },
         "23": {
           "start": {
-            "line": 38,
+            "line": 42,
             "column": 6
           },
           "end": {
-            "line": 38,
+            "line": 42,
             "column": 62
           }
         },
         "24": {
           "start": {
-            "line": 39,
+            "line": 43,
             "column": 6
           },
           "end": {
-            "line": 39,
+            "line": 43,
             "column": 22
           }
         },
         "25": {
           "start": {
-            "line": 42,
+            "line": 46,
             "column": 4
           },
           "end": {
-            "line": 42,
+            "line": 46,
             "column": 23
           }
         },
         "26": {
           "start": {
-            "line": 44,
+            "line": 48,
             "column": 4
           },
           "end": {
-            "line": 44,
+            "line": 48,
             "column": 34
           }
         },
         "27": {
           "start": {
-            "line": 48,
+            "line": 52,
             "column": 0
           },
           "end": {
-            "line": 48,
+            "line": 52,
             "column": 6
           }
         }
@@ -2130,7 +2141,7 @@
               "column": 18
             },
             "end": {
-              "line": 46,
+              "line": 50,
               "column": null
             }
           }
@@ -2175,11 +2186,11 @@
         "1": {
           "loc": {
             "start": {
-              "line": 29,
+              "line": 33,
               "column": 4
             },
             "end": {
-              "line": 34,
+              "line": 38,
               "column": null
             }
           },
@@ -2187,21 +2198,21 @@
           "locations": [
             {
               "start": {
-                "line": 29,
+                "line": 33,
                 "column": 4
               },
               "end": {
-                "line": 34,
+                "line": 38,
                 "column": null
               }
             },
             {
               "start": {
-                "line": 29,
+                "line": 33,
                 "column": 4
               },
               "end": {
-                "line": 34,
+                "line": 38,
                 "column": null
               }
             }
@@ -2210,11 +2221,11 @@
         "2": {
           "loc": {
             "start": {
-              "line": 36,
+              "line": 40,
               "column": 4
             },
             "end": {
-              "line": 40,
+              "line": 44,
               "column": null
             }
           },
@@ -2222,21 +2233,21 @@
           "locations": [
             {
               "start": {
-                "line": 36,
+                "line": 40,
                 "column": 4
               },
               "end": {
-                "line": 40,
+                "line": 44,
                 "column": null
               }
             },
             {
               "start": {
-                "line": 36,
+                "line": 40,
                 "column": 4
               },
               "end": {
-                "line": 40,
+                "line": 44,
                 "column": null
               }
             }

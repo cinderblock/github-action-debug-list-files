@@ -1,11 +1,11 @@
 {
-  "uid" : "10060977162d4e9c",
-  "name" : "printList is a function",
-  "fullName" : "utils/printList.printList is a function",
-  "historyId" : "18bad45c56dc5ff74cd5f304162ff5b3",
+  "uid" : "51c27b72e522ee3b",
+  "name" : "readInputs is a function",
+  "fullName" : "utils/readInputs.readInputs is a function",
+  "historyId" : "2eddb652dd3e32bd1f498303a4f7bc42",
   "time" : {
-    "start" : 1578307285237,
-    "stop" : 1578307285238,
+    "start" : 1578308212516,
+    "stop" : 1578308212517,
     "duration" : 1
   },
   "description" : "",
@@ -17,16 +17,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "utils/printList"
+    "value" : "utils/readInputs"
   }, {
     "name" : "testClass",
-    "value" : "utils/printList"
+    "value" : "utils/readInputs"
   }, {
     "name" : "testMethod",
-    "value" : "printList is a function"
+    "value" : "readInputs is a function"
   }, {
     "name" : "package",
-    "value" : "utils/printList"
+    "value" : "utils/readInputs"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -41,6 +41,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "10060977162d4e9c.json",
+  "source" : "51c27b72e522ee3b.json",
   "parameterValues" : [ ]
 }

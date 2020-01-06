@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1578307286846" clover="3.2.0">
-  <project timestamp="1578307286846" name="All files">
-    <metrics statements="98" coveredstatements="25" conditionals="24" coveredconditionals="0" methods="12" coveredmethods="0" elements="134" coveredelements="25" complexity="0" loc="98" ncloc="98" packages="2" files="8" classes="8"/>
+<coverage generated="1578308214482" clover="3.2.0">
+  <project timestamp="1578308214482" name="All files">
+    <metrics statements="99" coveredstatements="25" conditionals="24" coveredconditionals="0" methods="12" coveredmethods="0" elements="135" coveredelements="25" complexity="0" loc="99" ncloc="99" packages="2" files="8" classes="8"/>
     <package name="src">
       <metrics statements="28" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="main.ts" path="/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/src/main.ts">
@@ -17,27 +17,27 @@
         <line num="13" count="0" type="stmt"/>
         <line num="15" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="17" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
         <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
         <line num="25" count="0" type="stmt"/>
         <line num="27" count="0" type="stmt"/>
-        <line num="29" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="29" count="0" type="stmt"/>
         <line num="31" count="0" type="stmt"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="33" count="0" type="stmt"/>
-        <line num="36" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="33" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
         <line num="37" count="0" type="stmt"/>
-        <line num="38" count="0" type="stmt"/>
-        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="41" count="0" type="stmt"/>
         <line num="42" count="0" type="stmt"/>
-        <line num="44" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
         <line num="48" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.utils">
-      <metrics statements="70" coveredstatements="25" conditionals="18" coveredconditionals="0" methods="11" coveredmethods="0"/>
+      <metrics statements="71" coveredstatements="25" conditionals="18" coveredconditionals="0" methods="11" coveredmethods="0"/>
       <file name="filterList.ts" path="/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/src/utils/filterList.ts">
         <metrics statements="6" coveredstatements="2" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
@@ -51,11 +51,11 @@
         <metrics statements="7" coveredstatements="3" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="11" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="12" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="18" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
       </file>
       <file name="loadList.ts" path="/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/src/utils/loadList.ts">
         <metrics statements="14" coveredstatements="6" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
@@ -84,15 +84,16 @@
         <line num="19" count="0" type="stmt"/>
       </file>
       <file name="readInputs.ts" path="/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/src/utils/readInputs.ts">
-        <metrics statements="8" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <metrics statements="9" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="11" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
         <line num="14" count="0" type="stmt"/>
         <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
         <line num="17" count="0" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
       </file>
       <file name="saveList.ts" path="/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/src/utils/saveList.ts">
         <metrics statements="15" coveredstatements="6" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
