@@ -26,7 +26,7 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1578307167763,
+  "startTime": 1578307281525,
   "success": false,
   "testResults": [
     {
@@ -36,8 +36,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578307170237,
-        "start": 1578307167813
+        "end": 1578307283906,
+        "start": 1578307281583
       },
       "snapshot": {
         "added": 0,
@@ -54,7 +54,7 @@
           "ancestorTitles": [
             "GitHub Actions Format"
           ],
-          "duration": 3,
+          "duration": 15,
           "failureMessages": [],
           "fullName": "GitHub Actions Format action.yml exists",
           "location": null,
@@ -73,8 +73,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578307170744,
-        "start": 1578307170277
+        "end": 1578307284359,
+        "start": 1578307283928
       },
       "snapshot": {
         "added": 0,
@@ -110,8 +110,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578307171051,
-        "start": 1578307170769
+        "end": 1578307284636,
+        "start": 1578307284380
       },
       "snapshot": {
         "added": 0,
@@ -128,7 +128,7 @@
           "ancestorTitles": [
             "utils/readInputs"
           ],
-          "duration": 1,
+          "duration": 0,
           "failureMessages": [],
           "fullName": "utils/readInputs readInputs is a function",
           "location": null,
@@ -147,8 +147,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578307171466,
-        "start": 1578307171081
+        "end": 1578307285014,
+        "start": 1578307284659
       },
       "snapshot": {
         "added": 0,
@@ -165,7 +165,7 @@
           "ancestorTitles": [
             "utils/findFiles"
           ],
-          "duration": 0,
+          "duration": 1,
           "failureMessages": [],
           "fullName": "utils/findFiles findFiles is a function",
           "location": null,
@@ -184,8 +184,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578307171711,
-        "start": 1578307171488
+        "end": 1578307285239,
+        "start": 1578307285038
       },
       "snapshot": {
         "added": 0,
@@ -221,8 +221,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578307172030,
-        "start": 1578307171733
+        "end": 1578307285523,
+        "start": 1578307285264
       },
       "snapshot": {
         "added": 0,
@@ -239,7 +239,7 @@
           "ancestorTitles": [
             "utils/loadList"
           ],
-          "duration": 1,
+          "duration": 0,
           "failureMessages": [],
           "fullName": "utils/loadList loadList is a function",
           "location": null,
@@ -258,8 +258,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578307172282,
-        "start": 1578307172054
+        "end": 1578307285751,
+        "start": 1578307285546
       },
       "snapshot": {
         "added": 0,
@@ -295,8 +295,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578307172471,
-        "start": 1578307172310
+        "end": 1578307285918,
+        "start": 1578307285777
       },
       "snapshot": {
         "added": 0,

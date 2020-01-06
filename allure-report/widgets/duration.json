@@ -1,80 +1,80 @@
 [ {
-  "uid" : "f0003634683b644c",
-  "name" : "action.yml exists",
-  "time" : {
-    "start" : 1578307170229,
-    "stop" : 1578307170232,
-    "duration" : 3
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a377e089b6cb2a0c",
-  "name" : "printList is a function",
-  "time" : {
-    "start" : 1578307171709,
-    "stop" : 1578307171710,
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bb40cce4de73a346",
+  "uid" : "a53ee938e169d1cb",
   "name" : "readInputs is a function",
   "time" : {
-    "start" : 1578307171049,
-    "stop" : 1578307171050,
-    "duration" : 1
+    "start" : 1578307284634,
+    "stop" : 1578307284634,
+    "duration" : 0
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8a89fac64fb25b56",
-  "name" : "loadList is a function",
-  "time" : {
-    "start" : 1578307172028,
-    "stop" : 1578307172029,
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6cae39b6cf5895be",
-  "name" : "tempDir is a function",
-  "time" : {
-    "start" : 1578307172469,
-    "stop" : 1578307172470,
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "654613eec1ea3ca4",
-  "name" : "filterList is a function",
-  "time" : {
-    "start" : 1578307170742,
-    "stop" : 1578307170743,
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "27fb2e081eb4ea08",
+  "uid" : "74595838a2ba1f3a",
   "name" : "saveList is a function",
   "time" : {
-    "start" : 1578307172280,
-    "stop" : 1578307172280,
+    "start" : 1578307285749,
+    "stop" : 1578307285749,
     "duration" : 0
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e9e60d0106942925",
+  "uid" : "ad9d5ddaffa12605",
   "name" : "findFiles is a function",
   "time" : {
-    "start" : 1578307171464,
-    "stop" : 1578307171464,
-    "duration" : 0
+    "start" : 1578307285011,
+    "stop" : 1578307285012,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4a13040bd16de07",
+  "name" : "loadList is a function",
+  "time" : {
+    "start" : 1578307285521,
+    "stop" : 1578307285522,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "10060977162d4e9c",
+  "name" : "printList is a function",
+  "time" : {
+    "start" : 1578307285237,
+    "stop" : 1578307285238,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ad021f3bb8677329",
+  "name" : "action.yml exists",
+  "time" : {
+    "start" : 1578307283885,
+    "stop" : 1578307283901,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a33518b38269714",
+  "name" : "tempDir is a function",
+  "time" : {
+    "start" : 1578307285916,
+    "stop" : 1578307285917,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e02491f72acad93a",
+  "name" : "filterList is a function",
+  "time" : {
+    "start" : 1578307284357,
+    "stop" : 1578307284358,
+    "duration" : 1
   },
   "status" : "passed",
   "severity" : "normal"
