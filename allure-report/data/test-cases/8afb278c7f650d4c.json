@@ -1,11 +1,11 @@
 {
-  "uid" : "3842538be012705e",
+  "uid" : "8afb278c7f650d4c",
   "name" : "readInputs is a function",
-  "fullName" : "loadList.readInputs is a function",
-  "historyId" : "cfdfd25c6324c16ef6b57678058a9e80",
+  "fullName" : "utils/inputs.readInputs is a function",
+  "historyId" : "6ea38ec0e372ec011bb604e4f1940dbf",
   "time" : {
-    "start" : 1578294977879,
-    "stop" : 1578294977880,
+    "start" : 1578295670020,
+    "stop" : 1578295670021,
     "duration" : 1
   },
   "description" : "",
@@ -17,16 +17,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "loadList"
+    "value" : "utils/inputs"
   }, {
     "name" : "testClass",
-    "value" : "loadList"
+    "value" : "utils/inputs"
   }, {
     "name" : "testMethod",
     "value" : "readInputs is a function"
   }, {
     "name" : "package",
-    "value" : "loadList"
+    "value" : "utils/inputs"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -41,6 +41,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3842538be012705e.json",
+  "source" : "8afb278c7f650d4c.json",
   "parameterValues" : [ ]
 }

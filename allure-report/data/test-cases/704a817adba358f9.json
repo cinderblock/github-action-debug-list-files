@@ -1,11 +1,11 @@
 {
-  "uid" : "8bfd0366e3dc60b0",
+  "uid" : "704a817adba358f9",
   "name" : "readInputs is a function",
-  "fullName" : "printList.readInputs is a function",
-  "historyId" : "d3ca786f4db01a9585c621b627714b88",
+  "fullName" : "listFiles.readInputs is a function",
+  "historyId" : "878426e31b9a57cfb8749fd262642719",
   "time" : {
-    "start" : 1578294977639,
-    "stop" : 1578294977640,
+    "start" : 1578295670370,
+    "stop" : 1578295670371,
     "duration" : 1
   },
   "description" : "",
@@ -17,16 +17,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "printList"
+    "value" : "listFiles"
   }, {
     "name" : "testClass",
-    "value" : "printList"
+    "value" : "listFiles"
   }, {
     "name" : "testMethod",
     "value" : "readInputs is a function"
   }, {
     "name" : "package",
-    "value" : "printList"
+    "value" : "listFiles"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -41,6 +41,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "8bfd0366e3dc60b0.json",
+  "source" : "704a817adba358f9.json",
   "parameterValues" : [ ]
 }
