@@ -16,15 +16,15 @@ async function run(): Promise<void> {
 
     const list = await findFiles({ search });
 
+    core.startGroup('Current File List');
+    await printList({ list });
+    core.endGroup();
+
     const lastList = await loadList({ name });
 
     const filtered = filterList({ list, filter: exclude });
 
     await saveList({ name, list: filtered });
-
-    core.startGroup('Current File List');
-    await printList({ list });
-    core.endGroup();
 
     if (exclude) {
       // TODO: Notify if exclude doesn't match anything
