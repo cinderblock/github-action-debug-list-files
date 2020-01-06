@@ -26,7 +26,7 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1578306538379,
+  "startTime": 1578307167763,
   "success": false,
   "testResults": [
     {
@@ -36,8 +36,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578306540673,
-        "start": 1578306538426
+        "end": 1578307170237,
+        "start": 1578307167813
       },
       "snapshot": {
         "added": 0,
@@ -73,8 +73,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578306541123,
-        "start": 1578306540707
+        "end": 1578307170744,
+        "start": 1578307170277
       },
       "snapshot": {
         "added": 0,
@@ -110,8 +110,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578306541376,
-        "start": 1578306541143
+        "end": 1578307171051,
+        "start": 1578307170769
       },
       "snapshot": {
         "added": 0,
@@ -147,8 +147,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578306541736,
-        "start": 1578306541396
+        "end": 1578307171466,
+        "start": 1578307171081
       },
       "snapshot": {
         "added": 0,
@@ -184,8 +184,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578306541965,
-        "start": 1578306541757
+        "end": 1578307171711,
+        "start": 1578307171488
       },
       "snapshot": {
         "added": 0,
@@ -202,7 +202,7 @@
           "ancestorTitles": [
             "utils/printList"
           ],
-          "duration": 0,
+          "duration": 1,
           "failureMessages": [],
           "fullName": "utils/printList printList is a function",
           "location": null,
@@ -221,8 +221,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578306542261,
-        "start": 1578306541985
+        "end": 1578307172030,
+        "start": 1578307171733
       },
       "snapshot": {
         "added": 0,
@@ -258,8 +258,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578306542500,
-        "start": 1578306542283
+        "end": 1578307172282,
+        "start": 1578307172054
       },
       "snapshot": {
         "added": 0,
@@ -295,8 +295,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1578306542656,
-        "start": 1578306542521
+        "end": 1578307172471,
+        "start": 1578307172310
       },
       "snapshot": {
         "added": 0,
