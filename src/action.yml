@@ -18,4 +18,4 @@ inputs:
     default: 'node_modules|.git|__pycache__'
 runs:
   using: 'node12'
-  main: 'lib/main.js'
+  main: 'main.js'

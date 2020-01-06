@@ -87,7 +87,7 @@ jobs:
         run: find * \( -path node_modules -o -path .git \) -print -prune -o -type f -print | tee /tmp/step0.log
 
       - name: Action - List files post install
-        uses: ./
+        uses: ./dist
 
       - name: Manual - List files, no changes
         run: find * \( -path node_modules -o -path .git \) -print -prune -o -type f -print | tee /tmp/step1.log
@@ -96,7 +96,7 @@ jobs:
         run: colordiff -u /tmp/step{0,1}.log
 
       - name: Action - List files, no changes
-        uses: ./
+        uses: ./dist
 
         # Run Tests
       - name: Run Tests
@@ -112,7 +112,7 @@ jobs:
         continue-on-error: true
 
       - name: Action - List files after tests
-        uses: ./
+        uses: ./dist
 
       - name: Tell GitHub to not use Jekyll
         working-directory: public
@@ -130,7 +130,7 @@ jobs:
         continue-on-error: true
 
       - name: Action - List files after Allure
-        uses: ./
+        uses: ./dist
 
       # Publish to gh-pages
       - name: Publish to gh-pages
