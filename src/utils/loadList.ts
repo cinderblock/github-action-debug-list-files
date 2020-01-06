@@ -1,7 +1,8 @@
 import * as core from '@actions/core';
 import { FileList } from './Types';
-import { tempFile } from './tempFile';
+import { tempDir } from './tempDir';
 import { promises } from 'fs';
+import { join } from 'path';
 
 const { readFile } = promises;
 
@@ -14,15 +15,20 @@ export async function loadList({
   debug,
   name,
 }: Options): Promise<FileList | undefined> {
-  if (debug === undefined) {
-    debug = core.debug;
-  }
+  const dbg = debug ?? core.debug;
 
-  const file = tempFile({ name });
+  const dir = tempDir({ name });
 
-  // TODO: Handle filenames with newlines
+  const file = join(dir, 'file-list');
+
+  dbg(`Trying to load ${file}`);
 
   return readFile(file)
     .then(b => b.toString().split('\n'))
-    .catch(() => undefined);
+    .catch(() => {
+      console.log('No file exists');
+      return undefined;
+    });
+
+  // TODO: Handle filenames with newlines
 }

@@ -1,9 +1,10 @@
 import * as core from '@actions/core';
 import { FileList } from './Types';
-import { tempFile } from './tempFile';
+import { tempDir } from './tempDir';
 import { promises } from 'fs';
+import { join } from 'path';
 
-const { writeFile } = promises;
+const { writeFile, mkdir } = promises;
 
 type Options = {
   debug?: typeof core.debug;
@@ -12,15 +13,23 @@ type Options = {
 };
 
 export async function saveList({ debug, name, list }: Options): Promise<void> {
-  if (debug === undefined) {
-    debug = core.debug;
-  }
+  const dbg = debug ?? core.debug;
 
-  const file = tempFile({ name });
+  const dir = tempDir({ name });
+
+  dbg(`Creating directory ${dir}`);
+
+  const dirCreated = mkdir(dir, { recursive: true }).catch(() => {});
+
+  const file = join(dir, 'file-list');
 
   // TODO: Handle filenames with newlines
 
-  const data = list.join('\n');
+  const data = Buffer.from(list.join('\n'));
+
+  await dirCreated;
+
+  dbg(`Directory created. Writing ${data.length} bytes to file ${file}`);
 
   return writeFile(file, data);
 }

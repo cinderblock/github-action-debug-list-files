@@ -7,19 +7,20 @@ type Options = {
   name: string;
 };
 
-export function tempFile({ debug, name }: Options): string {
+export function tempDir({ debug, name }: Options): string {
   if (debug === undefined) {
     debug = core.debug;
   }
 
-  let fileName = 'file-list';
+  let fileName = 'cache';
 
   function append(qualifier: string | undefined): void {
-    if (qualifier === undefined) return;
+    if (!qualifier) return;
     fileName += `-${qualifier}`;
   }
 
   append(process.env.GITHUB_ACTION);
+
   append(name);
 
   const ret = join(tmpdir(), 'debug-list-files', fileName);
