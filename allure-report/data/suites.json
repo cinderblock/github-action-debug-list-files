@@ -4,13 +4,13 @@
     "name" : "GitHub Actions Format",
     "children" : [ {
       "name" : "action.yml exists",
-      "uid" : "54414da465db96cb",
+      "uid" : "ee56b1fc5f7a7d10",
       "parentUid" : "3859159f0ff3b61bb54dfba215335645",
       "status" : "passed",
       "time" : {
-        "start" : 1578300505138,
-        "stop" : 1578300505141,
-        "duration" : 3
+        "start" : 1578300723453,
+        "stop" : 1578300723455,
+        "duration" : 2
       },
       "flaky" : false,
       "newFailed" : false,
@@ -21,13 +21,13 @@
     "name" : "utils/filterList",
     "children" : [ {
       "name" : "filterList is a function",
-      "uid" : "314f5df5cc370de2",
+      "uid" : "2232cbd8e0d0e006",
       "parentUid" : "8fc5d58671a88715d92d0c37a80ad8e5",
       "status" : "passed",
       "time" : {
-        "start" : 1578300505626,
-        "stop" : 1578300505626,
-        "duration" : 0
+        "start" : 1578300723916,
+        "stop" : 1578300723917,
+        "duration" : 1
       },
       "flaky" : false,
       "newFailed" : false,
@@ -38,12 +38,12 @@
     "name" : "utils/readInputs",
     "children" : [ {
       "name" : "readInputs is a function",
-      "uid" : "9e065872b1fca013",
+      "uid" : "dbf80f6705e58bcc",
       "parentUid" : "5bf6e7172f5edaad406ddff9848b76af",
       "status" : "passed",
       "time" : {
-        "start" : 1578300505910,
-        "stop" : 1578300505911,
+        "start" : 1578300724175,
+        "stop" : 1578300724176,
         "duration" : 1
       },
       "flaky" : false,
@@ -55,12 +55,12 @@
     "name" : "utils/findFiles",
     "children" : [ {
       "name" : "findFiles is a function",
-      "uid" : "4d23a58e468ff014",
+      "uid" : "eab17b024c019d96",
       "parentUid" : "562364ecc880b33104d264d95bee62d9",
       "status" : "passed",
       "time" : {
-        "start" : 1578300506322,
-        "stop" : 1578300506323,
+        "start" : 1578300724537,
+        "stop" : 1578300724538,
         "duration" : 1
       },
       "flaky" : false,
@@ -72,12 +72,12 @@
     "name" : "utils/printList",
     "children" : [ {
       "name" : "printList is a function",
-      "uid" : "85007954d1b4cdd9",
+      "uid" : "5fd9a5a6d5c404b2",
       "parentUid" : "6c8a1d69502629e790640fb7987ad126",
       "status" : "passed",
       "time" : {
-        "start" : 1578300506543,
-        "stop" : 1578300506544,
+        "start" : 1578300724753,
+        "stop" : 1578300724754,
         "duration" : 1
       },
       "flaky" : false,
@@ -89,13 +89,13 @@
     "name" : "utils/loadList",
     "children" : [ {
       "name" : "loadList is a function",
-      "uid" : "f57a2ae72209a167",
+      "uid" : "99919fe453ed5a77",
       "parentUid" : "2ba6c2163274696976a042d0d65f95e9",
       "status" : "passed",
       "time" : {
-        "start" : 1578300506837,
-        "stop" : 1578300506837,
-        "duration" : 0
+        "start" : 1578300725048,
+        "stop" : 1578300725049,
+        "duration" : 1
       },
       "flaky" : false,
       "newFailed" : false,
@@ -106,12 +106,12 @@
     "name" : "utils/saveList",
     "children" : [ {
       "name" : "saveList is a function",
-      "uid" : "99025edf4bf3a3f6",
+      "uid" : "2af91b461a0313e9",
       "parentUid" : "f4ee12de17cc1c7ddd82b6a9cfa873b1",
       "status" : "passed",
       "time" : {
-        "start" : 1578300507063,
-        "stop" : 1578300507064,
+        "start" : 1578300725273,
+        "stop" : 1578300725274,
         "duration" : 1
       },
       "flaky" : false,
@@ -123,12 +123,12 @@
     "name" : "utils/tempDir",
     "children" : [ {
       "name" : "tempDir is a function",
-      "uid" : "9a53f9069f56006c",
+      "uid" : "da4fb63b504cf938",
       "parentUid" : "f042068c6d638c10f98306c79e0e13e0",
       "status" : "passed",
       "time" : {
-        "start" : 1578300507238,
-        "stop" : 1578300507238,
+        "start" : 1578300725443,
+        "stop" : 1578300725443,
         "duration" : 0
       },
       "flaky" : false,
