@@ -1,0 +1,107 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "GitHub Actions Format",
+    "children" : [ {
+      "name" : "action.yml exists",
+      "uid" : "86381565e5fb0d59",
+      "parentUid" : "3859159f0ff3b61bb54dfba215335645",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578292822808,
+        "stop" : 1578292822811,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3859159f0ff3b61bb54dfba215335645"
+  }, {
+    "name" : "utils/inputs",
+    "children" : [ {
+      "name" : "readInputs is a function",
+      "uid" : "49298760b39efbae",
+      "parentUid" : "e7422081bfa960c832ef2d8e6a328912",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578292823305,
+        "stop" : 1578292823306,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e7422081bfa960c832ef2d8e6a328912"
+  }, {
+    "name" : "listFiles",
+    "children" : [ {
+      "name" : "readInputs is a function",
+      "uid" : "3080f78bc4922bdb",
+      "parentUid" : "58199ea8dbaa343bb94dc4e0f1c23f61",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578292823615,
+        "stop" : 1578292823616,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "58199ea8dbaa343bb94dc4e0f1c23f61"
+  }, {
+    "name" : "printList",
+    "children" : [ {
+      "name" : "readInputs is a function",
+      "uid" : "5b33658ff63481b4",
+      "parentUid" : "104727130914b43765763237fb7f5189",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578292823877,
+        "stop" : 1578292823878,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "104727130914b43765763237fb7f5189"
+  }, {
+    "name" : "loadList",
+    "children" : [ {
+      "name" : "readInputs is a function",
+      "uid" : "66749aa66160b4b4",
+      "parentUid" : "4d1cef560b410c51eec960d9191f81aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578292824119,
+        "stop" : 1578292824120,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4d1cef560b410c51eec960d9191f81aa"
+  }, {
+    "name" : "saveList",
+    "children" : [ {
+      "name" : "readInputs is a function",
+      "uid" : "5be8c98cf098f42e",
+      "parentUid" : "0771aa24839d007d6e902ea9f63684c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578292824338,
+        "stop" : 1578292824338,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0771aa24839d007d6e902ea9f63684c0"
+  } ],
+  "name" : "suites"
+}

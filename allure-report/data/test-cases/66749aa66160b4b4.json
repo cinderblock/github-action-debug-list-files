@@ -1,0 +1,46 @@
+{
+  "uid" : "66749aa66160b4b4",
+  "name" : "readInputs is a function",
+  "fullName" : "loadList.readInputs is a function",
+  "historyId" : "cfdfd25c6324c16ef6b57678058a9e80",
+  "time" : {
+    "start" : 1578292824119,
+    "stop" : 1578292824120,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "loadList"
+  }, {
+    "name" : "testClass",
+    "value" : "loadList"
+  }, {
+    "name" : "testMethod",
+    "value" : "readInputs is a function"
+  }, {
+    "name" : "package",
+    "value" : "loadList"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "66749aa66160b4b4.json",
+  "parameterValues" : [ ]
+}

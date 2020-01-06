@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Jan 06 06:40:23 UTC 2020","Mon Jan 06 06:40:23 UTC 2020","1","","printList","","printList","readInputs is a function","readInputs is a function",""
+"passed","Mon Jan 06 06:40:22 UTC 2020","Mon Jan 06 06:40:22 UTC 2020","3","","GitHub Actions Format","","GitHub Actions Format","action.yml exists","action.yml exists",""
+"passed","Mon Jan 06 06:40:24 UTC 2020","Mon Jan 06 06:40:24 UTC 2020","1","","loadList","","loadList","readInputs is a function","readInputs is a function",""
+"passed","Mon Jan 06 06:40:23 UTC 2020","Mon Jan 06 06:40:23 UTC 2020","1","","listFiles","","listFiles","readInputs is a function","readInputs is a function",""
+"passed","Mon Jan 06 06:40:24 UTC 2020","Mon Jan 06 06:40:24 UTC 2020","0","","saveList","","saveList","readInputs is a function","readInputs is a function",""
+"passed","Mon Jan 06 06:40:23 UTC 2020","Mon Jan 06 06:40:23 UTC 2020","1","","utils/inputs","","utils/inputs","readInputs is a function","readInputs is a function",""

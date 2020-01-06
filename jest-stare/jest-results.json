@@ -1,0 +1,256 @@
+{
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTestSuites": 6,
+  "numPassedTests": 6,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 6,
+  "numTotalTests": 6,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1578292820394,
+  "success": false,
+  "testResults": [
+    {
+      "failureMessage": null,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "perfStats": {
+        "end": 1578292822817,
+        "start": 1578292820446
+      },
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/tests/main.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "GitHub Actions Format"
+          ],
+          "duration": 3,
+          "failureMessages": [],
+          "fullName": "GitHub Actions Format action.yml exists",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "action.yml exists"
+        }
+      ],
+      "skipped": false,
+      "leaks": false
+    },
+    {
+      "failureMessage": null,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "perfStats": {
+        "end": 1578292823308,
+        "start": 1578292822840
+      },
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/tests/utils.inputs.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "utils/inputs"
+          ],
+          "duration": 1,
+          "failureMessages": [],
+          "fullName": "utils/inputs readInputs is a function",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "readInputs is a function"
+        }
+      ],
+      "skipped": false,
+      "leaks": false
+    },
+    {
+      "failureMessage": null,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "perfStats": {
+        "end": 1578292823618,
+        "start": 1578292823329
+      },
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/tests/utils.listFiles.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "listFiles"
+          ],
+          "duration": 1,
+          "failureMessages": [],
+          "fullName": "listFiles readInputs is a function",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "readInputs is a function"
+        }
+      ],
+      "skipped": false,
+      "leaks": false
+    },
+    {
+      "failureMessage": null,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "perfStats": {
+        "end": 1578292823880,
+        "start": 1578292823640
+      },
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/tests/utils.printList.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "printList"
+          ],
+          "duration": 1,
+          "failureMessages": [],
+          "fullName": "printList readInputs is a function",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "readInputs is a function"
+        }
+      ],
+      "skipped": false,
+      "leaks": false
+    },
+    {
+      "failureMessage": null,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "perfStats": {
+        "end": 1578292824122,
+        "start": 1578292823905
+      },
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/tests/utils.loadList.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "loadList"
+          ],
+          "duration": 1,
+          "failureMessages": [],
+          "fullName": "loadList readInputs is a function",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "readInputs is a function"
+        }
+      ],
+      "skipped": false,
+      "leaks": false
+    },
+    {
+      "failureMessage": null,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "perfStats": {
+        "end": 1578292824340,
+        "start": 1578292824144
+      },
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/tests/utils.saveList.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "saveList"
+          ],
+          "duration": 0,
+          "failureMessages": [],
+          "fullName": "saveList readInputs is a function",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "readInputs is a function"
+        }
+      ],
+      "skipped": false,
+      "leaks": false
+    }
+  ],
+  "wasInterrupted": false
+}

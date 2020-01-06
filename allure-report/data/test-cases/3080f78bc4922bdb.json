@@ -1,0 +1,46 @@
+{
+  "uid" : "3080f78bc4922bdb",
+  "name" : "readInputs is a function",
+  "fullName" : "listFiles.readInputs is a function",
+  "historyId" : "878426e31b9a57cfb8749fd262642719",
+  "time" : {
+    "start" : 1578292823615,
+    "stop" : 1578292823616,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "listFiles"
+  }, {
+    "name" : "testClass",
+    "value" : "listFiles"
+  }, {
+    "name" : "testMethod",
+    "value" : "readInputs is a function"
+  }, {
+    "name" : "package",
+    "value" : "listFiles"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3080f78bc4922bdb.json",
+  "parameterValues" : [ ]
+}

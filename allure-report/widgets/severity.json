@@ -1,0 +1,61 @@
+[ {
+  "uid" : "66749aa66160b4b4",
+  "name" : "readInputs is a function",
+  "time" : {
+    "start" : 1578292824119,
+    "stop" : 1578292824120,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5be8c98cf098f42e",
+  "name" : "readInputs is a function",
+  "time" : {
+    "start" : 1578292824338,
+    "stop" : 1578292824338,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3080f78bc4922bdb",
+  "name" : "readInputs is a function",
+  "time" : {
+    "start" : 1578292823615,
+    "stop" : 1578292823616,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "49298760b39efbae",
+  "name" : "readInputs is a function",
+  "time" : {
+    "start" : 1578292823305,
+    "stop" : 1578292823306,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b33658ff63481b4",
+  "name" : "readInputs is a function",
+  "time" : {
+    "start" : 1578292823877,
+    "stop" : 1578292823878,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "86381565e5fb0d59",
+  "name" : "action.yml exists",
+  "time" : {
+    "start" : 1578292822808,
+    "stop" : 1578292822811,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

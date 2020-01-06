@@ -1,0 +1,116 @@
+{
+  "6ea38ec0e372ec011bb604e4f1940dbf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "49298760b39efbae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578292823305,
+        "stop" : 1578292823306,
+        "duration" : 1
+      }
+    } ]
+  },
+  "f9eb496e7dd3b7fe3f6aa929edbed5b1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "86381565e5fb0d59",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578292822808,
+        "stop" : 1578292822811,
+        "duration" : 3
+      }
+    } ]
+  },
+  "d3ca786f4db01a9585c621b627714b88" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5b33658ff63481b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578292823877,
+        "stop" : 1578292823878,
+        "duration" : 1
+      }
+    } ]
+  },
+  "cfdfd25c6324c16ef6b57678058a9e80" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "66749aa66160b4b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578292824119,
+        "stop" : 1578292824120,
+        "duration" : 1
+      }
+    } ]
+  },
+  "878426e31b9a57cfb8749fd262642719" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3080f78bc4922bdb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578292823615,
+        "stop" : 1578292823616,
+        "duration" : 1
+      }
+    } ]
+  },
+  "1a565fca86e904930ac488a65a2d773c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5be8c98cf098f42e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578292824338,
+        "stop" : 1578292824338,
+        "duration" : 0
+      }
+    } ]
+  }
+}
