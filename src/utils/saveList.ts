@@ -2,15 +2,14 @@ import * as core from '@actions/core';
 
 type Options = {
   debug?: typeof core.debug;
-  exclude?: string[];
+  name?: string;
+  list: string[];
 };
 
-export async function listFiles({ debug }: Options): Promise<string[]> {
+export async function saveList({ debug }: Options): Promise<void> {
   if (debug === undefined) {
     debug = core.debug;
   }
 
-  debug(`Listing files in dir`);
-
-  return [];
+  debug(`Saving list for future use`);
 }
