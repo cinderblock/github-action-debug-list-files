@@ -16,9 +16,5 @@ export async function printList({ debug, list }: Options): Promise<void> {
 
   debug(`Listing all files in list`);
 
-  core.startGroup('test subgroup');
-  console.log('woot!');
-  core.endGroup();
-
   console.log(list);
 }
