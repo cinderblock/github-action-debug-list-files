@@ -1,3 +1,13 @@
-dist/
-lib/
-node_modules/
+/lib/
+/public/
+/node_modules/
+/allure-results/
+
+package-lock.json
+
+# No Parser
+LICENSE
+.*ignore
+.gitattributes
+.editorconfig
+.prettierignore

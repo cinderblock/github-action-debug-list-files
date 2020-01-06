@@ -1,19 +1,21 @@
-import * as core from '@actions/core'
-import {wait} from './wait'
+// Other packages https://github.com/actions/toolkit/blob/master/README.md#packages
+import * as core from '@actions/core';
+import { readInputs } from './utils/inputs';
+import { listFiles } from './utils/listFiles';
 
 async function run(): Promise<void> {
   try {
-    const ms: string = core.getInput('milliseconds')
-    core.debug(`Waiting ${ms} milliseconds ...`)
+    const { name } = readInputs();
+    const { debug } = core;
 
-    core.debug(new Date().toTimeString())
-    await wait(parseInt(ms, 10))
-    core.debug(new Date().toTimeString())
+    core.debug(`Listing files${name ? ` - list-name: ${name}` : ''}`);
 
-    core.setOutput('time', new Date().toTimeString())
+    listFiles({ debug });
+
+    core.debug(`Done`);
   } catch (error) {
-    core.setFailed(error.message)
+    core.setFailed(error.message);
   }
 }
 
-run()
+run();

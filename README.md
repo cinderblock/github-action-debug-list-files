@@ -1,117 +1,69 @@
-<p align="center">
-  <a href="https://github.com/actions/typescript-action/actions"><img alt="typescript-action status" src="https://github.com/actions/typescript-action/workflows/build-test/badge.svg"></a>
-</p>
+## GitHub Action Debug Helper - List Files
 
-# Create a JavaScript Action using TypeScript
+List (with diff) files in a working directory on action runner. Designed for debugging purposes.
 
-Use this template to bootstrap the creation of a JavaScript action.:rocket:
+[![cinderblock/github-action-debug-list-files status](https://github.com/cinderblock/github-action-debug-list-files/workflows/Main/badge.svg?branch=master)](https://github.com/cinderblock/github-action-debug-list-files/actions?query=branch%3Amaster)
 
-This template includes compilication support, tests, a validation workflow, publishing, and versioning guidance.  
+### Other Reporters
 
-If you are new, there's also a simpler introduction.  See the [Hello World JavaScript Action](https://github.com/actions/hello-world-javascript-action)
+- Test Reports:
+  [jest-stare](https://cinderblock.github.io/github-action-debug-list-files/jest-stare)
+  [jest-html-reporters](https://cinderblock.github.io/github-action-debug-list-files/jest-html-reporters)
+  [allure](https://cinderblock.github.io/github-action-debug-list-files/allure-report)
+- Coverage Report:
+  [lcov](https://cinderblock.github.io/github-action-debug-list-files/coverage/lcov-report)
 
-## Create an action from this template
+## How It Works
 
-Click the `Use this Template` and provide the new repo details for your action
+Prints a list of files in the working directory and creates an artifact of the list
 
-## Code in Master
+Subsequent calls show a diff from previous calls as well.
 
-Install the dependencies  
-```bash
-$ npm install
+## Usage
+
+In your GitHub Actions, add a config like this:
+
+```yml
+jobs:
+  self-test-and-generate-stats:
+    runs-on: ubuntu-latest # Anything should work
+    steps:
+      - name: List Working Directory Contents
+        uses: cinderblock/github-action-debug-list-files
+        working-directory: . # Optional
+        with:
+          name: . # Optional different "named" lists
+
+      # Make whatever changes you like
+      - run: date >> run.log
+
+      # Print and log a diff
+      - name: List Working Directory Contents
+        uses: cinderblock/github-action-debug-list-files
+        working-directory: . # Should probably match previous run
+        with:
+          name: . # Set to something different to maintain multiple lists with separate diffs
 ```
 
-Build the typescript
+Multiple concurrent working directories are supported.
+
+## Development
+
+Setup everything
+
 ```bash
-$ npm run build
+npm run all
 ```
 
-Run the tests :heavy_check_mark:  
-```bash
-$ npm test
+Run the tests :heavy_check_mark:
 
- PASS  ./index.test.js
+```bash
+npm test
+
+ PASS  ./main.js
   ✓ throws invalid number (3ms)
   ✓ wait 500 ms (504ms)
   ✓ test runs (95ms)
 
 ...
-```
-
-## Change action.yml
-
-The action.yml contains defines the inputs and output for your action.
-
-Update the action.yml with your name, description, inputs and outputs for your action.
-
-See the [documentation](https://help.github.com/en/articles/metadata-syntax-for-github-actions)
-
-## Change the Code
-
-Most toolkit and CI/CD operations involve async operations so the action is run in an async function.
-
-```javascript
-import * as core from '@actions/core';
-...
-
-async function run() {
-  try { 
-      ...
-  } 
-  catch (error) {
-    core.setFailed(error.message);
-  }
-}
-
-run()
-```
-
-See the [toolkit documentation](https://github.com/actions/toolkit/blob/master/README.md#packages) for the various packages.
-
-## Publish to a distribution branch
-
-Actions are run from GitHub repos.  We will create a releases branch and only checkin production modules (core in this case). 
-
-Comment out node_modules in .gitignore and create a releases/v1 branch
-```bash
-# comment out in distribution branches
-# node_modules/
-```
-
-```bash
-$ git checkout -b releases/v1
-$ git commit -a -m "prod dependencies"
-```
-
-```bash
-$ npm prune --production
-$ git add node_modules
-$ git commit -a -m "prod dependencies"
-$ git push origin releases/v1
-```
-
-Your action is now published! :rocket: 
-
-See the [versioning documentation](https://github.com/actions/toolkit/blob/master/docs/action-versioning.md)
-
-## Validate
-
-You can now validate the action by referencing the releases/v1 branch
-
-```yaml
-uses: actions/typescript-action@releases/v1
-with:
-  milliseconds: 1000
-```
-
-See the [actions tab](https://github.com/actions/javascript-action/actions) for runs of this action! :rocket:
-
-## Usage:
-
-After testing you can [create a v1 tag](https://github.com/actions/toolkit/blob/master/docs/action-versioning.md) to reference the stable and tested action
-
-```yaml
-uses: actions/typescript-action@v1
-with:
-  milliseconds: 1000
 ```
