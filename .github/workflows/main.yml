@@ -168,7 +168,7 @@ jobs:
           username: 'GitHub Action Static Build'
           #useremail: "actions@github.com"
 
-  publish:
+  publish-v1:
     name: Publish - GitHub Action v1
     if: github.event_name == 'push' && github.ref == 'refs/heads/release'
     needs: [check-format, check-lint, check-spelling, self-test-and-use]
@@ -198,10 +198,10 @@ jobs:
 
   test-published:
     name: Test - Published
-    needs: [publish]
+    needs: [publish-v1]
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout latest code
+      - name: Use latest published version # to make sure it can be used as expected
         uses: cinderblock/github-action-debug-list-files@v1
         with:
           working-directory: .
