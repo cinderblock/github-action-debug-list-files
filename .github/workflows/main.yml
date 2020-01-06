@@ -128,7 +128,7 @@ jobs:
         uses: ./dist
 
   coverage-reports:
-    name: Generate - Coverage and Reports
+    name: Generate - Coverage Reports
     runs-on: ubuntu-latest
     steps:
       - name: Checkout latest code
