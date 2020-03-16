@@ -26,7 +26,7 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1584320389746,
+  "startTime": 1584320434449,
   "success": false,
   "testResults": [
     {
@@ -36,8 +36,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1584320392027,
-        "start": 1584320389796
+        "end": 1584320436835,
+        "start": 1584320434499
       },
       "snapshot": {
         "added": 0,
@@ -54,7 +54,7 @@
           "ancestorTitles": [
             "GitHub Actions Format"
           ],
-          "duration": 3,
+          "duration": 2,
           "failureMessages": [],
           "fullName": "GitHub Actions Format action.yml exists",
           "location": null,
@@ -73,8 +73,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1584320392475,
-        "start": 1584320392049
+        "end": 1584320437273,
+        "start": 1584320436860
       },
       "snapshot": {
         "added": 0,
@@ -110,8 +110,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1584320392714,
-        "start": 1584320392495
+        "end": 1584320437516,
+        "start": 1584320437294
       },
       "snapshot": {
         "added": 0,
@@ -128,7 +128,7 @@
           "ancestorTitles": [
             "utils/filterList"
           ],
-          "duration": 1,
+          "duration": 0,
           "failureMessages": [],
           "fullName": "utils/filterList filterList is a function",
           "location": null,
@@ -147,8 +147,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1584320393075,
-        "start": 1584320392733
+        "end": 1584320437883,
+        "start": 1584320437536
       },
       "snapshot": {
         "added": 0,
@@ -184,8 +184,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1584320393282,
-        "start": 1584320393096
+        "end": 1584320438107,
+        "start": 1584320437904
       },
       "snapshot": {
         "added": 0,
@@ -202,7 +202,7 @@
           "ancestorTitles": [
             "utils/printList"
           ],
-          "duration": 0,
+          "duration": 1,
           "failureMessages": [],
           "fullName": "utils/printList printList is a function",
           "location": null,
@@ -221,8 +221,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1584320393554,
-        "start": 1584320393303
+        "end": 1584320438403,
+        "start": 1584320438129
       },
       "snapshot": {
         "added": 0,
@@ -258,8 +258,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1584320393768,
-        "start": 1584320393582
+        "end": 1584320438640,
+        "start": 1584320438427
       },
       "snapshot": {
         "added": 0,
@@ -295,8 +295,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1584320393927,
-        "start": 1584320393789
+        "end": 1584320438790,
+        "start": 1584320438663
       },
       "snapshot": {
         "added": 0,

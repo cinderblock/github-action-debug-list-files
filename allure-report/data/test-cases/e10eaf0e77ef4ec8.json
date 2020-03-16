@@ -1,11 +1,11 @@
 {
-  "uid" : "a764cf6135c376ad",
-  "name" : "tempDir is a function",
-  "fullName" : "utils/tempDir.tempDir is a function",
-  "historyId" : "f9d73486d067237b51ed6d79823a0a68",
+  "uid" : "e10eaf0e77ef4ec8",
+  "name" : "readInputs is a function",
+  "fullName" : "utils/readInputs.readInputs is a function",
+  "historyId" : "2eddb652dd3e32bd1f498303a4f7bc42",
   "time" : {
-    "start" : 1584320393925,
-    "stop" : 1584320393925,
+    "start" : 1584320437271,
+    "stop" : 1584320437271,
     "duration" : 0
   },
   "description" : "",
@@ -17,16 +17,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "utils/tempDir"
+    "value" : "utils/readInputs"
   }, {
     "name" : "testClass",
-    "value" : "utils/tempDir"
+    "value" : "utils/readInputs"
   }, {
     "name" : "testMethod",
-    "value" : "tempDir is a function"
+    "value" : "readInputs is a function"
   }, {
     "name" : "package",
-    "value" : "utils/tempDir"
+    "value" : "utils/readInputs"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -41,6 +41,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a764cf6135c376ad.json",
+  "source" : "e10eaf0e77ef4ec8.json",
   "parameterValues" : [ ]
 }

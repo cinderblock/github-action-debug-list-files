@@ -1,79 +1,79 @@
 [ {
-  "uid" : "b3a9c1eb326bf7e8",
-  "name" : "readInputs is a function",
+  "uid" : "8a47be879c4678be",
+  "name" : "tempDir is a function",
   "time" : {
-    "start" : 1584320392474,
-    "stop" : 1584320392474,
+    "start" : 1584320438788,
+    "stop" : 1584320438788,
     "duration" : 0
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "927c8feb7e150aa5",
+  "uid" : "7834ebcb96e335d9",
   "name" : "findFiles is a function",
   "time" : {
-    "start" : 1584320393073,
-    "stop" : 1584320393074,
+    "start" : 1584320437881,
+    "stop" : 1584320437882,
     "duration" : 1
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "a764cf6135c376ad",
-  "name" : "tempDir is a function",
+  "uid" : "e10eaf0e77ef4ec8",
+  "name" : "readInputs is a function",
   "time" : {
-    "start" : 1584320393925,
-    "stop" : 1584320393925,
+    "start" : 1584320437271,
+    "stop" : 1584320437271,
     "duration" : 0
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "66561a31a9f59b76",
+  "uid" : "51a6f9eac2f62aaf",
+  "name" : "filterList is a function",
+  "time" : {
+    "start" : 1584320437514,
+    "stop" : 1584320437514,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "873016ee60a990ef",
   "name" : "saveList is a function",
   "time" : {
-    "start" : 1584320393766,
-    "stop" : 1584320393766,
+    "start" : 1584320438638,
+    "stop" : 1584320438638,
     "duration" : 0
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "82c7241fa0464f06",
+  "uid" : "40f0923aa35c5b16",
   "name" : "action.yml exists",
   "time" : {
-    "start" : 1584320392020,
-    "stop" : 1584320392022,
+    "start" : 1584320436827,
+    "stop" : 1584320436829,
     "duration" : 2
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4c15559f3c9805e7",
+  "uid" : "84da8edf37524f44",
   "name" : "loadList is a function",
   "time" : {
-    "start" : 1584320393552,
-    "stop" : 1584320393553,
+    "start" : 1584320438401,
+    "stop" : 1584320438402,
     "duration" : 1
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "dc4b8bfdf184efaa",
+  "uid" : "47a48606a6663ad2",
   "name" : "printList is a function",
   "time" : {
-    "start" : 1584320393281,
-    "stop" : 1584320393281,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4dfb2bee644ff75c",
-  "name" : "filterList is a function",
-  "time" : {
-    "start" : 1584320392712,
-    "stop" : 1584320392713,
+    "start" : 1584320438105,
+    "stop" : 1584320438106,
     "duration" : 1
   },
   "status" : "passed",
