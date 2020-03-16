@@ -1,11 +1,11 @@
 {
-  "uid" : "84da8edf37524f44",
-  "name" : "loadList is a function",
-  "fullName" : "utils/loadList.loadList is a function",
-  "historyId" : "86893df9d9f6944de47aa0614fc29b1d",
+  "uid" : "ae90092b8a0c8d14",
+  "name" : "saveList is a function",
+  "fullName" : "utils/saveList.saveList is a function",
+  "historyId" : "e60e5953eb70124965ac62c7b00ae1db",
   "time" : {
-    "start" : 1584320438401,
-    "stop" : 1584320438402,
+    "start" : 1584320551549,
+    "stop" : 1584320551550,
     "duration" : 1
   },
   "description" : "",
@@ -17,16 +17,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "utils/loadList"
+    "value" : "utils/saveList"
   }, {
     "name" : "testClass",
-    "value" : "utils/loadList"
+    "value" : "utils/saveList"
   }, {
     "name" : "testMethod",
-    "value" : "loadList is a function"
+    "value" : "saveList is a function"
   }, {
     "name" : "package",
-    "value" : "utils/loadList"
+    "value" : "utils/saveList"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -41,6 +41,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "84da8edf37524f44.json",
+  "source" : "ae90092b8a0c8d14.json",
   "parameterValues" : [ ]
 }

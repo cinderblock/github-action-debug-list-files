@@ -26,7 +26,7 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1584320434449,
+  "startTime": 1584320547193,
   "success": false,
   "testResults": [
     {
@@ -36,8 +36,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1584320436835,
-        "start": 1584320434499
+        "end": 1584320549659,
+        "start": 1584320547245
       },
       "snapshot": {
         "added": 0,
@@ -73,8 +73,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1584320437273,
-        "start": 1584320436860
+        "end": 1584320550117,
+        "start": 1584320549682
       },
       "snapshot": {
         "added": 0,
@@ -91,7 +91,7 @@
           "ancestorTitles": [
             "utils/readInputs"
           ],
-          "duration": 0,
+          "duration": 1,
           "failureMessages": [],
           "fullName": "utils/readInputs readInputs is a function",
           "location": null,
@@ -110,8 +110,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1584320437516,
-        "start": 1584320437294
+        "end": 1584320550403,
+        "start": 1584320550140
       },
       "snapshot": {
         "added": 0,
@@ -128,7 +128,7 @@
           "ancestorTitles": [
             "utils/filterList"
           ],
-          "duration": 0,
+          "duration": 1,
           "failureMessages": [],
           "fullName": "utils/filterList filterList is a function",
           "location": null,
@@ -147,8 +147,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1584320437883,
-        "start": 1584320437536
+        "end": 1584320550804,
+        "start": 1584320550425
       },
       "snapshot": {
         "added": 0,
@@ -165,7 +165,7 @@
           "ancestorTitles": [
             "utils/findFiles"
           ],
-          "duration": 1,
+          "duration": 0,
           "failureMessages": [],
           "fullName": "utils/findFiles findFiles is a function",
           "location": null,
@@ -184,8 +184,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1584320438107,
-        "start": 1584320437904
+        "end": 1584320551031,
+        "start": 1584320550826
       },
       "snapshot": {
         "added": 0,
@@ -221,8 +221,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1584320438403,
-        "start": 1584320438129
+        "end": 1584320551332,
+        "start": 1584320551053
       },
       "snapshot": {
         "added": 0,
@@ -258,8 +258,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1584320438640,
-        "start": 1584320438427
+        "end": 1584320551551,
+        "start": 1584320551356
       },
       "snapshot": {
         "added": 0,
@@ -276,7 +276,7 @@
           "ancestorTitles": [
             "utils/saveList"
           ],
-          "duration": 0,
+          "duration": 1,
           "failureMessages": [],
           "fullName": "utils/saveList saveList is a function",
           "location": null,
@@ -295,8 +295,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1584320438790,
-        "start": 1584320438663
+        "end": 1584320551708,
+        "start": 1584320551574
       },
       "snapshot": {
         "added": 0,
@@ -313,7 +313,7 @@
           "ancestorTitles": [
             "utils/tempDir"
           ],
-          "duration": 0,
+          "duration": 1,
           "failureMessages": [],
           "fullName": "utils/tempDir tempDir is a function",
           "location": null,

@@ -1,65 +1,26 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
+    "name" : "findFiles is a function",
+    "uid" : "9bebc0cb69e74d83",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1584320550802,
+      "stop" : 1584320550802,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
     "name" : "filterList is a function",
-    "uid" : "51a6f9eac2f62aaf",
+    "uid" : "51822918023b8ae",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1584320437514,
-      "stop" : 1584320437514,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "readInputs is a function",
-    "uid" : "e10eaf0e77ef4ec8",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1584320437271,
-      "stop" : 1584320437271,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "action.yml exists",
-    "uid" : "40f0923aa35c5b16",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1584320436827,
-      "stop" : 1584320436829,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "printList is a function",
-    "uid" : "47a48606a6663ad2",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1584320438105,
-      "stop" : 1584320438106,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "loadList is a function",
-    "uid" : "84da8edf37524f44",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1584320438401,
-      "stop" : 1584320438402,
+      "start" : 1584320550401,
+      "stop" : 1584320550402,
       "duration" : 1
     },
     "flaky" : false,
@@ -67,39 +28,78 @@
     "parameters" : [ ]
   }, {
     "name" : "tempDir is a function",
-    "uid" : "8a47be879c4678be",
+    "uid" : "c992f2cef5a6c58d",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1584320438788,
-      "stop" : 1584320438788,
-      "duration" : 0
+      "start" : 1584320551705,
+      "stop" : 1584320551706,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "printList is a function",
+    "uid" : "fd7f7090b304f2f0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1584320551029,
+      "stop" : 1584320551030,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "loadList is a function",
+    "uid" : "9507b6dc7e2d1540",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1584320551330,
+      "stop" : 1584320551331,
+      "duration" : 1
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "saveList is a function",
-    "uid" : "873016ee60a990ef",
+    "uid" : "ae90092b8a0c8d14",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1584320438638,
-      "stop" : 1584320438638,
-      "duration" : 0
+      "start" : 1584320551549,
+      "stop" : 1584320551550,
+      "duration" : 1
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "findFiles is a function",
-    "uid" : "7834ebcb96e335d9",
+    "name" : "readInputs is a function",
+    "uid" : "2a23863606bd1260",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1584320437881,
-      "stop" : 1584320437882,
+      "start" : 1584320550115,
+      "stop" : 1584320550116,
       "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "action.yml exists",
+    "uid" : "5b6eb2e5a305b09",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1584320549651,
+      "stop" : 1584320549653,
+      "duration" : 2
     },
     "flaky" : false,
     "newFailed" : false,
