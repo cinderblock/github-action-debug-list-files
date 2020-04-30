@@ -26,7 +26,7 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1588255304433,
+  "startTime": 1588255308012,
   "success": false,
   "testResults": [
     {
@@ -36,8 +36,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1588255306860,
-        "start": 1588255304484
+        "end": 1588255310580,
+        "start": 1588255308075
       },
       "snapshot": {
         "added": 0,
@@ -73,8 +73,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1588255307325,
-        "start": 1588255306884
+        "end": 1588255311067,
+        "start": 1588255310607
       },
       "snapshot": {
         "added": 0,
@@ -91,7 +91,7 @@
           "ancestorTitles": [
             "utils/readInputs"
           ],
-          "duration": 0,
+          "duration": 1,
           "failureMessages": [],
           "fullName": "utils/readInputs readInputs is a function",
           "location": null,
@@ -110,8 +110,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1588255307592,
-        "start": 1588255307347
+        "end": 1588255311364,
+        "start": 1588255311091
       },
       "snapshot": {
         "added": 0,
@@ -128,7 +128,7 @@
           "ancestorTitles": [
             "utils/filterList"
           ],
-          "duration": 1,
+          "duration": 0,
           "failureMessages": [],
           "fullName": "utils/filterList filterList is a function",
           "location": null,
@@ -147,8 +147,45 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1588255307984,
-        "start": 1588255307614
+        "end": 1588255311656,
+        "start": 1588255311391
+      },
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/tests/utils.printList.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "utils/printList"
+          ],
+          "duration": 1,
+          "failureMessages": [],
+          "fullName": "utils/printList printList is a function",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "printList is a function"
+        }
+      ],
+      "skipped": false,
+      "leaks": false
+    },
+    {
+      "failureMessage": null,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "perfStats": {
+        "end": 1588255312028,
+        "start": 1588255311683
       },
       "snapshot": {
         "added": 0,
@@ -184,45 +221,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1588255308211,
-        "start": 1588255308012
-      },
-      "snapshot": {
-        "added": 0,
-        "fileDeleted": false,
-        "matched": 0,
-        "unchecked": 0,
-        "unmatched": 0,
-        "updated": 0,
-        "uncheckedKeys": []
-      },
-      "testFilePath": "/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/tests/utils.printList.ts",
-      "testResults": [
-        {
-          "ancestorTitles": [
-            "utils/printList"
-          ],
-          "duration": 0,
-          "failureMessages": [],
-          "fullName": "utils/printList printList is a function",
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "passed",
-          "title": "printList is a function"
-        }
-      ],
-      "skipped": false,
-      "leaks": false
-    },
-    {
-      "failureMessage": null,
-      "numFailingTests": 0,
-      "numPassingTests": 1,
-      "numPendingTests": 0,
-      "numTodoTests": 0,
-      "perfStats": {
-        "end": 1588255308534,
-        "start": 1588255308233
+        "end": 1588255312374,
+        "start": 1588255312051
       },
       "snapshot": {
         "added": 0,
@@ -239,7 +239,7 @@
           "ancestorTitles": [
             "utils/loadList"
           ],
-          "duration": 0,
+          "duration": 1,
           "failureMessages": [],
           "fullName": "utils/loadList loadList is a function",
           "location": null,
@@ -258,8 +258,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1588255308756,
-        "start": 1588255308559
+        "end": 1588255312633,
+        "start": 1588255312409
       },
       "snapshot": {
         "added": 0,
@@ -295,8 +295,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1588255308925,
-        "start": 1588255308779
+        "end": 1588255312808,
+        "start": 1588255312656
       },
       "snapshot": {
         "added": 0,
@@ -608,6 +608,150 @@
         ]
       }
     },
+    "/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/src/utils/printList.ts": {
+      "path": "/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/src/utils/printList.ts",
+      "statementMap": {
+        "0": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 1,
+            "column": 38
+          }
+        },
+        "1": {
+          "start": {
+            "line": 13,
+            "column": 2
+          },
+          "end": {
+            "line": 15,
+            "column": null
+          }
+        },
+        "2": {
+          "start": {
+            "line": 14,
+            "column": 4
+          },
+          "end": {
+            "line": 14,
+            "column": 23
+          }
+        },
+        "3": {
+          "start": {
+            "line": 17,
+            "column": 2
+          },
+          "end": {
+            "line": 17,
+            "column": 37
+          }
+        },
+        "4": {
+          "start": {
+            "line": 19,
+            "column": 2
+          },
+          "end": {
+            "line": 19,
+            "column": 20
+          }
+        },
+        "5": {
+          "start": {
+            "line": 12,
+            "column": 0
+          },
+          "end": {
+            "line": 12,
+            "column": 22
+          }
+        }
+      },
+      "fnMap": {
+        "0": {
+          "name": "printList",
+          "decl": {
+            "start": {
+              "line": 12,
+              "column": 22
+            },
+            "end": {
+              "line": 12,
+              "column": 31
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 56
+            },
+            "end": {
+              "line": 20,
+              "column": null
+            }
+          }
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 2
+            },
+            "end": {
+              "line": 15,
+              "column": null
+            }
+          },
+          "type": "if",
+          "locations": [
+            {
+              "start": {
+                "line": 13,
+                "column": 2
+              },
+              "end": {
+                "line": 15,
+                "column": null
+              }
+            },
+            {
+              "start": {
+                "line": 13,
+                "column": 2
+              },
+              "end": {
+                "line": 15,
+                "column": null
+              }
+            }
+          ]
+        }
+      },
+      "s": {
+        "0": 1,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1
+      },
+      "f": {
+        "0": 0
+      },
+      "b": {
+        "0": [
+          0,
+          0
+        ]
+      }
+    },
     "/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/src/utils/findFiles.ts": {
       "path": "/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/src/utils/findFiles.ts",
       "statementMap": {
@@ -752,150 +896,6 @@
         "4": 0,
         "5": 0,
         "6": 1
-      },
-      "f": {
-        "0": 0
-      },
-      "b": {
-        "0": [
-          0,
-          0
-        ]
-      }
-    },
-    "/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/src/utils/printList.ts": {
-      "path": "/home/runner/work/github-action-debug-list-files/github-action-debug-list-files/src/utils/printList.ts",
-      "statementMap": {
-        "0": {
-          "start": {
-            "line": 1,
-            "column": 0
-          },
-          "end": {
-            "line": 1,
-            "column": 38
-          }
-        },
-        "1": {
-          "start": {
-            "line": 13,
-            "column": 2
-          },
-          "end": {
-            "line": 15,
-            "column": null
-          }
-        },
-        "2": {
-          "start": {
-            "line": 14,
-            "column": 4
-          },
-          "end": {
-            "line": 14,
-            "column": 23
-          }
-        },
-        "3": {
-          "start": {
-            "line": 17,
-            "column": 2
-          },
-          "end": {
-            "line": 17,
-            "column": 37
-          }
-        },
-        "4": {
-          "start": {
-            "line": 19,
-            "column": 2
-          },
-          "end": {
-            "line": 19,
-            "column": 20
-          }
-        },
-        "5": {
-          "start": {
-            "line": 12,
-            "column": 0
-          },
-          "end": {
-            "line": 12,
-            "column": 22
-          }
-        }
-      },
-      "fnMap": {
-        "0": {
-          "name": "printList",
-          "decl": {
-            "start": {
-              "line": 12,
-              "column": 22
-            },
-            "end": {
-              "line": 12,
-              "column": 31
-            }
-          },
-          "loc": {
-            "start": {
-              "line": 12,
-              "column": 56
-            },
-            "end": {
-              "line": 20,
-              "column": null
-            }
-          }
-        }
-      },
-      "branchMap": {
-        "0": {
-          "loc": {
-            "start": {
-              "line": 13,
-              "column": 2
-            },
-            "end": {
-              "line": 15,
-              "column": null
-            }
-          },
-          "type": "if",
-          "locations": [
-            {
-              "start": {
-                "line": 13,
-                "column": 2
-              },
-              "end": {
-                "line": 15,
-                "column": null
-              }
-            },
-            {
-              "start": {
-                "line": 13,
-                "column": 2
-              },
-              "end": {
-                "line": 15,
-                "column": null
-              }
-            }
-          ]
-        }
-      },
-      "s": {
-        "0": 1,
-        "1": 0,
-        "2": 0,
-        "3": 0,
-        "4": 0,
-        "5": 1
       },
       "f": {
         "0": 0

@@ -1,11 +1,11 @@
 {
-  "uid" : "dcf2e2165a26eaee",
-  "name" : "tempDir is a function",
-  "fullName" : "utils/tempDir.tempDir is a function",
-  "historyId" : "f9d73486d067237b51ed6d79823a0a68",
+  "uid" : "566d69622be4faa9",
+  "name" : "printList is a function",
+  "fullName" : "utils/printList.printList is a function",
+  "historyId" : "18bad45c56dc5ff74cd5f304162ff5b3",
   "time" : {
-    "start" : 1588255308923,
-    "stop" : 1588255308924,
+    "start" : 1588255311654,
+    "stop" : 1588255311655,
     "duration" : 1
   },
   "description" : "",
@@ -17,16 +17,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "utils/tempDir"
+    "value" : "utils/printList"
   }, {
     "name" : "testClass",
-    "value" : "utils/tempDir"
+    "value" : "utils/printList"
   }, {
     "name" : "testMethod",
-    "value" : "tempDir is a function"
+    "value" : "printList is a function"
   }, {
     "name" : "package",
-    "value" : "utils/tempDir"
+    "value" : "utils/printList"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -41,6 +41,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "dcf2e2165a26eaee.json",
+  "source" : "566d69622be4faa9.json",
   "parameterValues" : [ ]
 }
