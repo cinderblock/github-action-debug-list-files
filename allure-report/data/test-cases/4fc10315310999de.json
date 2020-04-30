@@ -1,12 +1,12 @@
 {
-  "uid" : "51822918023b8ae",
-  "name" : "filterList is a function",
-  "fullName" : "utils/filterList.filterList is a function",
-  "historyId" : "507250c1eb32b10bf41971359cfa79a1",
+  "uid" : "4fc10315310999de",
+  "name" : "action.yml exists",
+  "fullName" : "GitHub Actions Format.action.yml exists",
+  "historyId" : "f9eb496e7dd3b7fe3f6aa929edbed5b1",
   "time" : {
-    "start" : 1584320550401,
-    "stop" : 1584320550402,
-    "duration" : 1
+    "start" : 1588255306852,
+    "stop" : 1588255306855,
+    "duration" : 3
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -17,16 +17,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "utils/filterList"
+    "value" : "GitHub Actions Format"
   }, {
     "name" : "testClass",
-    "value" : "utils/filterList"
+    "value" : "GitHub Actions Format"
   }, {
     "name" : "testMethod",
-    "value" : "filterList is a function"
+    "value" : "action.yml exists"
   }, {
     "name" : "package",
-    "value" : "utils/filterList"
+    "value" : "GitHub Actions Format"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -41,6 +41,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "51822918023b8ae.json",
+  "source" : "4fc10315310999de.json",
   "parameterValues" : [ ]
 }

@@ -26,7 +26,7 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1584320547193,
+  "startTime": 1588255304433,
   "success": false,
   "testResults": [
     {
@@ -36,8 +36,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1584320549659,
-        "start": 1584320547245
+        "end": 1588255306860,
+        "start": 1588255304484
       },
       "snapshot": {
         "added": 0,
@@ -54,7 +54,7 @@
           "ancestorTitles": [
             "GitHub Actions Format"
           ],
-          "duration": 2,
+          "duration": 3,
           "failureMessages": [],
           "fullName": "GitHub Actions Format action.yml exists",
           "location": null,
@@ -73,8 +73,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1584320550117,
-        "start": 1584320549682
+        "end": 1588255307325,
+        "start": 1588255306884
       },
       "snapshot": {
         "added": 0,
@@ -91,7 +91,7 @@
           "ancestorTitles": [
             "utils/readInputs"
           ],
-          "duration": 1,
+          "duration": 0,
           "failureMessages": [],
           "fullName": "utils/readInputs readInputs is a function",
           "location": null,
@@ -110,8 +110,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1584320550403,
-        "start": 1584320550140
+        "end": 1588255307592,
+        "start": 1588255307347
       },
       "snapshot": {
         "added": 0,
@@ -147,8 +147,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1584320550804,
-        "start": 1584320550425
+        "end": 1588255307984,
+        "start": 1588255307614
       },
       "snapshot": {
         "added": 0,
@@ -165,7 +165,7 @@
           "ancestorTitles": [
             "utils/findFiles"
           ],
-          "duration": 0,
+          "duration": 1,
           "failureMessages": [],
           "fullName": "utils/findFiles findFiles is a function",
           "location": null,
@@ -184,8 +184,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1584320551031,
-        "start": 1584320550826
+        "end": 1588255308211,
+        "start": 1588255308012
       },
       "snapshot": {
         "added": 0,
@@ -202,7 +202,7 @@
           "ancestorTitles": [
             "utils/printList"
           ],
-          "duration": 1,
+          "duration": 0,
           "failureMessages": [],
           "fullName": "utils/printList printList is a function",
           "location": null,
@@ -221,8 +221,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1584320551332,
-        "start": 1584320551053
+        "end": 1588255308534,
+        "start": 1588255308233
       },
       "snapshot": {
         "added": 0,
@@ -239,7 +239,7 @@
           "ancestorTitles": [
             "utils/loadList"
           ],
-          "duration": 1,
+          "duration": 0,
           "failureMessages": [],
           "fullName": "utils/loadList loadList is a function",
           "location": null,
@@ -258,8 +258,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1584320551551,
-        "start": 1584320551356
+        "end": 1588255308756,
+        "start": 1588255308559
       },
       "snapshot": {
         "added": 0,
@@ -295,8 +295,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1584320551708,
-        "start": 1584320551574
+        "end": 1588255308925,
+        "start": 1588255308779
       },
       "snapshot": {
         "added": 0,
@@ -313,7 +313,7 @@
           "ancestorTitles": [
             "utils/tempDir"
           ],
-          "duration": 1,
+          "duration": 0,
           "failureMessages": [],
           "fullName": "utils/tempDir tempDir is a function",
           "location": null,

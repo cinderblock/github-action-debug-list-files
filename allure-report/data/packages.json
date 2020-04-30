@@ -4,13 +4,13 @@
     "name" : "GitHub Actions Format",
     "children" : [ {
       "name" : "action.yml exists",
-      "uid" : "5b6eb2e5a305b09",
+      "uid" : "4fc10315310999de",
       "parentUid" : "98b2218e057fa8b017253be8ef69fda3",
       "status" : "passed",
       "time" : {
-        "start" : 1584320549651,
-        "stop" : 1584320549653,
-        "duration" : 2
+        "start" : 1588255306852,
+        "stop" : 1588255306855,
+        "duration" : 3
       },
       "flaky" : false,
       "newFailed" : false,
@@ -21,13 +21,13 @@
     "name" : "utils/readInputs",
     "children" : [ {
       "name" : "readInputs is a function",
-      "uid" : "2a23863606bd1260",
+      "uid" : "9dd33b9eb4fb1a42",
       "parentUid" : "964808988d55a468f43cd6276d57dd26",
       "status" : "passed",
       "time" : {
-        "start" : 1584320550115,
-        "stop" : 1584320550116,
-        "duration" : 1
+        "start" : 1588255307323,
+        "stop" : 1588255307323,
+        "duration" : 0
       },
       "flaky" : false,
       "newFailed" : false,
@@ -38,12 +38,12 @@
     "name" : "utils/filterList",
     "children" : [ {
       "name" : "filterList is a function",
-      "uid" : "51822918023b8ae",
+      "uid" : "1c36e20f2716964f",
       "parentUid" : "3e0c81b9dde887d863465d67a0458802",
       "status" : "passed",
       "time" : {
-        "start" : 1584320550401,
-        "stop" : 1584320550402,
+        "start" : 1588255307590,
+        "stop" : 1588255307591,
         "duration" : 1
       },
       "flaky" : false,
@@ -55,13 +55,13 @@
     "name" : "utils/findFiles",
     "children" : [ {
       "name" : "findFiles is a function",
-      "uid" : "9bebc0cb69e74d83",
+      "uid" : "d8115e3d068b1f98",
       "parentUid" : "68133f147f82cc925d3068b6cc2e151e",
       "status" : "passed",
       "time" : {
-        "start" : 1584320550802,
-        "stop" : 1584320550802,
-        "duration" : 0
+        "start" : 1588255307982,
+        "stop" : 1588255307983,
+        "duration" : 1
       },
       "flaky" : false,
       "newFailed" : false,
@@ -72,13 +72,13 @@
     "name" : "utils/printList",
     "children" : [ {
       "name" : "printList is a function",
-      "uid" : "fd7f7090b304f2f0",
+      "uid" : "3d930b1ffd138fe6",
       "parentUid" : "9a973a24cc09c3ce676b7b5028311ad7",
       "status" : "passed",
       "time" : {
-        "start" : 1584320551029,
-        "stop" : 1584320551030,
-        "duration" : 1
+        "start" : 1588255308209,
+        "stop" : 1588255308209,
+        "duration" : 0
       },
       "flaky" : false,
       "newFailed" : false,
@@ -89,13 +89,13 @@
     "name" : "utils/loadList",
     "children" : [ {
       "name" : "loadList is a function",
-      "uid" : "9507b6dc7e2d1540",
+      "uid" : "82fe0df08b7d96f5",
       "parentUid" : "d730a9a763fa8c204b7095a03c5ad0bc",
       "status" : "passed",
       "time" : {
-        "start" : 1584320551330,
-        "stop" : 1584320551331,
-        "duration" : 1
+        "start" : 1588255308532,
+        "stop" : 1588255308532,
+        "duration" : 0
       },
       "flaky" : false,
       "newFailed" : false,
@@ -106,12 +106,12 @@
     "name" : "utils/saveList",
     "children" : [ {
       "name" : "saveList is a function",
-      "uid" : "ae90092b8a0c8d14",
+      "uid" : "fda2f1e2f7b64229",
       "parentUid" : "5919df83549513a0ef76244fefa42d0c",
       "status" : "passed",
       "time" : {
-        "start" : 1584320551549,
-        "stop" : 1584320551550,
+        "start" : 1588255308753,
+        "stop" : 1588255308754,
         "duration" : 1
       },
       "flaky" : false,
@@ -123,12 +123,12 @@
     "name" : "utils/tempDir",
     "children" : [ {
       "name" : "tempDir is a function",
-      "uid" : "c992f2cef5a6c58d",
+      "uid" : "dcf2e2165a26eaee",
       "parentUid" : "15ce005614b5f12aca4ffc3ca6325f00",
       "status" : "passed",
       "time" : {
-        "start" : 1584320551705,
-        "stop" : 1584320551706,
+        "start" : 1588255308923,
+        "stop" : 1588255308924,
         "duration" : 1
       },
       "flaky" : false,
