@@ -12,17 +12,6 @@
       "total" : 1
     }
   }, {
-    "uid" : "5bf6e7172f5edaad406ddff9848b76af",
-    "name" : "utils/readInputs",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
     "uid" : "8fc5d58671a88715d92d0c37a80ad8e5",
     "name" : "utils/filterList",
     "statistic" : {
@@ -34,8 +23,8 @@
       "total" : 1
     }
   }, {
-    "uid" : "6c8a1d69502629e790640fb7987ad126",
-    "name" : "utils/printList",
+    "uid" : "5bf6e7172f5edaad406ddff9848b76af",
+    "name" : "utils/readInputs",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -47,6 +36,17 @@
   }, {
     "uid" : "562364ecc880b33104d264d95bee62d9",
     "name" : "utils/findFiles",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "6c8a1d69502629e790640fb7987ad126",
+    "name" : "utils/printList",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
