@@ -1,11 +1,11 @@
 {
-  "uid" : "ef5a6924805b9fbc",
-  "name" : "printList is a function",
-  "fullName" : "utils/printList.printList is a function",
-  "historyId" : "18bad45c56dc5ff74cd5f304162ff5b3",
+  "uid" : "12e95775d08b6b90",
+  "name" : "loadList is a function",
+  "fullName" : "utils/loadList.loadList is a function",
+  "historyId" : "86893df9d9f6944de47aa0614fc29b1d",
   "time" : {
-    "start" : 1595137129246,
-    "stop" : 1595137129246,
+    "start" : 1601573378678,
+    "stop" : 1601573378678,
     "duration" : 0
   },
   "description" : "",
@@ -17,16 +17,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "utils/printList"
+    "value" : "utils/loadList"
   }, {
     "name" : "testClass",
-    "value" : "utils/printList"
+    "value" : "utils/loadList"
   }, {
     "name" : "testMethod",
-    "value" : "printList is a function"
+    "value" : "loadList is a function"
   }, {
     "name" : "package",
-    "value" : "utils/printList"
+    "value" : "utils/loadList"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -41,6 +41,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ef5a6924805b9fbc.json",
+  "source" : "12e95775d08b6b90.json",
   "parameterValues" : [ ]
 }

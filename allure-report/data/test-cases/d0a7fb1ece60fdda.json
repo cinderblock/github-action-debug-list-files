@@ -1,12 +1,12 @@
 {
-  "uid" : "ea0eb6e41dba456b",
-  "name" : "loadList is a function",
-  "fullName" : "utils/loadList.loadList is a function",
-  "historyId" : "86893df9d9f6944de47aa0614fc29b1d",
+  "uid" : "d0a7fb1ece60fdda",
+  "name" : "tempDir is a function",
+  "fullName" : "utils/tempDir.tempDir is a function",
+  "historyId" : "f9d73486d067237b51ed6d79823a0a68",
   "time" : {
-    "start" : 1595137129570,
-    "stop" : 1595137129570,
-    "duration" : 0
+    "start" : 1601573378841,
+    "stop" : 1601573378842,
+    "duration" : 1
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -17,16 +17,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "utils/loadList"
+    "value" : "utils/tempDir"
   }, {
     "name" : "testClass",
-    "value" : "utils/loadList"
+    "value" : "utils/tempDir"
   }, {
     "name" : "testMethod",
-    "value" : "loadList is a function"
+    "value" : "tempDir is a function"
   }, {
     "name" : "package",
-    "value" : "utils/loadList"
+    "value" : "utils/tempDir"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -41,6 +41,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ea0eb6e41dba456b.json",
+  "source" : "d0a7fb1ece60fdda.json",
   "parameterValues" : [ ]
 }
