@@ -26,7 +26,7 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1601573374283,
+  "startTime": 1601573380824,
   "success": false,
   "testResults": [
     {
@@ -36,8 +36,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1601573376803,
-        "start": 1601573374334
+        "end": 1601573383585,
+        "start": 1601573380885
       },
       "snapshot": {
         "added": 0,
@@ -73,8 +73,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1601573377250,
-        "start": 1601573376825
+        "end": 1601573384088,
+        "start": 1601573383608
       },
       "snapshot": {
         "added": 0,
@@ -110,8 +110,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1601573377516,
-        "start": 1601573377270
+        "end": 1601573384383,
+        "start": 1601573384108
       },
       "snapshot": {
         "added": 0,
@@ -147,8 +147,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1601573377896,
-        "start": 1601573377535
+        "end": 1601573384772,
+        "start": 1601573384401
       },
       "snapshot": {
         "added": 0,
@@ -184,8 +184,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1601573378146,
-        "start": 1601573377917
+        "end": 1601573385027,
+        "start": 1601573384793
       },
       "snapshot": {
         "added": 0,
@@ -221,8 +221,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1601573378448,
-        "start": 1601573378171
+        "end": 1601573385335,
+        "start": 1601573385049
       },
       "snapshot": {
         "added": 0,
@@ -258,8 +258,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1601573378680,
-        "start": 1601573378471
+        "end": 1601573385594,
+        "start": 1601573385357
       },
       "snapshot": {
         "added": 0,
@@ -276,7 +276,7 @@
           "ancestorTitles": [
             "utils/loadList"
           ],
-          "duration": 0,
+          "duration": 1,
           "failureMessages": [],
           "fullName": "utils/loadList loadList is a function",
           "location": null,
@@ -295,8 +295,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1601573378843,
-        "start": 1601573378700
+        "end": 1601573385778,
+        "start": 1601573385615
       },
       "snapshot": {
         "added": 0,
@@ -313,7 +313,7 @@
           "ancestorTitles": [
             "utils/tempDir"
           ],
-          "duration": 1,
+          "duration": 0,
           "failureMessages": [],
           "fullName": "utils/tempDir tempDir is a function",
           "location": null,

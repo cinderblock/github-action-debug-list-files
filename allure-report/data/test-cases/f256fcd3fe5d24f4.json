@@ -1,12 +1,12 @@
 {
-  "uid" : "cdf275243e180c06",
-  "name" : "saveList is a function",
-  "fullName" : "utils/saveList.saveList is a function",
-  "historyId" : "e60e5953eb70124965ac62c7b00ae1db",
+  "uid" : "f256fcd3fe5d24f4",
+  "name" : "tempDir is a function",
+  "fullName" : "utils/tempDir.tempDir is a function",
+  "historyId" : "f9d73486d067237b51ed6d79823a0a68",
   "time" : {
-    "start" : 1601573378446,
-    "stop" : 1601573378447,
-    "duration" : 1
+    "start" : 1601573385776,
+    "stop" : 1601573385776,
+    "duration" : 0
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -17,16 +17,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "utils/saveList"
+    "value" : "utils/tempDir"
   }, {
     "name" : "testClass",
-    "value" : "utils/saveList"
+    "value" : "utils/tempDir"
   }, {
     "name" : "testMethod",
-    "value" : "saveList is a function"
+    "value" : "tempDir is a function"
   }, {
     "name" : "package",
-    "value" : "utils/saveList"
+    "value" : "utils/tempDir"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -41,6 +41,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "cdf275243e180c06.json",
+  "source" : "f256fcd3fe5d24f4.json",
   "parameterValues" : [ ]
 }
