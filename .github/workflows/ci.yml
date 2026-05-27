@@ -16,11 +16,8 @@ jobs:
       - run: bun install --frozen-lockfile
       - run: bun run lint
       - run: bun test src
-      - name: Build bundle
+      - name: Build bundle (sanity-check that source compiles)
         run: bun run build
-      - name: Verify committed dist/ matches a fresh build
-        run: |
-          if ! git diff --exit-code dist/; then
-            echo "::error::dist/index.js is stale. Run 'bun run build' and commit the result."
-            exit 1
-          fi
+      # Note: we don't `git diff` against committed dist/ because bun's bundler
+      # output drifts across bun versions. The committed dist/ is what consumers
+      # `uses:`; rebuild + commit it as part of releases.
