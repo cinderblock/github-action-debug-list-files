@@ -1,12 +1,11 @@
-// Other packages https://github.com/actions/toolkit/blob/master/README.md#packages
 import * as core from '@actions/core';
 
-import { readInputs } from './utils/readInputs';
-import { findFiles } from './utils/findFiles';
-import { loadList } from './utils/loadList';
-import { saveList } from './utils/saveList';
-import { printList } from './utils/printList';
-import { filterList } from './utils/filterList';
+import { readInputs } from './utils/readInputs.js';
+import { findFiles } from './utils/findFiles.js';
+import { loadList } from './utils/loadList.js';
+import { saveList } from './utils/saveList.js';
+import { printList } from './utils/printList.js';
+import { filterList } from './utils/filterList.js';
 
 async function run(): Promise<void> {
   try {
@@ -21,7 +20,7 @@ async function run(): Promise<void> {
     });
 
     core.startGroup('Current File List');
-    await printList({ list });
+    printList({ list });
     core.endGroup();
 
     const lastList = await loadList({ name });
@@ -31,22 +30,22 @@ async function run(): Promise<void> {
     await saveList({ name, list: filtered });
 
     if (filter) {
-      // TODO: Notify if exclude doesn't match anything
+      // TODO: Notify if filter doesn't match anything.
       core.startGroup('Filtered File List');
-      await printList({ list: filtered });
+      printList({ list: filtered });
       core.endGroup();
     }
 
     if (lastList) {
       core.startGroup('File List Diff');
-      await printList({ list: filtered, diffFrom: lastList });
+      printList({ list: filtered, diffFrom: lastList });
       core.endGroup();
     }
 
-    core.debug(`Done`);
-  } catch (error) {
-    core.setFailed(error.message);
+    core.debug('Done');
+  } catch (err) {
+    core.setFailed(err instanceof Error ? err.message : String(err));
   }
 }
 
-run();
+void run();

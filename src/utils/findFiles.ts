@@ -1,25 +1,20 @@
 import * as core from '@actions/core';
-import { FileList } from './Types';
-import globby from 'globby';
+import { globby } from 'globby';
+import type { FileList } from './Types.js';
 
-type Options = {
+interface Options {
   debug?: typeof core.debug;
   search: string;
   workingDirectory?: string;
   ignore?: string[];
-};
+}
 
 export async function findFiles({
-  debug,
+  debug = core.debug,
   search,
   workingDirectory,
   ignore,
 }: Options): Promise<FileList> {
-  if (debug === undefined) {
-    debug = core.debug;
-  }
-
-  debug(`Listing files in dir`);
-
+  debug('Listing files in dir');
   return globby(search, { cwd: workingDirectory, ignore });
 }

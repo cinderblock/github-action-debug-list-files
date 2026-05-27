@@ -1,64 +1,38 @@
 {
   "name": "github-action-debug-list-files",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "GitHub Action that lists (with diff) files in a working directory. For debugging other actions.",
+  "private": true,
+  "type": "module",
   "author": "Cameron Tacklind <cameron@tacklind.com>",
   "license": "MIT",
-  "private": true,
-  "description": "GitHub Action that clones a repo into a working directory, lets you modify it, and then commits the changes back to the repository",
   "keywords": [
-    "actions",
-    "node",
-    "git",
-    "clone",
-    "commit",
-    "persistent",
-    "storage",
-    "cache",
-    "push"
+    "github-actions",
+    "debugging",
+    "file-listing"
   ],
-  "main": "src/main.ts",
+  "engines": {
+    "bun": ">=1.2"
+  },
   "scripts": {
-    "build": "ncc build && cp src/action.yml dist/",
-    "lint": "eslint \"**/*\"",
-    "format": "prettier \"**/*\"",
-    "spellcheck": "cspell \"**/*\"",
-    "format-check": "npm run format -- --check",
-    "clean": "rm -rf dist public allure-results",
-    "test": "jest",
-    "allure": "allure generate --clean --report-dir public/allure-report",
-    "finalize-coverage-reports": "npm run allure && touch public/.nojekyll",
-    "prepare": "npm run build",
-    "all": "npm install && npm run format-check && npm run lint && npm run spellcheck && npm test"
+    "build": "bun build src/main.ts --target=node --format=cjs --outfile=dist/index.js",
+    "lint": "tsc --noEmit",
+    "test": "bun test src",
+    "format": "prettier --write .",
+    "verify-dist": "bun run build && git diff --exit-code dist/"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cinderblock/github-action-debug-list-files.git"
   },
   "dependencies": {
-    "@actions/core": "^1.2.6",
-    "@actions/io": "^1.0.1",
-    "chalk": "^3.0.0",
-    "globby": "^10.0.1"
+    "@actions/core": "^1.11.1",
+    "globby": "^14.0.2"
   },
   "devDependencies": {
-    "@types/jest": "^24.0.25",
-    "@types/node": "^13.1.4",
-    "@typescript-eslint/parser": "^2.14.0",
-    "@zeit/ncc": "^0.21.0",
-    "allure-commandline": "^2.13.0",
-    "cspell": "^4.0.44",
-    "eslint": "^6.8.0",
-    "eslint-plugin-github": "^3.4.0",
-    "eslint-plugin-jest": "^23.3.0",
-    "jest": "^24.9.0",
-    "jest-allure": "^0.1.1",
-    "jest-circus": "^24.9.0",
-    "jest-github-reporter": "^0.3.4",
-    "jest-html-reporters": "^1.2.1",
-    "jest-stare": "^1.26.0",
-    "js-yaml": "^3.13.1",
-    "prettier": "^1.19.1",
-    "ts-jest": "^24.2.0",
-    "typescript": "^3.7.4"
+    "@types/bun": "^1.2.0",
+    "@types/node": "^22.19.19",
+    "prettier": "^3.5.0",
+    "typescript": "^6.0.3"
   }
 }

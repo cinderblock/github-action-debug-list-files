@@ -1,0 +1,26 @@
+# https://docs.github.com/en/actions/sharing-automations/creating-actions/metadata-syntax-for-github-actions
+name: Debug - List Files
+description: List (with diff) files in a working directory on action runner. Designed for debugging purposes.
+author: Cameron Tacklind <cameron@tacklind.com>
+
+inputs:
+  name:
+    required: false
+    description: Named file list (lets you keep separate diff histories per call within one workflow).
+    default: ''
+  working-directory:
+    required: false
+    description: Directory to list files of.
+    default: '.'
+  search:
+    required: false
+    description: Glob to search with.
+    default: '**/*'
+  filter:
+    required: false
+    description: Glob (regex-style) used to ignore matches from the listing. Defaults to common build noise.
+    default: 'node_modules|.git|__pycache__'
+
+runs:
+  using: 'node20'
+  main: 'dist/index.js'

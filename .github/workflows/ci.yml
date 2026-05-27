@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+      - run: bun install --frozen-lockfile
+      - run: bun run lint
+      - run: bun test src
+      - name: Build bundle
+        run: bun run build
+      - name: Verify committed dist/ matches a fresh build
+        run: |
+          if ! git diff --exit-code dist/; then
+            echo "::error::dist/index.js is stale. Run 'bun run build' and commit the result."
+            exit 1
+          fi

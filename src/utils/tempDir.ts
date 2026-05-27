@@ -1,31 +1,23 @@
 import * as core from '@actions/core';
-import { tmpdir } from 'os';
-import { join } from 'path';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
 
-type Options = {
+interface Options {
   debug?: typeof core.debug;
   name: string;
-};
+}
 
-export function tempDir({ debug, name }: Options): string {
-  if (debug === undefined) {
-    debug = core.debug;
-  }
-
+/** Build a unique-per-workflow-step temp directory path for the action's
+ *  cached file list. Includes GITHUB_ACTION so multiple uses of this action
+ *  within the same workflow don't collide. */
+export function tempDir({ debug = core.debug, name }: Options): string {
   let fileName = 'cache';
-
-  function append(qualifier: string | undefined): void {
-    if (!qualifier) return;
-    fileName += `-${qualifier}`;
-  }
-
+  const append = (q: string | undefined) => {
+    if (q) fileName += `-${q}`;
+  };
   append(process.env.GITHUB_ACTION);
-
   append(name);
-
-  const ret = join(tmpdir(), 'debug-list-files', fileName);
-
-  debug(`Temp file: ${ret}`);
-
-  return ret;
+  const out = join(tmpdir(), 'debug-list-files', fileName);
+  debug(`Temp file: ${out}`);
+  return out;
 }

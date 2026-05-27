@@ -1,35 +1,24 @@
 import * as core from '@actions/core';
-import { FileList } from './Types';
-import { tempDir } from './tempDir';
-import { promises } from 'fs';
-import { join } from 'path';
+import { mkdir, writeFile } from 'node:fs/promises';
+import { join } from 'node:path';
+import { tempDir } from './tempDir.js';
+import type { FileList } from './Types.js';
 
-const { writeFile, mkdir } = promises;
-
-type Options = {
+interface Options {
   debug?: typeof core.debug;
   name: string;
   list: FileList;
-};
+}
 
-export async function saveList({ debug, name, list }: Options): Promise<void> {
-  const dbg = debug ?? core.debug;
-
+export async function saveList({
+  debug = core.debug,
+  name,
+  list,
+}: Options): Promise<void> {
   const dir = tempDir({ name });
-
-  dbg(`Creating directory ${dir}`);
-
-  const dirCreated = mkdir(dir, { recursive: true }).catch(() => {});
-
+  await mkdir(dir, { recursive: true });
   const file = join(dir, 'file-list');
-
-  // TODO: Handle filenames with newlines
-
-  const data = Buffer.from(list.join('\n'));
-
-  await dirCreated;
-
-  dbg(`Directory created. Writing ${data.length} bytes to file ${file}`);
-
-  return writeFile(file, data);
+  const data = list.join('\n');
+  debug(`Writing ${data.length} bytes to ${file}`);
+  await writeFile(file, data);
 }

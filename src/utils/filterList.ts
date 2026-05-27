@@ -1,18 +1,14 @@
-import * as core from '@actions/core';
-import { FileList, Filter } from './Types';
+import type { FileList, Filter } from './Types.js';
 
-type Options = {
-  debug?: typeof core.debug;
+interface Options {
   list: FileList;
   filter: Filter;
-};
+}
 
-export function filterList({ debug, list }: Options): FileList {
-  if (debug === undefined) {
-    debug = core.debug;
-  }
-
-  debug(`Listing files in dir`);
-
-  return list;
+/** Apply the regex-style `filter` (pipe-separated alternates) to drop matches
+ *  from the list. Empty filter means no filtering. */
+export function filterList({ list, filter }: Options): FileList {
+  if (!filter) return list;
+  const re = new RegExp(filter);
+  return list.filter(p => !re.test(p));
 }

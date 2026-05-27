@@ -1,27 +1,19 @@
 import * as core from '@actions/core';
-import { Filter } from './Types';
+import type { Filter } from './Types.js';
 
-type Inputs = {
+interface Inputs {
   name: string;
   search: string;
   filter: Filter;
   workingDirectory: string;
-};
+}
 
 export function readInputs(): Inputs {
   core.debug('Reading inputs');
-
-  const name = core.getInput('name');
-  const search = core.getInput('search');
-  const filter = core.getInput('filter');
-  const workingDirectory = core.getInput('working-directory');
-
-  const inputs: Inputs = {
-    name,
-    search,
-    filter,
-    workingDirectory,
+  return {
+    name: core.getInput('name'),
+    search: core.getInput('search'),
+    filter: core.getInput('filter'),
+    workingDirectory: core.getInput('working-directory'),
   };
-
-  return inputs;
 }
