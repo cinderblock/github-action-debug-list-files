@@ -26,13 +26,13 @@
     "url": "git+https://github.com/cinderblock/github-action-debug-list-files.git"
   },
   "dependencies": {
-    "@actions/core": "^1.11.1",
-    "globby": "^14.0.2"
+    "@actions/core": "^3.0.1",
+    "globby": "^16.2.1"
   },
   "devDependencies": {
     "@types/bun": "^1.2.0",
     "@types/node": "^22.19.19",
     "prettier": "^3.5.0",
-    "typescript": "^6.0.3"
+    "typescript": "^7.0.2"
   }
 }
