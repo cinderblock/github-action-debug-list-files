@@ -21,3 +21,21 @@ jobs:
       # Note: we don't `git diff` against committed dist/ because bun's bundler
       # output drifts across bun versions. The committed dist/ is what consumers
       # `uses:`; rebuild + commit it as part of releases.
+
+  # Run the committed bundle the way consumers do. Catches load-time failures
+  # (module format, Node runtime) that lint/test/build never exercise.
+  self-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: First run (no previous list)
+        uses: ./
+        with:
+          name: self-test
+          working-directory: .github
+      - run: touch .github/new-file
+      - name: Second run (diff against first)
+        uses: ./
+        with:
+          name: self-test
+          working-directory: .github
