@@ -6,15 +6,16 @@ interface Options {
   debug?: typeof core.debug;
   search: string;
   workingDirectory?: string;
-  ignore?: string[];
 }
 
+/** Every file matching `search`, dotfiles included (it's a debugging aid:
+ *  `.github/` and `.env` files matter). `filter` is applied afterwards. */
 export async function findFiles({
   debug = core.debug,
   search,
   workingDirectory,
-  ignore,
 }: Options): Promise<FileList> {
   debug('Listing files in dir');
-  return globby(search, { cwd: workingDirectory, ignore });
+  const list = await globby(search, { cwd: workingDirectory, dot: true });
+  return list.sort();
 }

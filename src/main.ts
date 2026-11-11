@@ -13,11 +13,7 @@ async function run(): Promise<void> {
 
     core.debug(`Get File List${name ? ` - list-name: ${name}` : ''}`);
 
-    const list = await findFiles({
-      search,
-      workingDirectory,
-      ignore: [filter],
-    });
+    const list = await findFiles({ search, workingDirectory });
 
     core.startGroup('Current File List');
     printList({ list });

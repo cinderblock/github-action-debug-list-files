@@ -18,8 +18,11 @@ inputs:
     default: '**/*'
   filter:
     required: false
-    description: Glob (regex-style) used to ignore matches from the listing. Defaults to common build noise.
-    default: 'node_modules|.git|__pycache__'
+    description: >-
+      Regular expression; listed paths that match it are left out. The
+      default skips node_modules, .git and __pycache__ directories (but not
+      .github or .gitignore). Empty lists everything.
+    default: '(^|/)(node_modules|\.git|__pycache__)(/|$)'
 
 runs:
   using: 'node24'

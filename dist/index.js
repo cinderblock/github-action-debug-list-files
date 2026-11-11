@@ -25575,11 +25575,11 @@ var { convertPathToPattern } = import_fast_glob3.default;
 async function findFiles({
   debug = debug2,
   search,
-  workingDirectory,
-  ignore
+  workingDirectory
 }) {
   debug("Listing files in dir");
-  return globby(search, { cwd: workingDirectory, ignore });
+  const list = await globby(search, { cwd: workingDirectory, dot: true });
+  return list.sort();
 }
 
 // src/utils/loadList.ts
@@ -25590,13 +25590,7 @@ import { join as join2 } from "node:path";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 function tempDir({ debug = debug2, name }) {
-  let fileName = "cache";
-  const append = (q) => {
-    if (q)
-      fileName += `-${q}`;
-  };
-  append(process.env.GITHUB_ACTION);
-  append(name);
+  const fileName = name ? `list-${encodeURIComponent(name)}` : "list";
   const out = join(tmpdir(), "debug-list-files", fileName);
   debug(`Temp file: ${out}`);
   return out;
@@ -25674,11 +25668,7 @@ async function run() {
   try {
     const { name, search, filter, workingDirectory } = readInputs();
     debug2(`Get File List${name ? ` - list-name: ${name}` : ""}`);
-    const list = await findFiles({
-      search,
-      workingDirectory,
-      ignore: [filter]
-    });
+    const list = await findFiles({ search, workingDirectory });
     startGroup("Current File List");
     printList({ list });
     endGroup();
