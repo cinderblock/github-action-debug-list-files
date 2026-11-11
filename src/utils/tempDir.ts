@@ -7,16 +7,12 @@ interface Options {
   name: string;
 }
 
-/** Build a unique-per-workflow-step temp directory path for the action's
- *  cached file list. Includes GITHUB_ACTION so multiple uses of this action
- *  within the same workflow don't collide. */
+/** Where a named list is kept between calls in the same job. Keyed by `name`
+ *  only: every call with the same name diffs against the previous one. (It
+ *  used to include GITHUB_ACTION, which differs for every step, so a second
+ *  call never found the first's list and no diff was ever printed.) */
 export function tempDir({ debug = core.debug, name }: Options): string {
-  let fileName = 'cache';
-  const append = (q: string | undefined) => {
-    if (q) fileName += `-${q}`;
-  };
-  append(process.env.GITHUB_ACTION);
-  append(name);
+  const fileName = name ? `list-${encodeURIComponent(name)}` : 'list';
   const out = join(tmpdir(), 'debug-list-files', fileName);
   debug(`Temp file: ${out}`);
   return out;

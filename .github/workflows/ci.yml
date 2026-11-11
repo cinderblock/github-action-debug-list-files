@@ -39,3 +39,16 @@ jobs:
         with:
           name: self-test
           working-directory: .github
+      # The steps above only prove the bundle loads. This proves the diff:
+      # two calls of the committed bundle with the same name, as two steps
+      # would make them (a different GITHUB_ACTION each time), must print
+      # the file added between them.
+      - name: The second call prints the diff
+        run: |
+          run() { env GITHUB_ACTION="$1" INPUT_NAME=check 'INPUT_SEARCH=**/*' "INPUT_FILTER=" 'INPUT_WORKING-DIRECTORY=.github' node dist/index.js; }
+          run __first > first.txt
+          touch .github/another-file
+          run __second > second.txt
+          cat second.txt
+          grep -q '^+ another-file$' second.txt || { echo "::error::no diff printed"; exit 1; }
+          grep -q '^workflows/ci.yml$' first.txt || { echo "::error::dotfile directory not listed"; exit 1; }
